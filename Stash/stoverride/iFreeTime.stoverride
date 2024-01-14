@@ -1,5 +1,5 @@
 name: "爱阅书香"
-desc: "免看广告领奖励"
+desc: "爱阅书香会员激励免看广告领取奖励"
 rules:
   - DOMAIN,api-access.pangolin-sdk-toutiao.com,DIRECT
   - DOMAIN,open.e.kuaishou.com,REJECT
