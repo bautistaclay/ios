@@ -1,0 +1,9 @@
+# > 直连修正
+#番茄官方api
+DOMAIN, novel.snssdk.com,直连修正
+#动漫App 喵物次元
+DOMAIN-SUFFIX, catw.cc,直连模式
+#动漫App Omofun
+DOMAIN-SUFFIX, omoapis.org, 直连模式
+DOMAIN-SUFFIX, omoapis.org, 直连模式
+DOMAIN-SUFFIX, omojson.vip, 直连模式

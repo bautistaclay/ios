@@ -1,0 +1,8 @@
+# U净去广告
+DOMAIN, ads.zhinengxiyifang.cn,拦截模式
+# AcFun开屏广告
+DOMAIN, api-new.app.acfun.cn,拦截模式
+#王者营地开屏广告
+DOMAIN, rdelivery.qq.com,拦截模式
+#哔哩哔哩去开屏
+DOMAIN, httpdns.bilivideo.com,拦截模式
