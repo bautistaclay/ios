@@ -1,8 +1,11 @@
+# > 自用去广告
 # U净去广告
-DOMAIN, ads.zhinengxiyifang.cn,拦截模式
+DOMAIN, ads.zhinengxiyifang.cn, REJECT
 # AcFun开屏广告
-DOMAIN, api-new.app.acfun.cn,拦截模式
-#王者营地开屏广告
-DOMAIN, rdelivery.qq.com,拦截模式
-#哔哩哔哩去开屏
-DOMAIN, httpdns.bilivideo.com,拦截模式
+DOMAIN, api-new.app.acfun.cn, REJECT
+# 王者营地开屏广告
+DOMAIN, rdelivery.qq.com, REJECT
+# 哔哩哔哩去开屏
+DOMAIN, httpdns.bilivideo.com, REJECT
+# 哔哩哔哩去缓存
+DOMAIN, upos-sz-staticcos.bilivideo.com, REJECT

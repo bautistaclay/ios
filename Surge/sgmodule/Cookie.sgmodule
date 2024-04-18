@@ -1,6 +1,6 @@
 #!name=任务脚本Cookie获取
 #!desc=获取cookie，此脚本无需关闭。
-#!author=午时已到
+#!author=bautistaclay
 #!category=午时已到
 [Script]
 B站Cookie(APP) = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\?,script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js,requires-body=0
