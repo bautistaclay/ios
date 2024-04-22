@@ -1,6 +1,8 @@
 #!name=爱阅书香
 #!desc=爱阅书香会员激励卡广告领奖励
 #!icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/iFreeTime04.png
+#!author=bautistaclay
+#!category=午时已到
 [General]
 skip-proxy = api-access.pangolin-sdk-toutiao.com
 [Rule]

@@ -107,5 +107,8 @@ bilibili_proto_beta = type=http-response, pattern=^https?:\/\/(app\.bilibili\.co
 # ～ BiliBili_哔哩哔哩_去除统一设置的皮肤[注释留存]@ddgksf2013
 bilibili_json = type=http-response, pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/bilibili_json.js, requires-body=true, max-size=-1, timeout=60
 
+# ～ Pixiv去除广告（2022-12-03）@ddgksf2013
+pixivAds = type=http-response, pattern=^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token), script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pixivAds.js, requires-body=true, max-size=-1, timeout=60
+
 [MITM]
-hostname = %APPEND% appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bilibili.*, grpc.biliapi.net, *biliapi.net
+hostname = %APPEND% appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bilibili.*, grpc.biliapi.net, *biliapi.net, oauth.secure.pixiv.net
