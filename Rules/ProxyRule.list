@@ -1,4 +1,5 @@
-# > 代理分流,用于一些需要代理才可更新的机场
+# > 代理分流
+#===============订阅网站=================#
 # SubStore
 DOMAIN-SUFFIX, sub.store,代理模式
 # BoxJs
@@ -27,3 +28,6 @@ DOMAIN, sub.xxzz.link,代理模式
 DOMAIN, sub.v2ny.one,代理模式
 DOMAIN, sub1.v2ny.pw,代理模式
 DOMAIN-KEYWORD, v2ny,代理模式
+#===============代理网站=================#
+# 蒲公英
+DOMAIN-SUFFIX, pgyer.com, 阅读分流

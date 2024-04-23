@@ -3,10 +3,13 @@
 #!author=bautistaclay
 #!category=午时已到
 [URL Rewrite]
+# 网易邮箱
 ^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do - reject
 ^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) - reject
+# 淘淘阅读开屏
 ^https?:\/\/bid\.adview\.cn\/agent\/getAd - reject
 # %APPEND%gd.10086.cn,res.app.coc.10086.cn,clientaccess.10086.cn
+# 中国移动
 ^https?:\/\/gd\.10086\.cn\/gmccfile\/file\/image\/preloading703\/.*.jpg - reject
 ^https?:\/\/app\.10086\.cn\/biz-orange\/DN\/(findSale|homeSale)\/getsaleAdver - reject
 # 哔哩哔哩去缓存，需卸载重装，这是用很久清理缓存后的占用
@@ -18,20 +21,18 @@
 ^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/Default - reject
 
 [Map Local]
+# U净去广告
 ^https:\/\/ads\.zhinengxiyifang\.cn\/api data-type=text data=" " status-code=200
-
+# AcFun开屏
 ^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/ data-type=text data=" " status-code=200
-
+# 王者营地开屏
 ^https:\/\/rdelivery\.qq\.com\/v3\/config\/pull data-type=text data=" " status-code=200
-
+# 中国银行
 ^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg data-type=tiny-gif status-code=200
-
+# 中国移动
 ^https?+:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit data-type=text data=" " status-code=200
-
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList data-type=text data=" " status-code=200
-
 ^https?+:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query data-type=text data=" " status-code=200
-
 ^https?:\/\/res\.app\.coc\.10086\.cn\/group\d\/M00\/[0-9]{2}\/[A-Z0-9]{2}\/.+.jpg data-type=text data=" " status-code=200
 
 # 多个悬浮窗 感谢#热心网友分享

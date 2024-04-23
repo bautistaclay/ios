@@ -48,14 +48,19 @@ http:
 # ～ BiliBili_哔哩哔哩_屏蔽DefaultWord@ddgksf2013
     - >-
       ^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/Default - reject
+# U净去广告
     - >-
       ^https:\/\/ads\.zhinengxiyifang\.cn\/api - reject-200
+# AcFun开屏
     - >-
       ^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/ - reject-200
+# 王者营地开屏
     - >-
       ^https:\/\/rdelivery\.qq\.com\/v3\/config\/pull - reject-200
+# 中国银行
     - >-
       ^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg - reject-200
+# 中国移动
     - >-
       ^https?+:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject-200
     - >-

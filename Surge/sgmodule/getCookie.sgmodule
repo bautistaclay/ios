@@ -2,6 +2,9 @@
 #!desc=提示获取Cookie成功则可以使用签到脚本；关闭获取ck脚本，避免产生不必要的mitm。
 #!author=bautistaclay
 #!category=午时已到
+[Rule]
+DOMAIN,gslbali.ximalaya.com,REJECT
+DOMAIN,gslbtx.ximalaya.com,REJECT
 [Script]
 #百度贴吧每日自动签到获取Cookie
 TieBa_signin = type=http-request, pattern=^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login, script-path=https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js, timeout=60
@@ -28,5 +31,8 @@ AcFun获取cookie = type=http-request, pattern=^https?:\/\/api-ipv6\.app\.acfun\
 霸王茶姬获取token = type=http-request, pattern=^https:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering|catering2-apiserver)\/crm\/points-info, script-path=https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js, timeout=60
 #获取蜜雪冰城需要的各项参数
 蜜雪冰城获取token = type=http-response, pattern=^https:\/\/mxsa\.mxbc\.net\/api\/v1\/customer\/info, script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, requires-body=true, max-size=-1, timeout=60
+喜马拉雅Cookie = type=http-request,pattern=^https?:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/xmly.js,requires-body=0
+NGA玩家社区Cookie = type=http-request,pattern=^https?:\/\/ngabbs.com\/nuke.php$,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/nga.js,requires-body=1
+腾讯视频Cookie = type=http-request,pattern=^https?:\/\/iacc\.rec\.qq\.com,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/videoqq.js,requires-body=0
 [MITM]
-hostname = %APPEND% app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn,auth.alipan.com, auth.aliyundrive.com ,i.meituan.com,api.hellobike.com,user-api.smzdm.com,apph5.manmanbuy.comqmwebapi.qmai.cn, webapi.qmai.cn,mxsa.mxbc.net
+hostname = %APPEND% app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn,auth.alipan.com, auth.aliyundrive.com ,i.meituan.com,api.hellobike.com,user-api.smzdm.com,apph5.manmanbuy.comqmwebapi.qmai.cn, webapi.qmai.cn,mxsa.mxbc.net,xmc.ximalaya.com, ngabbs.com, iacc.rec.qq.com
