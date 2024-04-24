@@ -14,6 +14,9 @@ http:
     - "bid.adview.cn"
     - "mbs.boc.cn"
     - "*.app.10086.cn"
+    - "gd.10086.cn"
+    - "res.app.coc.10086.cn"
+    - "clientaccess.10086.cn"
     - "-broadcast.chat.bilibili.com"
     - "-*cdn*.biliapi.net"
     - "-*tracker*.biliapi.net"
@@ -32,7 +35,6 @@ http:
       ^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) - reject
     - >-
       ^https?:\/\/bid\.adview\.cn\/agent\/getAd - reject
-# %APPEND%gd.10086.cn,res.app.coc.10086.cn,clientaccess.10086.cn
     - >-
       ^https?:\/\/gd\.10086\.cn\/gmccfile\/file\/image\/preloading703\/.*.jpg - reject
     - >-

@@ -1,0 +1,79 @@
+#!name=任务脚本Cookie获取
+#!desc=提示获取Cookie成功则可以使用签到脚本；关闭获取ck脚本，避免产生不必要的mitm。
+#!author=bautistaclay
+
+[rewrite_local]
+# 百度贴吧每日自动签到获取Cookie
+;https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_cookie.js
+^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js
+^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js
+^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js
+
+#获取Bili漫画Cookie
+;https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
+^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.
+
+# 获取Cookie
+;https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
+^https:\/\/api\.kkmh\.com\/v\d\/passport\/user url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
+
+# 获取AcFun签到需要的各项参数
+;https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/acfun.conf
+^https?:\/\/api-ipv6\.app\.acfun\.cn\/rest\/app\/user\/(signIn|hasSignedIn|getSignInInfos) url script-request-header https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/acfun.cookie.js
+/*
+🥳脚本功能: 自动观看 起点读书 广告
+任务1: 福利中心 --> 每日视频福利 --> 手动看一个视频
+任务2: 福利中心 --> 限时彩蛋 --> 额外看三次小视频奖励 --> 手动看一个视频
+#默认执行次数: 8次
+#默认间隔时间: 20s 
+*/
+#🎯重写脚本:
+;https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.js
+https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/finishWatch url script-request-body https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.cookie.js
+https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/mainPage url script-response-body https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.taskId.js
+
+# 获取松鼠ios签到需要的各项参数
+;https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/sxios.conf
+^https\:\/\/ios\.songshuyouxi\.com\/user url script-request-header https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/sxios.js
+
+# 获取知轩藏书签到需要的各项参数
+;https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/zxcs.conf
+^https:\/\/zxcstxt\.com\/user\/ url script-request-header https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/zhixuan.js
+
+# 获取沪上阿姨签到需要的各项参数
+;https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/hsay.conf
+^https:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering|catering2-apiserver)\/crm\/points-info url script-request-header https://gist.githubusercontent.com/Sliverkiss/e427dc3164d0c008f8d282f180d7fc00/raw/hsay.js
+
+# 获取霸王茶姬签到需要的各项参数
+;https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/bwcj.conf
+^https:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering|catering2-apiserver)\/crm\/points-info url script-request-header https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js
+
+# 获取蜜雪冰城需要的各项参数
+;https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/mxbc.conf
+^https:\/\/mxsa\.mxbc\.net\/api\/v1\/customer\/info url script-response-body https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js
+
+# 阿里云盘token获取 @zqzess
+;https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn_token.qxrewrite
+^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token url script-request-body https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js
+
+# 美团签到领红包
+# 使用方法1：美团APP -> 我的 -> 福利中心 -> 领红包 -> 手动签到一次 
+# 使用方法2：美团APP -> 首页 -> 红包签到 -> 手动签到一次
+;https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/rewrite/meituan.checkin.conf
+^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js
+
+# 获取哈啰单车奖励金签到需要的各项参数
+;https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/hldc.conf
+^https:\/\/api\.hellobike\.com\/api\?user\.taurus\.pointInfo url script-request-body https://gist.githubusercontent.com/Sliverkiss/4e0081f7b18a2cea9dbdf13545e60885/raw/d53857028ced29aed98affb5d4a602b2a8bf94cf/hldc.js
+
+# 获取什么值得买任务需要的各项参数
+;https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/smzdm.conf
+^https?:\/\/user-api\.smzdm\.com\/checkin$ url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js
+
+# 慢慢买签到获取Cookie
+;https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.qxrewrite
+^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx) url script-request-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js
+
+
+[mitm]
+hostname = c.tieba.baidu.com, app.bilibili.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, h5.if.qidian.com,ios.songshuyouxi.com, zxcstxt.com, qmwebapi.qmai.cn,webapi.qmai.cn, mxsa.mxbc.net, auth.alipan.com, auth.aliyundrive.com, i.meituan.com,api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com
