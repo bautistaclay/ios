@@ -13,10 +13,6 @@ http:
     - "rdelivery.qq.com"
     - "bid.adview.cn"
     - "mbs.boc.cn"
-    - "*.app.10086.cn"
-    - "gd.10086.cn"
-    - "res.app.coc.10086.cn"
-    - "clientaccess.10086.cn"
     - "-broadcast.chat.bilibili.com"
     - "-*cdn*.biliapi.net"
     - "-*tracker*.biliapi.net"
@@ -35,8 +31,6 @@ http:
       ^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) - reject
     - >-
       ^https?:\/\/bid\.adview\.cn\/agent\/getAd - reject
-    - >-
-      ^https?:\/\/gd\.10086\.cn\/gmccfile\/file\/image\/preloading703\/.*.jpg - reject
     - >-
       ^https?:\/\/app\.10086\.cn\/biz-orange\/DN\/(findSale|homeSale)\/getsaleAdver - reject
 # 哔哩哔哩去缓存，需卸载重装，这是用很久清理缓存后的占用
@@ -62,18 +56,6 @@ http:
 # 中国银行
     - >-
       ^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg - reject-200
-# 中国移动
-    - >-
-      ^https?+:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject-200
-    - >-
-      ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject-200
-    - >-
-      ^https?+:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query - reject-200
-    - >-
-      ^https?:\/\/res\.app\.coc\.10086\.cn\/group\d\/M00\/[0-9]{2}\/[A-Z0-9]{2}\/.+.jpg - reject-200
-# 多个悬浮窗 感谢#热心网友分享
-    - >-
-      ^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket - reject-200
 # ～ BiliBili_哔哩哔哩_屏蔽广告浮窗@ddgksf2013
     - >-
       ^https?:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive - reject-dict

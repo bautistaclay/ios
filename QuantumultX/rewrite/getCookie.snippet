@@ -2,7 +2,7 @@
 #!desc=提示获取Cookie成功则可以使用签到脚本；关闭获取ck脚本，避免产生不必要的mitm。
 #!author=bautistaclay
 
-[rewrite_local]
+
 # 百度贴吧每日自动签到获取Cookie
 ;https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_cookie.js
 ^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js
@@ -11,7 +11,7 @@
 
 #获取Bili漫画Cookie
 ;https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
-^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.
+^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
 
 # 获取Cookie
 ;https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
@@ -75,5 +75,4 @@ https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/mainPage url script-
 ^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx) url script-request-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js
 
 
-[mitm]
 hostname = c.tieba.baidu.com, app.bilibili.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, h5.if.qidian.com,ios.songshuyouxi.com, zxcstxt.com, qmwebapi.qmai.cn,webapi.qmai.cn, mxsa.mxbc.net, auth.alipan.com, auth.aliyundrive.com, i.meituan.com,api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com
