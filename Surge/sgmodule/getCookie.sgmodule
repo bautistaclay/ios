@@ -6,6 +6,7 @@
 [Rule]
 DOMAIN,gslbali.ximalaya.com,REJECT
 DOMAIN,gslbtx.ximalaya.com,REJECT
+
 [Script]
 #百度贴吧每日自动签到获取Cookie
 TieBa_signin = type=http-request, pattern=^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login, script-path=https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js, timeout=60
@@ -24,7 +25,7 @@ AcFun获取cookie = type=http-request, pattern=^https?:\/\/api-ipv6\.app\.acfun\
 哈啰单车获取Cookie = type=http-request, pattern=^https:\/\/api\.hellobike\.com\/api\?user\.taurus\.pointInfo, script-path=https://gist.githubusercontent.com/Sliverkiss/4e0081f7b18a2cea9dbdf13545e60885/raw/d53857028ced29aed98affb5d4a602b2a8bf94cf/hldc.js, requires-body=true, max-size=-1, timeout=60
 #获取什么值得买任务需要的各项参数
 什么值得买获取Cookie = type=http-request, pattern=^https?:\/\/user-api\.smzdm\.com\/checkin$, script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, timeout=60
-慢慢买获取cookie = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,type=http-request,requires-body=true,pattern=^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx)
+慢慢买获取cookie = type=http-request, pattern=^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx), script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js, requires-body=true, max-size=-1, timeout=60
 #获取沪上阿姨签到需要的各项参数
 沪上阿姨获取token = type=http-request, pattern=^https:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering|catering2-apiserver)\/crm\/points-info, script-path=https://gist.githubusercontent.com/Sliverkiss/e427dc3164d0c008f8d282f180d7fc00/raw/hsay.js, timeout=60
 #获取霸王茶姬签到需要的各项参数
@@ -41,5 +42,7 @@ NGA玩家社区Cookie = type=http-request,pattern=^https?:\/\/ngabbs.com\/nuke.p
 #默认间隔时间: 20s
 qidian.cookie = type=http-request, pattern=https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/finishWatch, script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.cookie.js, requires-body=true, max-size=-1, timeout=60
 qidian.taskId = type=http-response, pattern=https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/mainPage, script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.taskId.js, requires-body=true, max-size=-1, timeout=60
+
+
 [MITM]
-hostname = %APPEND% app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn,auth.alipan.com, auth.aliyundrive.com ,i.meituan.com,api.hellobike.com,user-api.smzdm.com, apph5.manmanbuy.com, qmwebapi.qmai.cn, webapi.qmai.cn,mxsa.mxbc.net,xmc.ximalaya.com, ngabbs.com, iacc.rec.qq.com,h5.if.qidian.com
+hostname = %APPEND% app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, auth.alipan.com, auth.aliyundrive.com , i.meituan.com, api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com, qmwebapi.qmai.cn, webapi.qmai.cn, mxsa.mxbc.net, xmc.ximalaya.com, ngabbs.com, iacc.rec.qq.com, h5.if.qidian.com
