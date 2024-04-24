@@ -3,7 +3,7 @@
   "name": "午时已到 脚本订阅",
   "author": "@bautistaclay",
   "icon": "https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/Set/shuwu_01.png",
-  "repo": "",
+  "repo": "https://github.com/bautistaclay6027/ios",
   "apps": [
 		{
 		  "id": "yuheng.mi.step",
@@ -93,105 +93,64 @@
 		  "script": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/step.js"
 		},
 		{
-		"id": "Bahamut",
-		"name": "巴哈姆特",
-		"keys": ["@ND_BAHA.ID", "@ND_BAHA.PW", "@ND_BAHA.TOTP", "@ND_BAHA.GUILD", "@ND_BAHA.ANSWER", "@ND_BAHA.ADS"],
-		"descs_html": [
-		  "<h4 align=\"center\">脚本配置请查看<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js\">脚本注释</a></h4>"
-		],
-		"settings": [{
-		  "id": "@ND_BAHA.ADS",
-		  "name": "签到广告",
-		  "val": false,
-		  "type": "boolean",
-		  "desc": "开启后将签到双倍巴币奖励, 默认关闭. 请注意, 此功能耗时过长(30秒以上), 如果使用Surge请调整该脚本超时为300秒"
-		}, {
-		  "id": "@ND_BAHA.GUILD",
-		  "name": "签到公会",
-		  "val": true,
-		  "type": "boolean",
-		  "desc": "开启后将自动签到公会"
-		}, {
-		  "id": "@ND_BAHA.ANSWER",
-		  "name": "动画疯答题",
-		  "val": true,
-		  "type": "boolean",
-		  "desc": "开启后将自动答题"
-		}, {
-		  "id": "@ND_BAHA.ID",
-		  "name": "用户名",
-		  "val": "",
-		  "type": "text",
-		  "placeholder": "(点击以展开说明)",
-		  "desc": "输入用户名(账号)"
-		}, {
-		  "id": "@ND_BAHA.PW",
-		  "name": "用户密码",
-		  "val": "",
-		  "type": "text",
-		  "placeholder": "",
-		  "desc": "输入用户密码"
-		}, {
-		  "id": "@ND_BAHA.TOTP",
-		  "name": "两步验证令牌",
-		  "val": "",
-		  "type": "text",
-		  "placeholder": "(点击以展开说明)",
-		  "desc": "输入网站生成的16位令牌, 如未设置两步验证, 请留空"
-		}],
-		"script": "https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js",
-		"author": "@NobyDa",
-		"repo": "https://github.com/NobyDa/Script/blob/master/Bahamut/BahamutDailyBonus.js",
-		"icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/bahamutGame.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/bahamutGame.png"]
-	  },
-	  {
-			"id": "bilibili.com",
-			"name": "bilibili",
-			"author": "@MartinsKing",
-			"script": "https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js",
-			"descs_html":
-			[
-				""
+			"id": "Bahamut",
+			"name": "巴哈姆特",
+			"keys": ["@ND_BAHA.ID", "@ND_BAHA.PW", "@ND_BAHA.TOTP", "@ND_BAHA.GUILD", "@ND_BAHA.ANSWER", "@ND_BAHA.ADS"],
+			"descs_html": [
+			  "<h4 align=\"center\">脚本配置请查看<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js\">脚本注释</a></h4>"
 			],
-			"icons":
-			[
-				"https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png",
-				"https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png"
-			],
-			"keys":
-			[
-				"@bilibili_daily_bonus.Settings"
-			],
-			"settings":
-			[
-				{
-					"id": "@bilibili_daily_bonus.Settings.exec",
-					"name": "投币次数",
-					"val": "0",
-					"type": "text",
-					"desc": "投币次数(用户自行设置，默认0次)"
-				},
-				{
-					"id": "@bilibili_daily_bonus.Settings.charge_mid",
-					"name": "被充电用户id",
-					"type": "text",
-					"desc": "不填写即为自己, 填写后为指定用户id充电"
-				},
-				{
-					"id": "@bilibili_daily_bonus.Settings.bp_num",
-					"name": "充电B币数",
-					"val": "5",
-					"type": "text",
-					"desc": "充电B币数量(对应每月B币券, 默认5B币, 防勿充可更改为0)"
-				}
-			]
+			"settings": [
+			{
+			  "id": "@ND_BAHA.ADS",
+			  "name": "签到广告",
+			  "val": false,
+			  "type": "boolean",
+			  "desc": "开启后将签到双倍巴币奖励, 默认关闭. 请注意, 此功能耗时过长(30秒以上), 如果使用Surge请调整该脚本超时为300秒"
+			}, {
+			  "id": "@ND_BAHA.GUILD",
+			  "name": "签到公会",
+			  "val": true,
+			  "type": "boolean",
+			  "desc": "开启后将自动签到公会"
+			}, {
+			  "id": "@ND_BAHA.ANSWER",
+			  "name": "动画疯答题",
+			  "val": true,
+			  "type": "boolean",
+			  "desc": "开启后将自动答题"
+			}, {
+			  "id": "@ND_BAHA.ID",
+			  "name": "用户名",
+			  "val": "",
+			  "type": "text",
+			  "placeholder": "(点击以展开说明)",
+			  "desc": "输入用户名(账号)"
+			}, {
+			  "id": "@ND_BAHA.PW",
+			  "name": "用户密码",
+			  "val": "",
+			  "type": "text",
+			  "placeholder": "",
+			  "desc": "输入用户密码"
+			}, {
+			  "id": "@ND_BAHA.TOTP",
+			  "name": "两步验证令牌",
+			  "val": "",
+			  "type": "text",
+			  "placeholder": "(点击以展开说明)",
+			  "desc": "输入网站生成的16位令牌, 如未设置两步验证, 请留空"
+			}],
+			"script": "https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js",
+			"author": "@NobyDa",
+			"repo": "https://github.com/NobyDa/Script/blob/master/Bahamut/BahamutDailyBonus.js",
+			"icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/bahamutGame.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/bahamutGame.png"]
 		},
 		{
-		  "id": "macat",
-		  "name": "macat",
-		  "keys": ["macat_loginBody"],
-		  "desc": "",
-		  "settings": [
+		    "id": "macat",
+		    "name": "macat",
+		    "keys": ["macat_loginBody"],
+		    "desc": "",
+		    "settings": [
 			{
 			  "id": "macat_loginBody",
 			  "name": "macat_loginBody",
@@ -210,14 +169,57 @@
 		  ]
 		},
 		{
+			"id": "BiliBili.DailyBonus",
+			"name": "BiliBili.DailyBonus",
+			"author": "@MartinsKing",
+			"script": "https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js",
+			"descs_html":
+			[
+				"使用说明请见脚本备注",
+				"填写完成后记得点击此页面底端右下角的\"保存\"。"
+			],
+			"icons":
+			[
+				"https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png",
+				"https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png"
+			],
+			"keys":
+			[
+				"@bilibili_daily_bonus.Settings"
+			],
+			"settings":
+			[
+				{
+					"id": "@bilibili_daily_bonus.Settings.exec",
+					"name": "投币次数",
+					"val": "5",
+					"type": "text",
+					"desc": "投币次数(用户自行设置，默认5次)"
+				},
+				{
+					"id": "@bilibili_daily_bonus.Settings.charge_mid",
+					"name": "被充电用户id",
+					"type": "text",
+					"desc": "不填写即为自己, 填写后为指定用户id充电"
+				},
+				{
+					"id": "@bilibili_daily_bonus.Settings.bp_num",
+					"name": "充电B币数",
+					"val": "5",
+					"type": "text",
+					"desc": "充电B币数量(对应每月B币券, 默认5B币, 防勿充可更改为0)"
+				}
+			]
+		},
+		{
 			"id": "BiliBili.Modified.Setting",
 			"name": "📺 BiliBili: 👘 Modified ",
 			"author": "@MartinsKing",
 			"script": "https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBili.Modified.response.js",
 			"icons":
 			[
-				"https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png",
-				"https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png"
+				"https://raw.githubusercontent.com/ClydeTime/BiliBili/main/database/icon_Avatar.png",
+				"https://raw.githubusercontent.com/ClydeTime/BiliBili/main/database/icon_Avatar.png"
 			],
 			"descs_html":
 			[
@@ -522,7 +524,7 @@
 				"desc": "会员Cookie数据"
 			  }
 			]
-		},
+		}
 		
     ]
 }

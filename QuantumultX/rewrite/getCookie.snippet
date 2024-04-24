@@ -20,13 +20,11 @@
 # 获取AcFun签到需要的各项参数
 ;https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/acfun.conf
 ^https?:\/\/api-ipv6\.app\.acfun\.cn\/rest\/app\/user\/(signIn|hasSignedIn|getSignInInfos) url script-request-header https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/acfun.cookie.js
-/*
-🥳脚本功能: 自动观看 起点读书 广告
-任务1: 福利中心 --> 每日视频福利 --> 手动看一个视频
-任务2: 福利中心 --> 限时彩蛋 --> 额外看三次小视频奖励 --> 手动看一个视频
+#🥳脚本功能: 自动观看 起点读书 广告
+#任务1: 福利中心 --> 每日视频福利 --> 手动看一个视频
+#任务2: 福利中心 --> 限时彩蛋 --> 额外看三次小视频奖励 --> 手动看一个视频
 #默认执行次数: 8次
 #默认间隔时间: 20s 
-*/
 #🎯重写脚本:
 ;https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.js
 https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/finishWatch url script-request-body https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.cookie.js
