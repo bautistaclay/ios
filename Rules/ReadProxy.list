@@ -19,6 +19,7 @@ DOMAIN-SUFFIX, zhsshu.com,阅读分流
 DOMAIN-SUFFIX, api.bookmake.cc,阅读分流
 # 69书吧
 DOMAIN-SUFFIX, 69shuba.com,阅读分流
+DOMAIN-KEYWORD, 69shu,阅读分流
 #放肆文学
 DOMAIN-SUFFIX, funs.me,阅读分流
 # 冰雷中文
