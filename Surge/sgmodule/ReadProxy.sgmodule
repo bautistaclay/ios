@@ -5,6 +5,94 @@
 [Rule]
 # > 用于书源分流
 #==================小说==================#
+# 第一版主
+DOMAIN-SUFFIX, diyibanzhu.buzz , 阅读分流
+DOMAIN-SUFFIX, 12bz.net , 阅读分流
+DOMAIN-KEYWORD, banzhu, 阅读分流
+# 御书屋
+DOMAIN-SUFFIX, yuzhaiwu.life , 阅读分流
+DOMAIN-SUFFIX, po18xs.com , 阅读分流
+# 集书阁
+DOMAIN-SUFFIX, jishuge.vip , 阅读分流
+# 爱笔楼/笔趣阁
+DOMAIN-SUFFIX, ibiquge.info , 阅读分流
+DOMAIN-SUFFIX, ibiquzw.info , 阅读分流
+# 猫眼看书
+DOMAIN-SUFFIX, jmlldsc.com , 阅读分流
+DOMAIN-SUFFIX, jxgtzxc.com , 阅读分流
+# 笔尖小说
+DOMAIN-SUFFIX, bjcan8.com , 阅读分流
+# 恩木书库
+DOMAIN-SUFFIX, enmuku.com , 阅读分流
+# 疯情阅读
+DOMAIN-SUFFIX, aaread.club , 阅读分流
+# 龙腾小说
+DOMAIN-SUFFIX, longtengxiaoshuo.org , 阅读分流
+# 大米小说
+DOMAIN-SUFFIX, damixs.com , 阅读分流
+DOMAIN-SUFFIX, damixs.info , 阅读分流
+# 海阅小说8
+DOMAIN-SUFFIX, haiyue8.cc , 阅读分流
+DOMAIN-SUFFIX, haiyue8.com , 阅读分流
+# 番茄小说123
+DOMAIN-SUFFIX, fqxs123.com , 阅读分流
+# 提莫书屋
+DOMAIN-SUFFIX, timotxt.com , 阅读分流
+# 贼吧网
+DOMAIN-SUFFIX, zei8.vip , 阅读分流
+# 言情港
+DOMAIN-SUFFIX, yanqinggang.com , 阅读分流
+# 看书神
+DOMAIN-SUFFIX, kanshushenapp.com , 阅读分流
+# 笔趣阁
+DOMAIN-SUFFIX, biqugewu.net , 阅读分流
+DOMAIN-SUFFIX, biqugej.org , 阅读分流
+DOMAIN-SUFFIX, bqgka.com , 阅读分流
+DOMAIN-SUFFIX, bqgbe.com , 阅读分流
+# 笔趣阁789
+DOMAIN-SUFFIX, biquzw789.info , 阅读分流
+DOMAIN-SUFFIX, bqg789.com , 阅读分流
+DOMAIN-SUFFIX, bqzw789.com , 阅读分流
+# 天天书吧
+DOMAIN-SUFFIX, ttshuba.net , 阅读分流
+# 全本小说
+DOMAIN-SUFFIX, qb5.in , 阅读分流
+DOMAIN-SUFFIX, qb5.ac , 阅读分流
+# 奇快中文
+DOMAIN-SUFFIX, qkzw.cc , 阅读分流
+# 138阅读网
+DOMAIN-SUFFIX, 138txt.net , 阅读分流
+# 错衡文学网
+DOMAIN-SUFFIX, cuoheng.com , 阅读分流
+# 乐文小说
+DOMAIN-SUFFIX, lewen.so , 阅读分流
+DOMAIN-SUFFIX, lewen.org , 阅读分流
+# 天籁小说
+DOMAIN-SUFFIX, 23sk.net , 阅读分流
+DOMAIN-SUFFIX, 23sk.com , 阅读分流
+# 星月文学
+DOMAIN-SUFFIX, xingyueboke.com , 阅读分流
+# TVB小说网
+DOMAIN-SUFFIX, tvbts.net , 阅读分流
+DOMAIN-SUFFIX, tvbts4.com , 阅读分流
+# 飞翔鸟中文🐦‍⬛
+DOMAIN-SUFFIX, fxnzw.com, 阅读分流
+# 爱去小说
+DOMAIN-SUFFIX, aiquxs.com , 阅读分流
+# 书汇小说
+DOMAIN-SUFFIX, shuhui8.com , 阅读分流
+# 爱下电子书
+DOMAIN-SUFFIX, aixdzs.com, 阅读分流
+# 渣渣小说
+DOMAIN-SUFFIX, zztxt.net , 阅读分流
+# 云云小说
+DOMAIN-SUFFIX, yunyunxs.com , 阅读分流
+# 去读小说
+DOMAIN-SUFFIX, hongyue3.net , 阅读分流
+# 147小说
+DOMAIN-SUFFIX, 147xs.org , 阅读分流
+# 第一六九
+DOMAIN-SUFFIX, diyi69.com , 阅读分流
 # 海棠文学
 DOMAIN-SUFFIX, longmabookcn.com,阅读分流
 # 52书库
@@ -24,7 +112,9 @@ DOMAIN-SUFFIX, zhsshu.com,阅读分流
 DOMAIN-SUFFIX, api.bookmake.cc,阅读分流
 # 69书吧
 DOMAIN-SUFFIX, 69shuba.com,阅读分流
-#放肆文学
+DOMAIN-SUFFIX, 69xinshu.com,阅读分流
+DOMAIN-KEYWORD, 69shu,阅读分流
+# 放肆文学
 DOMAIN-SUFFIX, funs.me,阅读分流
 # 冰雷中文
 DOMAIN-SUFFIX, bookbl.com,阅读分流
@@ -110,6 +200,61 @@ DOMAIN-KEYWORD, copymanga,阅读分流
 # 一耽漫画
 DOMAIN-KEYWORD, yidan,阅读分流
 DOMAIN-KEYWORD, yidanyidan,阅读分流
+DOMAIN-KEYWORD, ydan, 阅读分流
+# 顶漫画
+DOMAIN-SUFFIX, dingmanhua.com , 阅读分流
+# 鸟鸟韩漫
+DOMAIN-SUFFIX, nnhanman.net , 阅读分流
+# mangabz漫画
+DOMAIN-SUFFIX, mangabz.com , 阅读分流
+# 漫画柜
+DOMAIN-SUFFIX, manhuagui.com , 阅读分流
+DOMAIN-SUFFIX, mhgui.com , 阅读分流
+# 拷贝漫画
+DOMAIN-SUFFIX, copymanga.tv , 阅读分流
+DOMAIN-SUFFIX, mangafuna.xyz , 阅读分流
+# 禁漫屋
+DOMAIN-KEYWORD, jmwu , 阅读分流
+# 久久漫画
+DOMAIN-SUFFIX, ikanhm.top , 阅读分流
+DOMAIN-SUFFIX, mxshm.top , 阅读分流
+DOMAIN-SUFFIX, wzdhm.cc , 阅读分流
+DOMAIN-SUFFIX, comicimgs.com , 阅读分流
+DOMAIN-SUFFIX, mxs10.cc , 阅读分流
+# 就漫画
+DOMAIN-SUFFIX, jiumanhua.com, 阅读分流
+# rawkuma漫画
+DOMAIN-SUFFIX, rawkuma.com , 阅读分流
+# 开心看漫画
+DOMAIN-SUFFIX, kxkmh.top , 阅读分流
+DOMAIN-SUFFIX, ymmh01.top , 阅读分流
+# 动漫之家
+DOMAIN-SUFFIX, dmzj.com , 阅读分流
+# 包子漫画
+DOMAIN-SUFFIX, webmota.com , 阅读分流
+# 漫蛙
+DOMAIN-SUFFIX, manwa.me , 阅读分流
+# 绅士漫画
+DOMAIN-SUFFIX, wnacg.com , 阅读分流
+DOMAIN-SUFFIX, qy0.ru , 阅读分流
+# 酷看漫画
+DOMAIN-SUFFIX, kukanmanhua.com , 阅读分流
+# 九妖漫画
+DOMAIN-SUFFIX, ciyuanrukou.com , 阅读分流
+# colamanga漫画
+DOMAIN-SUFFIX, colamanhua.com , 阅读分流
+# 野蛮漫画
+DOMAIN-SUFFIX, yemancomic.com , 阅读分流
+DOMAIN-SUFFIX, tmsmh.com , 阅读分流
+# ✈hentaiPaw漫画
+DOMAIN-SUFFIX, hentaipaw.com, 阅读分流
+DOMAIN-SUFFIX, imagedeliveries.com, 阅读分流
+# ✈ASM漫画asmhentai
+DOMAIN-SUFFIX, asmhentai.com, 阅读分流
+# 7mm漫画7mmtv
+DOMAIN-SUFFIX, 7mmtv.sx, 阅读分流
+# H-Comic漫画
+DOMAIN-SUFFIX, h-comic.com, 阅读分流
 #==================影视==================#
 # 海外看
 DOMAIN-SUFFIX, haiwaikan.com,阅读分流
@@ -127,6 +272,22 @@ DOMAIN-SUFFIX, phncdn.com,阅读分流
 DOMAIN-SUFFIX, huale.tv,阅读分流
 # 啦啦啦影视
 DOMAIN-SUFFIX, 35553.cc,阅读分流
+# 樱花视频
+DOMAIN-SUFFIX, yhzy.cc, 阅读分流
+# ✈妹塔宇宙meitaav视频
+DOMAIN-SUFFIX, meitaav.com, 阅读分流
+DOMAIN-SUFFIX, meita.cc, 阅读分流
+# 91porn视频
+DOMAIN-SUFFIX, 91porn.com, 阅读分流
+# 麻豆视频
+DOMAIN-SUFFIX, me阅读分流, 阅读分流
+# 溅射淫行视频
+DOMAIN-SUFFIX, xd01.me, 阅读分流
+# 正妹AV视频
+DOMAIN-SUFFIX, goodav17.com, 阅读分流
+# 哟糖社
+DOMAIN-SUFFIX, nicesss.com , 阅读分流
+DOMAIN-SUFFIX, nicezzz.com , 阅读分流
 #================订阅源==================#
 # 阿巴基猫Yealico漫画规则站
 DOMAIN, wc3818290.home.blog,阅读分流

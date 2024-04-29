@@ -1,0 +1,26 @@
+name: 酷我音乐 & 酷我畅听
+desc: 〔 酷我音乐&酷我畅听 〕不完全解锁
+author: 影子
+category: bautistaclay
+icon: https://file.napi.ltd/Static/Image/KuWo.png
+openUrl: https://napi.ltd
+homepage: https://napi.ltd
+date: 2024-04-28
+
+http:
+
+  mitm:
+    - "*.kuwo.cn"
+    - "audiobookpay.lrts.me"
+
+  script:
+    - match: ^(?!.*img).*?(kuwo\.cn|lrts\.me)(/vip|/openapi)?(/enc|/audi.tion|/v[\d]/(user/vip\?(vers|apiVersion|platform|op\=ui|_t)|theme\?op=gd|sysinfo\?op=getRePayAndDoPayBoxNew|api(/pay)?/((user/personal/)?user/info|payInfo/kwplayer/payMiniBar|advert/(myPage|iListen|album))|album/myRec/vipMusic)|/kuwopay/vip-tab/setting|/(audioApi/)?a\.p($|.*?ptype\=vip)|/(EcomResource|(Mobile)?Ad)Serv(er|ice))
+      name: "酷我音乐 & 酷我畅听"
+      type: response
+      require-body: true
+      timeout: 60
+
+script-providers:
+  "酷我音乐 & 酷我畅听":
+    url: https://napi.ltd/script/Worker/KuWo.js
+    interval: 86400
