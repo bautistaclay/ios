@@ -1,0 +1,10 @@
+#!name=分流规则简化
+#!desc=Surge分流配置超简化
+#!category=午时已到
+
+[URL Rewrite]
+#bm7规则配置简化
+^http:\/\/bm7\/(.*?)(_.*)?$ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/$1/$1$2.list 302
+
+#Lucy规则配置简化
+^http:\/\/[Rr]epcz\/(.*)$ https://github.com/Repcz/Tool/raw/X/Surge/Rules/$1.list 302
