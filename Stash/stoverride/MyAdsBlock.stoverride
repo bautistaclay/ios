@@ -6,6 +6,8 @@ category: bautistaclay
 http:
 
   mitm:
+    - "tc.qq.com"
+    - "wa.gtimg.com"
     - "appconf.mail.163.com"
     - "client.mail.163.com"
     - "ads.zhinengxiyifang.cn"
@@ -25,6 +27,15 @@ http:
     - "oauth.secure.pixiv.net"
 
   url-rewrite:
+ # 腾讯视频广告屏蔽
+
+    - >-
+      ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
+    - >-
+      ^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 - reject
+    - >-
+      ^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg - reject
+# 网易邮箱 
     - >-
       ^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do - reject
     - >-

@@ -5,6 +5,11 @@
 #!category=午时已到
 
 [Rewrite]
+ 腾讯视频广告屏蔽
+^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
+^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 - reject
+^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg - reject
+# 网易邮箱
 ^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do - reject
 ^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) - reject
 ^https?:\/\/bid\.adview\.cn\/agent\/getAd - reject
@@ -97,4 +102,4 @@ http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? script-p
 http-response ^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pixivAds.js, requires-body=true, timeout=60, tag=pixivAds
 
 [MITM]
-hostname = appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bilibili.*, grpc.biliapi.net, *biliapi.net, oauth.secure.pixiv.net
+hostname = %APPEND% tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bilibili.*, grpc.biliapi.net, *biliapi.net, oauth.secure.pixiv.net

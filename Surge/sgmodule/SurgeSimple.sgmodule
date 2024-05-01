@@ -16,9 +16,7 @@
 
 # gist链接简化
 #^http:\/\/self\/(.*)$ https://gist.githubusercontent.com/your_username/your_gist_id/raw/$1.list 302
-^http:\/\/Sliverkiss\/(.*)$ https://gist.githubusercontent.com/Sliverkiss/$1/raw/$1.list 302
-^http:\/\/bautistaclay\/(.*)$ https://gist.githubusercontent.com/bautistaclay/$1/raw/$1.list 302
-^http:\/\/bautistaclay6027\/(.*)$ https://gist.githubusercontent.com/bautistaclay6027/$1/raw/$1.list 302
+
 
 # SubStore链接简化
 #^http:\/\/sub\/(.*)$ https://your_sub_store_api.com/xxxxxx/download/collection/$1?target=Surge 302

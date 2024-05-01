@@ -3,8 +3,10 @@
 #!icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/iFreeTime04.png
 #!author=bautistaclay
 #!category=午时已到
+
 [General]
 skip-proxy = api-access.pangolin-sdk-toutiao.com
+
 [Rule]
 DOMAIN,api-access.pangolin-sdk-toutiao.com,DIRECT
 DOMAIN,open.e.kuaishou.com,REJECT-NO-DROP
@@ -26,7 +28,9 @@ DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT-NO-DROP
 DOMAIN-SUFFIX,ctobsnssdk.com,REJECT-NO-DROP
 DOMAIN-SUFFIX,ugdtimg.com,REJECT-NO-DROP
 DOMAIN-SUFFIX,doubleclick.net,REJECT-NO-DROP
+
 [Script]
 http-response ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads.+ script-path=https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/iFreeTime.js,requires-body=true,tag=爱阅书香会员激励
+
 [Mitm]
-hostname = api-access.pangolin-sdk-toutiao.com
+hostname =  %APPEND% api-access.pangolin-sdk-toutiao.com

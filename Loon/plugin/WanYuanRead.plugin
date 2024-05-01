@@ -9,4 +9,4 @@ http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=http
 
 [MITM]
 
-hostname = buy.itunes.apple.com
+hostname = %APPEND% buy.itunes.apple.com

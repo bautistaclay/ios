@@ -3,6 +3,10 @@
 #!author = bautistaclay
 #!category= AdsBlock
 
+#  腾讯视频广告屏蔽
+^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 url reject
+^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 url reject
+^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg url reject
 # 网易邮箱
 ;hostname = appconf.mail.163.com, client.mail.163.com
 ^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do url reject
@@ -106,4 +110,4 @@
 ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/bilibili_json.js
 #**************************************#
 
-hostname = appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bilibili.*, grpc.biliapi.net,*biliapi.net
+hostname = tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bilibili.*, grpc.biliapi.net,*biliapi.net
