@@ -1,3 +1,7 @@
-# > 腾讯视频 修正+去开屏（重装app）
+#!name= 腾讯视频修正及去开屏
+#!desc=腾讯视频修正及去开屏重装app（Surge）
+#!author = bautistaclay
+#!category= TencentVideo
+
 DOMAIN,vv.video.qq.com,DIRECT
 OR,((DOMAIN,pgdt.gtimg.cn), (AND,((USER-AGENT,live4iphoneRel*), (IP-CIDR,0.0.0.0/0,no-resolve)))),REJECT-DROP

@@ -1,4 +1,8 @@
-# 爱阅书香分流
+#!name=爱阅书香
+#!desc=免看广告领取奖励,策略组控制分流
+#!author = Mattraks
+#!category=爱阅书香
+
 DOMAIN,api-access.pangolin-sdk-toutiao.com,DIRECT
 DOMAIN,open.e.kuaishou.com,REJECT
 DOMAIN,video-dsp.pddpic.com,REJECT

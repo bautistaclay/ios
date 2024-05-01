@@ -1,6 +1,13 @@
-# > 直连修正
+#!name= 直连修正
+#!desc=直连分流规则
+#!author = bautistaclay
+#!category= directfix
+
+# > 用于直连修正
+#==================小说==================#
 # 番茄官方api
 DOMAIN, novel.snssdk.com, DIRECT
+#==================影视==================#
 # 动漫App 喵物次元
 DOMAIN-SUFFIX, catw.cc, DIRECT
 # 动漫App Omofun

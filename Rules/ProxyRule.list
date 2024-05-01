@@ -1,33 +1,35 @@
+#!name= 订阅分流
+#!desc=代理节点
+#!author = bautistaclay
+#!category= ProxyRule
+
 # > 代理分流
 #===============订阅网站=================#
 # SubStore
-DOMAIN-SUFFIX, sub.store,代理模式
+DOMAIN-SUFFIX, sub.store, PROXY
 # BoxJs
-DOMAIN-SUFFIX, boxjs.com,代理模式
+DOMAIN-SUFFIX, boxjs.com, PROXY
 # 飞鸟云
-DOMAIN-SUFFIX, feiniaoyun.info,代理模式
-DOMAIN-SUFFIX, 564364.xyz,代理模式
+DOMAIN-SUFFIX, feiniaoyun.info, PROXY
+DOMAIN-SUFFIX, 564364.xyz, PROXY
 # 一元机场
-DOMAIN-SUFFIX, smallstrawberry.com,代理模式
+DOMAIN-SUFFIX, smallstrawberry.com, PROXY
 # 闪电猫
-DOMAIN-SUFFIX, apiv2.pptiok2020.com,代理模式
+DOMAIN-SUFFIX, apiv2.pptiok2020.com, PROXY
 # 麻雀加速器
-DOMAIN-SUFFIX, v.spwvpn.com,代理模式
+DOMAIN-SUFFIX, v.spwvpn.com, PROXY
 # 吾爱妞-云加速
-DOMAIN-SUFFIX, lovefsr.xyz,代理模式
+DOMAIN-SUFFIX, lovefsr.xyz, PROXY
 # 公益机场115Cloud
 # >前端官网
-DOMAIN-SUFFIX, 115it.cc,代理模式
+DOMAIN-SUFFIX, 115it.cc, PROXY
 # >后端订阅
-DOMAIN-SUFFIX, sub.115.gay,代理模式
+DOMAIN-SUFFIX, sub.115.gay, PROXY
 # V2frew机场
-DOMAIN-SUFFIX, v1.v2ai.top,代理模式
+DOMAIN-SUFFIX, v1.v2ai.top, PROXY
 # Lemonの机场
-DOMAIN, sub.xxzz.link,代理模式
+DOMAIN, sub.xxzz.link, PROXY
 # 奈云
-DOMAIN, sub.v2ny.one,代理模式
-DOMAIN, sub1.v2ny.pw,代理模式
-DOMAIN-KEYWORD, v2ny,代理模式
-#===============代理网站=================#
-# 蒲公英
-DOMAIN-SUFFIX, pgyer.com, 阅读分流
+DOMAIN, sub.v2ny.one, PROXY
+DOMAIN, sub1.v2ny.pw, PROXY
+DOMAIN-KEYWORD, v2ny, PROXY

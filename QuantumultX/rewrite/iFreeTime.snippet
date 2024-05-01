@@ -1,2 +1,7 @@
-hostname = %APPEND%,api-access.pangolin-sdk-toutiao.com
+#!name=爱阅书香
+#!desc=免看广告领取奖励,策略组控制分流
+#!author = Mattraks
+#!category=爱阅书香
+
 ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads.+ url script-response-body https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/iFreeTime.js
+hostname = %APPEND%,api-access.pangolin-sdk-toutiao.com

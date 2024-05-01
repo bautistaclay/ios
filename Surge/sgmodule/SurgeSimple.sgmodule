@@ -1,10 +1,27 @@
 #!name=分流规则简化
 #!desc=Surge分流配置超简化
+#!author = 折腾啥
 #!category=午时已到
 
 [URL Rewrite]
-#bm7规则配置简化
+# bm7规则配置简化
 ^http:\/\/bm7\/(.*?)(_.*)?$ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/$1/$1$2.list 302
 
-#Lucy规则配置简化
+# Lucy规则配置简化
 ^http:\/\/[Rr]epcz\/(.*)$ https://github.com/Repcz/Tool/raw/X/Surge/Rules/$1.list 302
+^http:\/\/[Rr]epcz\/(.*)$ https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/$1.list 302
+
+# skk规则配置简化
+^http:\/\/skk\/(.*?)$ https://ruleset.skk.moe/List/$1.conf 302
+
+# gist链接简化
+#^http:\/\/self\/(.*)$ https://gist.githubusercontent.com/your_username/your_gist_id/raw/$1.list 302
+^http:\/\/Sliverkiss\/(.*)$ https://gist.githubusercontent.com/Sliverkiss/$1/raw/$1.list 302
+^http:\/\/bautistaclay\/(.*)$ https://gist.githubusercontent.com/bautistaclay/$1/raw/$1.list 302
+^http:\/\/bautistaclay6027\/(.*)$ https://gist.githubusercontent.com/bautistaclay6027/$1/raw/$1.list 302
+
+# SubStore链接简化
+#^http:\/\/sub\/(.*)$ https://your_sub_store_api.com/xxxxxx/download/collection/$1?target=Surge 302
+
+# 🍟薯薯
+^http:\/\/xn--qeiz318m\/HTTPDNS http://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/HTTPDNS.Block.list 302

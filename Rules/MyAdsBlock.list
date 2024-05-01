@@ -1,3 +1,8 @@
+#!name= 去广告
+#!desc=自用去广告
+#!author = bautistaclay
+#!category= AdsBlock
+
 # > 自用去广告
 # U净去广告
 DOMAIN, ads.zhinengxiyifang.cn, REJECT
