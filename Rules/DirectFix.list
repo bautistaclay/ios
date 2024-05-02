@@ -10,6 +10,9 @@ DOMAIN, novel.snssdk.com, DIRECT
 #==================影视==================#
 # 动漫App 喵物次元
 DOMAIN-SUFFIX, catw.cc, DIRECT
+DOMAIN-SUFFIX, catw.app, DIRECT
+DOMAIN-SUFFIX, catwcy.com, DIRECT
+DOMAIN-KEYWORD, catw, DIRECT
 # 动漫App Omofun
 DOMAIN-SUFFIX, omoapis.org, DIRECT
 DOMAIN-SUFFIX, omojson.vip, DIRECT
