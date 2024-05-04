@@ -8,4 +8,4 @@
 http-response ^https:\/\/www\.aiyamanya\.com\/aymy\/api\/getUserInfo script-path=https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/ManYa.js, requires-body=true, timeout=60, tag=哎呀漫鸭终身会员
 
 [MITM]
-hostname = aiyamanya.com
+hostname = www.aiyamanya.com
