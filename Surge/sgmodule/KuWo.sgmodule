@@ -17,4 +17,4 @@ http-response ^(?!.*img).*?(kuwo\.cn|lrts\.me)(/vip|/openapi)?(/enc|/audi.tion|/
 
 
 [Mitm]
-hostname = *.kuwo.cn, audiobookpay.lrts.me
+hostname = %APPEND% *.kuwo.cn, audiobookpay.lrts.me
