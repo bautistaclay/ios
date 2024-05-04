@@ -1,0 +1,23 @@
+name: 哎呀漫鸭
+desc: 哎呀漫鸭终身会员解锁
+author: Yu9191
+icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/ManYa.png
+category: ⚙️ ▸ Crack
+
+http:
+
+  mitm:
+    - "aiyamanya.com"
+
+  script:
+    - match: ^https:\/\/www\.aiyamanya\.com\/aymy\/api\/getUserInfo
+      name: "哎呀漫鸭终身会员"
+      type: response
+      require-body: true
+      max-size: -1
+      timeout: 60
+
+script-providers:
+  "哎呀漫鸭终身会员":
+    url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/ManYa.js
+    interval: 86400

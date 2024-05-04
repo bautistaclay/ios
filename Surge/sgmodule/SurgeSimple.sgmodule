@@ -1,7 +1,7 @@
 #!name=分流规则简化
 #!desc=Surge分流配置超简化
 #!author = 折腾啥
-#!category=午时已到
+#!category=⚙️ ▸ Function
 
 [URL Rewrite]
 # bm7规则配置简化

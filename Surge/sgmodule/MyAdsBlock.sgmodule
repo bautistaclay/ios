@@ -1,7 +1,8 @@
 #!name=MyAdsBlock
 #!desc=自用去广告模块
 #!author=bautistaclay
-#!category=午时已到
+#!category=⚙️ ▸ AdsBlock
+
 [URL Rewrite]
  # 腾讯视频广告屏蔽
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
