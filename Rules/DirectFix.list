@@ -23,6 +23,11 @@ DOMAIN-SUFFIX, clicli.cc, DIRECT
 DOMAIN-SUFFIX, clicli.deno.dev, DIRECT
 # 动漫App 嘶哩嘶哩
 DOMAIN-SUFFIX, silisili.cc, DIRECT
+DOMAIN-SUFFIX, silisili.tv, DIRECT # 移动网络屏蔽
+DOMAIN-SUFFIX, silisilifun.com, DIRECT # 移动网络屏蔽
+DOMAIN-SUFFIX, silisili.link, DIRECT
+DOMAIN-SUFFIX, sssfun.cc, DIRECT
+hsot-keyword, silisili, DIRECT
 # 动漫App 次元城
 DOMAIN-SUFFIX, app.95189371.cn, DIRECT
 # 动漫App MiFun
