@@ -2,7 +2,7 @@
 #!desc=自用去广告模块
 #!author=bautistaclay
 #!icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/Set/shuwu_01.png
-#!category=⚙️ ▸ AdsBlock
+#!category=⚙️ ▸ AppBlockAds
 
 [Rewrite]
  腾讯视频广告屏蔽

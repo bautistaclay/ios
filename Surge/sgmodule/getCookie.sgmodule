@@ -1,7 +1,7 @@
 #!name=任务脚本Cookie获取
 #!desc=提示获取Cookie成功则可以使用签到脚本；关闭获取ck脚本，避免产生不必要的mitm。
 #!author=bautistaclay
-#!category= ⚙️ ▸ Cookie
+#!category= ⚙️ ▸ Task&Cookie
 
 [Rule]
 DOMAIN,gslbali.ximalaya.com,REJECT

@@ -1,7 +1,7 @@
 #!name=任务脚本Cookie获取
 #!desc=获取cookie，此模块无需关闭。
 #!author=bautistaclay
-#!category= ⚙️ ▸ Cookie
+#!category= ⚙️ ▸ Task&Cookie
 
 [Script]
 # 获取哔哩哔哩日常任务脚本需要的各项参数

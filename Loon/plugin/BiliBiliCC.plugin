@@ -1,0 +1,12 @@
+#!name=哔哩哔哩 CC 字幕
+#!desc=哔哩哔哩 CC 字幕繁体转简体
+#!author=ddgksf2013
+#!icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/BiliBiliCC.png
+#!category=⚙️ ▸ StreamingEnhance
+
+[Script]
+# 哔哩哔哩繁体CC字幕转中文简体
+http-response ^https?:\/\/.*\.hdslb\.com\/bfs\/subtitle\/.+\.json script-path=https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/BiliBiliCC.js, requires-body=true, timeout=60, tag=哔哩哔哩繁体CC字幕转中文简体
+
+[MITM]
+hostname = aisubtitle.hdslb.com, i0.hdslb.com
