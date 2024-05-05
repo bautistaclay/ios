@@ -1,4 +1,4 @@
-name: 哔哩哔哩 CC 字幕
+name:  哔哩哔哩 CC 字幕
 desc: 哔哩哔哩 CC 字幕繁体转简体
 author: ddgksf2013
 icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/BiliBiliCC.png
@@ -9,13 +9,13 @@ http:
   mitm:
     - "aisubtitle.hdslb.com"
     - "i0.hdslb.com"
-	
+
   script:
+# 哔哩哔哩繁体CC字幕转中文简体
     - match: ^https?:\/\/.*\.hdslb\.com\/bfs\/subtitle\/.+\.json
-      name: "哔哩哔哩CC字幕繁体转中文"
+      name: "哔哩哔哩CC字幕繁体转简体"
       type: response
       require-body: true
-      max-size: -1
       timeout: 60
 
 script-providers:

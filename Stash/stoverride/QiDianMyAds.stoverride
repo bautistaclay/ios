@@ -1,4 +1,4 @@
-name: 起点去广告
+name: 起点界面优化
 desc: 优化我的界面烦琐项
 author: bautistaclay
 icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/QiDian.png
@@ -20,7 +20,6 @@ http:
       name: "起点我的界面优化"
       type: response
       require-body: true
-      max-size: -1
       timeout: 60
 
 script-providers:
