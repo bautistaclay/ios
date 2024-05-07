@@ -10,25 +10,3 @@ DOMAIN, novel.snssdk.com, DIRECT
 # 番茄小说网
 DOMAIN, fanqianxs.com, DIRECT
 #==================影视==================#
-# 动漫App 喵物次元
-DOMAIN-SUFFIX, catw.cc, DIRECT
-DOMAIN-SUFFIX, catw.app, DIRECT
-DOMAIN-SUFFIX, catwcy.com, DIRECT
-DOMAIN-KEYWORD, catw, DIRECT
-# 动漫App Omofun
-DOMAIN-SUFFIX, omoapis.org, DIRECT
-DOMAIN-SUFFIX, omojson.vip, DIRECT
-# 动漫App CliCli
-DOMAIN-SUFFIX, clicli.cc, DIRECT
-DOMAIN-SUFFIX, clicli.deno.dev, DIRECT
-# 动漫App 嘶哩嘶哩
-DOMAIN-SUFFIX, silisili.cc, DIRECT
-DOMAIN-SUFFIX, silisili.tv, DIRECT # 移动网络屏蔽
-DOMAIN-SUFFIX, silisilifun.com, DIRECT # 移动网络屏蔽
-DOMAIN-SUFFIX, silisili.link, DIRECT
-DOMAIN-SUFFIX, sssfun.cc, DIRECT
-hsot-keyword, silisili, DIRECT
-# 动漫App 次元城
-DOMAIN-SUFFIX, app.95189371.cn, DIRECT
-# 动漫App MiFun
-DOMAIN-SUFFIX, mifun.org, DIRECT
