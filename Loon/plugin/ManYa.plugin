@@ -5,7 +5,7 @@
 #!category= ⚙️ ▸ AppCrack
 
 [Script]
-http-response ^https:\/\/www\.aiyamanya\.com\/aymy\/api\/getUserInfo script-path=https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/ManYa.js, requires-body=true, timeout=60, tag=哎呀漫鸭终身会员
+http-response ^https:\/\/www\.aiyamanya\.com\/aymy\/api\/getUserInfo script-path=https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/ManYa.js, requires-body=true, timeout=60, img-url=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/ManYa.png,tag=哎呀漫鸭终身会员
 
 [MITM]
 hostname = www.aiyamanya.com

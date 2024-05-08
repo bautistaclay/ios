@@ -6,9 +6,9 @@
 # > 规则集，建议和Emby同策略组，使用方法见描述说明
 #==================小说==================#
 # 番茄官方api
-;DOMAIN, novel.snssdk.com, DIRECT
+#DOMAIN, novel.snssdk.com, DIRECT
 # 番茄小说网
-;DOMAIN, fanqianxs.com, DIRECT
+#DOMAIN, fanqianxs.com, DIRECT
 #==================影视==================#
 # 动漫App 喵物次元
 DOMAIN-SUFFIX, catw.cc, DIRECT
