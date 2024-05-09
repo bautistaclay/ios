@@ -1,0 +1,11 @@
+#!name=IPv6 Enabled
+#!desc=IPv6自动切换
+#!author = xream
+#!category=⚙️ ▸ Function
+
+[General]
+ipv6 = true
+ipv6-vif = always
+
+[Script]
+IPv6 Auto = type=event,event-name=network-changed,script-path=https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/IPv6Auto.js,engine=jsc
