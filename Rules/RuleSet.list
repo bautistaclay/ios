@@ -10,26 +10,38 @@
 # 番茄小说网
 #DOMAIN, fanqianxs.com, DIRECT
 #==================影视==================#
-# 动漫App 喵物次元
-DOMAIN-SUFFIX, catw.cc, DIRECT
-DOMAIN-SUFFIX, catw.app, DIRECT
-DOMAIN-SUFFIX, catwcy.com, DIRECT
-DOMAIN-SUFFIX, catwdm.com, DIRECT
-DOMAIN-KEYWORD, catw, DIRECT
-# 动漫App Omofun
-DOMAIN-SUFFIX, omoapis.org, DIRECT
-DOMAIN-SUFFIX, omojson.vip, DIRECT
-# 动漫App CliCli
-DOMAIN-SUFFIX, clicli.cc, DIRECT
-DOMAIN-SUFFIX, clicli.deno.dev, DIRECT
-# 动漫App 嘶哩嘶哩
-DOMAIN-SUFFIX, silisili.cc, DIRECT
-DOMAIN-SUFFIX, silisili.tv, DIRECT # 移动网络屏蔽
-DOMAIN-SUFFIX, silisilifun.com, DIRECT # 移动网络屏蔽
-DOMAIN-SUFFIX, silisili.link, DIRECT
-DOMAIN-SUFFIX, sssfun.cc, DIRECT
-DOMAIN-SUFFIX, silisili, DIRECT
-# 动漫App 次元城
-DOMAIN-SUFFIX, app.95189371.cn, DIRECT
-# 动漫App MiFun
-DOMAIN-SUFFIX, mifun.org, DIRECT
+# > 动漫App 喵物次元
+DOMAIN-SUFFIX, catw.cc, Emby
+DOMAIN-SUFFIX, catw.app, Emby
+DOMAIN-SUFFIX, catwcy.com, Emby
+DOMAIN-SUFFIX, catwdm.com, Emby
+DOMAIN-KEYWORD, catw, Emby
+# > 动漫App Omofun
+DOMAIN-SUFFIX, omoapis.org, Emby
+DOMAIN-SUFFIX, omojson.vip, Emby
+# > 动漫App CliCli
+DOMAIN-SUFFIX, clicli.cc, Emby
+DOMAIN-SUFFIX, clicli.deno.dev, Emby
+# > 动漫App 嘶哩嘶哩
+DOMAIN-SUFFIX, silisili.cc, Emby
+# 移动网络屏蔽
+DOMAIN-SUFFIX, silisili.tv, Emby
+# 移动网络屏蔽
+DOMAIN-SUFFIX, silisilifun.com, Emby
+DOMAIN-SUFFIX, silisili.link, Emby
+DOMAIN-SUFFIX, sssfun.cc, Emby
+DOMAIN-KEYWORD, silisili, Emby
+# > 动漫App 次元城
+DOMAIN-SUFFIX, app.95189371.cn, Emby
+# > 动漫App MiFun
+DOMAIN-SUFFIX, mifun.org, Emby
+# 网页
+DOMAIN-SUFFIX, laimi.me, Emby
+#==================Emby==================#
+# > 通用Emby服
+DOMAIN-KEYWORD, emby, Emby
+# > Emby服 PiliPili
+# 建议美国节点
+DOMAIN-KEYWORD, pilipili, Emby
+# 二次元Emby服
+DOMAIN-SUFFIX, nijigem.by, Emby

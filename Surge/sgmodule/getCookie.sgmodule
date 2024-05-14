@@ -46,6 +46,10 @@ qidian.taskId = type=http-response, pattern=https\:\/\/h5\.if\.qidian\.com\/argu
 # QQ音乐积分任务
 QQ音乐获取Cookie（App） = type=http-request, pattern=https://c6.y.qq.com/shop/fcgi-bin/fcg_get_order?, script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/qqMusic.js, timeout=60
 QQ音乐获取Cookie（网页） = type=http-request, pattern=https://u6.y.qq.com/cgi-bin/musics.fcg?, script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/qqMusic.js, timeout=60
+# 酷我音乐刷时长
+酷我音乐刷时长获取Cookie = type=http-request, pattern=^https:\/\/wapi\.kuwo\.cn\/openapi\/v1\/user\/freemium\/h5\/switches\?, script-path=https://raw.githubusercontent.com/General74110/Quantumult-X/master/Task/Kuwomusic.js, requires-body=true, timeout=60
+# QQ阅读积分任务
+QQ阅读获取Cookies = type=http-request, pattern=^https:\/\/eventv3\.reader\.qq\.com\/activity\/new\_welfare\/sign, script-path=https://raw.githubusercontent.com/General74110/Quantumult-X/master/Task/QQreader.js, timeout=60
 
 [MITM]
-hostname = %APPEND% app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, zxcstxt.com, auth.alipan.com, auth.aliyundrive.com , i.meituan.com, api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com, qmwebapi.qmai.cn, webapi.qmai.cn, mxsa.mxbc.net, xmc.ximalaya.com, ngabbs.com, iacc.rec.qq.com, h5.if.qidian.com, *.y.qq.com
+hostname = %APPEND% app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, zxcstxt.com, auth.alipan.com, auth.aliyundrive.com , i.meituan.com, api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com, qmwebapi.qmai.cn, webapi.qmai.cn, mxsa.mxbc.net, xmc.ximalaya.com, ngabbs.com, iacc.rec.qq.com, h5.if.qidian.com, *.y.qq.com, wapi.kuwo.cn, eventv3.reader.qq.com
