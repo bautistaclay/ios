@@ -1,0 +1,23 @@
+name: Filmix
+desc: Filmix不完全解锁
+author: XiaoMao
+icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/Filmix.png
+category: ⚙️ ▸ AppCrack
+
+http:
+
+  mitm:
+    - "appv2.filmix.com.cn"
+
+  script:
+    - match: ^https?:\/\/appv2\.filmix\.com\.cn\/api\/v\d\/users
+      name: "Filmix解锁"
+      type: response
+      require-body: true
+      max-size: -1
+      timeout: 60
+
+script-providers:
+  "Filmix解锁":
+    url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/Filmix.js
+    interval: 86400
