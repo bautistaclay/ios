@@ -30,7 +30,7 @@ DOMAIN-SUFFIX, v1.v2ai.top, PROXY
 # Lemonの机场
 DOMAIN, sub.xxzz.link, PROXY
 # 奈云（后端）
-DOMAIN, sub.v2ny.one, PROXY
-DOMAIN, sub1.v2ny.pw, PROXY
+#DOMAIN, sub.v2ny.one, PROXY
+#DOMAIN, sub1.v2ny.pw, PROXY
 DOMAIN, naiyun0315.xn--8stx8olrwkucjq3b.com, PROXY
 DOMAIN-KEYWORD, v2ny, PROXY

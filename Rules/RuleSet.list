@@ -11,10 +11,11 @@
 #DOMAIN, fanqianxs.com, DIRECT
 #==================影视==================#
 # > 动漫App 喵物次元
-DOMAIN-SUFFIX, catw.cc, Emby
-DOMAIN-SUFFIX, catw.app, Emby
-DOMAIN-SUFFIX, catwcy.com, Emby
-DOMAIN-SUFFIX, catwdm.com, Emby
+#DOMAIN-SUFFIX, catw.cc, Emby
+#DOMAIN-SUFFIX, catw.app, Emby
+#DOMAIN-SUFFIX, catwcy.com, Emby
+#DOMAIN-SUFFIX, catwdm.com, Emby
+DOMAIN-SUFFIX, mwcy.net, Emby
 DOMAIN-KEYWORD, catw, Emby
 # > 动漫App Omofun
 DOMAIN-SUFFIX, omoapis.org, Emby
@@ -23,12 +24,12 @@ DOMAIN-SUFFIX, omojson.vip, Emby
 DOMAIN-SUFFIX, clicli.cc, Emby
 DOMAIN-SUFFIX, clicli.deno.dev, Emby
 # > 动漫App 嘶哩嘶哩
-DOMAIN-SUFFIX, silisili.cc, Emby
+#DOMAIN-SUFFIX, silisili.cc, Emby
 # 移动网络屏蔽
-DOMAIN-SUFFIX, silisili.tv, Emby
+#DOMAIN-SUFFIX, silisili.tv, Emby
 # 移动网络屏蔽
-DOMAIN-SUFFIX, silisilifun.com, Emby
-DOMAIN-SUFFIX, silisili.link, Emby
+#DOMAIN-SUFFIX, silisilifun.com, Emby
+#DOMAIN-SUFFIX, silisili.link, Emby
 DOMAIN-SUFFIX, sssfun.cc, Emby
 DOMAIN-KEYWORD, silisili, Emby
 # > 动漫App 次元城

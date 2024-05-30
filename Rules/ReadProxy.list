@@ -6,7 +6,7 @@
 # > 用于书源分流
 #==================小说==================#
 # 第一版主
-DOMAIN-SUFFIX, diyibanzhu.buzz , PROXY
+#DOMAIN-SUFFIX, diyibanzhu.buzz , PROXY
 DOMAIN-SUFFIX, 12bz.net , PROXY
 DOMAIN-KEYWORD, banzhu, PROXY
 # 御书屋
@@ -152,8 +152,8 @@ DOMAIN-SUFFIX, 88xiaoshuo.com, PROXY
 DOMAIN-SUFFIX, kelexsw.com, PROXY
 DOMAIN-SUFFIX, m.xklxsw.com, PROXY
 # uaa
-DOMAIN, api.uaa.com, PROXY
-DOMAIN, cdn.uaa.com, PROXY
+#DOMAIN, api.uaa.com, PROXY
+#DOMAIN, cdn.uaa.com, PROXY
 DOMAIN-KEYWORD, uaa, PROXY
 # z-library
 DOMAIN, zh.z-library.se, PROXY
@@ -161,10 +161,10 @@ DOMAIN-KEYWORD,z-library.se, PROXY
 #==================漫画==================#
 # 禁漫天堂
 DOMAIN-SUFFIX, jm365.work, PROXY
-DOMAIN-SUFFIX, 18comic.org, PROXY
-DOMAIN-SUFFIX, 18comic.vip, PROXY
-DOMAIN-SUFFIX, jm-comic1.cc, PROXY
-DOMAIN-SUFFIX, jm-comic2.org, PROXY
+#DOMAIN-SUFFIX, 18comic.org, PROXY
+#DOMAIN-SUFFIX, 18comic.vip, PROXY
+#DOMAIN-SUFFIX, jm-comic1.cc, PROXY
+#DOMAIN-SUFFIX, jm-comic2.org, PROXY
 DOMAIN-KEYWORD, jm-comic, PROXY
 DOMAIN-KEYWORD, 18comic, PROXY
 # 哔咔
@@ -172,6 +172,9 @@ DOMAIN-SUFFIX, manhuabika.com, PROXY
 # Eh e-hentai
 DOMAIN-SUFFIX, e-hentai.org, PROXY
 DOMAIN-SUFFIX, ehgt.org, PROXY
+# Nhentai
+DOMAIN-KEYWORD, n-hentai, PROXY
+DOMAIN-KEYWORD, nhentai, PROXY
 # Hitomi
 DOMAIN-SUFFIX, atn.hitomi.la, PROXY
 # 漫蛙漫画
@@ -195,8 +198,6 @@ DOMAIN-SUFFIX, ios.zzz70.top, PROXY
 DOMAIN-SUFFIX, ios.zzz74.top, PROXY
 # 香香腐宅
 DOMAIN-SUFFIX, boylove.cc, PROXY
-# 拷贝漫画 
-DOMAIN-KEYWORD, copymanga, PROXY
 # 一耽漫画
 DOMAIN-KEYWORD, yidan, PROXY
 DOMAIN-KEYWORD, yidanyidan, PROXY
@@ -211,8 +212,9 @@ DOMAIN-SUFFIX, mangabz.com , PROXY
 DOMAIN-SUFFIX, manhuagui.com , PROXY
 DOMAIN-SUFFIX, mhgui.com , PROXY
 # 拷贝漫画
-DOMAIN-SUFFIX, copymanga.tv , PROXY
+#DOMAIN-SUFFIX, copymanga.tv , PROXY
 DOMAIN-SUFFIX, mangafuna.xyz , PROXY
+DOMAIN-KEYWORD, copymanga, PROXY
 # 禁漫屋
 DOMAIN-KEYWORD, jmwu , PROXY
 # 久久漫画
@@ -260,8 +262,8 @@ DOMAIN-SUFFIX, h-comic.com, PROXY
 DOMAIN-SUFFIX, haiwaikan.com, PROXY
 # Hanime
 DOMAIN-SUFFIX, hanime1.me, PROXY
-DOMAIN-SUFFIX, vdownload.hembed.com, PROXY
-DOMAIN-SUFFIX, sb-cd.com, PROXY
+#DOMAIN-SUFFIX, vdownload.hembed.com, PROXY
+#DOMAIN-SUFFIX, sb-cd.com, PROXY
 DOMAIN-KEYWORD, vdownload, PROXY
 DOMAIN-KEYWORD, sb-cd, PROXY
 DOMAIN-KEYWORD, abre-videos, PROXY
