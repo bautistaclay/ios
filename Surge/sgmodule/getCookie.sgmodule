@@ -8,13 +8,15 @@ DOMAIN,gslbali.ximalaya.com,REJECT
 DOMAIN,gslbtx.ximalaya.com,REJECT
 
 [Script]
-#百度贴吧每日自动签到获取Cookie
+# 百度贴吧每日自动签到获取Cookie
 TieBa_signin = type=http-request, pattern=^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login, script-path=https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js, timeout=60
 TieBa_signin = type=http-request, pattern=^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig, script-path=https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js, timeout=60
 TieBa_signin = type=http-request, pattern=^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo, script-path=https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js, timeout=60
+#  哔哩哔哩大会员特权领取
+哔哩哔哩大会员特权领取cookie = type=http-request,pattern=https:\/\/api.bilibili.com\/x\/vip\/privilege\/receive,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/privilegeReceive.js
 Bili漫画Cookie = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
 快看漫画获取Cookie = type=http-request,pattern=^https:\/\/api\.kkmh\.com\/v\d\/passport\/user,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
-#获取AcFun签到需要的各项参数
+# 获取AcFun签到需要的各项参数
 AcFun获取cookie = type=http-request, pattern=^https?:\/\/api-ipv6\.app\.acfun\.cn\/rest\/app\/user\/(signIn|hasSignedIn|getSignInInfos), script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/acfun.cookie.js, timeout=60
 知轩藏书获取Cookie = type=http-request, pattern=^https:\/\/zxcstxt\.com\/user\/, script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/zhixuan.js, timeout=60
 阿里云盘获取Cookie = type=http-request, pattern=^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token, script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, requires-body=true, max-size=-1, timeout=60
@@ -50,6 +52,8 @@ QQ音乐获取Cookie（网页） = type=http-request, pattern=https://u6.y.qq.co
 酷我音乐刷时长获取Cookie = type=http-request, pattern=^https:\/\/wapi\.kuwo\.cn\/openapi\/v1\/user\/freemium\/h5\/switches\?, script-path=https://raw.githubusercontent.com/General74110/Quantumult-X/master/Task/Kuwomusic.js, requires-body=true, timeout=60
 # QQ阅读积分任务
 QQ阅读获取Cookies = type=http-request, pattern=^https:\/\/eventv3\.reader\.qq\.com\/activity\/new\_welfare\/sign, script-path=https://raw.githubusercontent.com/General74110/Quantumult-X/master/Task/QQreader.js, timeout=60
+# > QQ会员成长值签到
+QQ会员获取cookie = type=http-request,pattern=https:\/\/proxy.vac.qq.com\/cgi-bin\/srfentry.fcgi,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js
 
 [MITM]
-hostname = %APPEND% app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, zxcstxt.com, auth.alipan.com, auth.aliyundrive.com , i.meituan.com, api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com, qmwebapi.qmai.cn, webapi.qmai.cn, mxsa.mxbc.net, xmc.ximalaya.com, ngabbs.com, iacc.rec.qq.com, h5.if.qidian.com, *.y.qq.com, wapi.kuwo.cn, eventv3.reader.qq.com
+hostname = %APPEND% *.bilibili.com, app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, zxcstxt.com, auth.alipan.com, auth.aliyundrive.com , i.meituan.com, api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com, qmwebapi.qmai.cn, webapi.qmai.cn, mxsa.mxbc.net, xmc.ximalaya.com, ngabbs.com, iacc.rec.qq.com, h5.if.qidian.com, *.y.qq.com, wapi.kuwo.cn, eventv3.reader.qq.com, proxy.vac.qq.com
