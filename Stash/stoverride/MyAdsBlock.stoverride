@@ -2,7 +2,7 @@ name: MyAdsBlock
 desc: 自用去广告模块
 author: bautistaclay
 icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/Set/shuwu_01.png
-category: ⚙️ ▸ AppBlockAds
+category: ⚙️ ▸ 广告拦截
 http:
 
   mitm:

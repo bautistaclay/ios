@@ -1,7 +1,7 @@
 #!name=分流规则简化
 #!desc=Surge分流配置超简化
 #!author = xream
-#!category=⚙️ ▸ Function
+#!category=⚙️ ▸ 功能增强
 
 [URL Rewrite]
 # bm7规则配置简化

@@ -1,7 +1,7 @@
 #!name= 腾讯视频修正及去开屏
 #!desc= Surge腾讯视频修正及去开屏重装app
 #!author = bautistaclay
-#!category= ⚙️ ▸ Rule
+#!category= ⚙️ ▸ 分流规则
 
 [Rule]
 DOMAIN,vv.video.qq.com,DIRECT
