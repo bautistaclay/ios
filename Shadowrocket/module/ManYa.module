@@ -1,7 +1,7 @@
 #!name=哎呀漫鸭
 #!desc=哎呀漫鸭终身会员解锁
 #!author=Yu9191
-#!category=⚙️ ▸ AppCrack
+#!category=⚙️ ▸ 应用解锁
 
 [Script]
 哎呀漫鸭终身会员 = type=http-response, pattern=^https:\/\/www\.aiyamanya\.com\/aymy\/api\/getUserInfo, script-path=https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/ManYa.js, requires-body=true, max-size=-1, timeout=60

@@ -1,0 +1,40 @@
+name: 哔哩哔哩每日任务
+desc: 定时任务及信息获取
+author: MartinsKing（@ClydeTime）
+icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/BiliBiliDailyBonus.png
+category:⚙️ ▸ 日常任务
+homepage: https://github.com/ClydeTime/BiliBili/tree/master
+
+http:
+
+  mitm:
+    - "app.bilibili.com"
+    - "m.bilibili.com"
+
+  script:
+# B站Cookie(APP)
+    - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\?
+      name: "哔哩哔哩每日任务"
+      type: request
+      binary-mode: true
+      timeout: 60
+
+# B站Cookie(网页)
+    - match: ^https?:\/\/m.bilibili.com/$
+      name: "哔哩哔哩每日任务"
+      type: request
+      binary-mode: true
+      timeout: 60
+
+cron:
+  script:
+# 哔哩哔哩每日任务
+    - name: "哔哩哔哩每日任务"
+      cron: "0 0 12 * * *"
+      timeout: 120
+
+script-providers:
+  "哔哩哔哩每日任务":
+#  url: https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js
+    url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/BiliBiliDailyBonus.js
+    interval: 86400
