@@ -3,6 +3,10 @@
 #!author=bautistaclay
 #!category=⚙️ ▸ 广告拦截
 
+[Rule]
+DOMAIN,gslbali.ximalaya.com,REJECT
+DOMAIN,gslbtx.ximalaya.com,REJECT
+
 [URL Rewrite]
  # 腾讯视频广告屏蔽
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject

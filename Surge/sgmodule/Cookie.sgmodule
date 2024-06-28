@@ -1,5 +1,5 @@
-#!name=任务脚本Cookie获取
-#!desc=获取cookie，此模块无需关闭。
+#!name=日常任务
+#!desc=日常任务信息获取，此模块无需关闭。
 #!author=bautistaclay
 #!category= ⚙️ ▸ 日常任务
 
@@ -8,7 +8,7 @@
 B站Cookie(APP) = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\?,script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js,requires-body=0
 B站Cookie(网页) = type=http-request,pattern=^https?:\/\/m\.bilibili\.com/$,script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js,requires-body=0
 # 获取自动加入TestFlight需要的各项参数
-自动获取TestFlight的appId = type=http-request, pattern=^https:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/ru\/([^\/]+)(?!\/accept)$, script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/TF_appIds.js, timeout=60
+自动获取TestFlight的appid = type=http-request, pattern=^https:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/ru\/([^\/]+)(?!\/accept)$, script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/TF_appIds.js, timeout=60
 
 [MITM]
 hostname = %APPEND% app.bilibili.com, m.bilibili.com,testflight.apple.com

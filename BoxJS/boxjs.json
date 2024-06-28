@@ -1,8 +1,8 @@
 {
   "id": "bautistaclay.app.sub",
-  "name": "午时已到 脚本订阅",
+  "name": "脚本订阅收集",
   "author": "@bautistaclay",
-  "icon": "https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/Set/shuwu_01.png",
+  "icon": "https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/Set/icon01.png",
   "repo": "https://github.com/bautistaclay6027/ios",
   "apps": [
 		{

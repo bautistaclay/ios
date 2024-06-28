@@ -4,11 +4,14 @@
 #!category= ⚙️ ▸ Rule
 
 # > 代理分流
-#===============订阅网站=================#
-# SubStore
-DOMAIN-SUFFIX, sub.store, PROXY
+#===============服务管理=================#
 # BoxJs
 DOMAIN-SUFFIX, boxjs.com, PROXY
+# SubStore
+DOMAIN-SUFFIX, sub.store, PROXY
+# ScriptHub
+DOMAIN, scripthub.vercel.app, PROXY
+#===============订阅网站=================#
 # 飞鸟云
 DOMAIN-SUFFIX, feiniaoyun.info, PROXY
 DOMAIN-SUFFIX, 564364.xyz, PROXY
