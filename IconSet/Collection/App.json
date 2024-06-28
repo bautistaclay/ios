@@ -1,0 +1,22 @@
+{
+  "name":"App图标集", 
+  "description":"App图标合集", 
+  "icons":[
+    {"name":"暴雪战网 Battle.net Battle", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/Battle.net.png"},
+    {"name":"暴雪战网 Battle.net Battle", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/BattleNet.png"},
+    {"name":"VK", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/VK.png"},
+    {"name":"AppleBook 苹果读书 小说", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/AppleBook.png"},
+    {"name":"万源阅读 wanyuanyuedu wanyuanread", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/WanYuanRead.png"},
+    {"name":"爱阅书香 iFreeTime", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/iFreeTime01.png"},
+    {"name":"香色闺阁 StandarReader", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/StandarReader01.png"},
+    {"name":"花火阅读 FireworksReader", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/FireworksReader.png"},
+    {"name":"哔哩哔哩 BiliBili", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/BiliBili.png"},
+    {"name":"哔哩哔哩CC BiliBiliCC", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/BiliBiliCC.png"},
+    {"name":"哔哩哔哩 BiliBiliDailyBonus", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/BiliBiliDailyBonus.png"},
+    {"name":"Filmix", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/Filmix.png"},
+    {"name":"Github", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/Github.png"},
+    {"name":"哎呀漫鸭 ManYa", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/ManYa.png"},
+    {"name":"起点读书 QiDian", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/QiDian.png"},
+    {"name":"Pixiv", "url":"https:\/\/raw.githubusercontent.com\/bautistaclay\/ios\/main\/IconSet\/App\/Pixiv.png"}
+  ]
+}
