@@ -4,7 +4,7 @@
 #!category=⚙️ ▸ 流媒体库
 
 [Script]
-# 哔哩哔哩CC字幕繁体转简体
+# > 哔哩哔哩CC字幕繁体转简体
 哔哩哔哩CC字幕繁体转简体 = type=http-response, pattern=^https?:\/\/.*\.hdslb\.com\/bfs\/subtitle\/.+\.json, script-path=https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/BiliBiliCC.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]

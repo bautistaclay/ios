@@ -5,4 +5,6 @@
 
 [Rule]
 DOMAIN,vv.video.qq.com,DIRECT
+URL-REGEX,^https://ossgw.alicdn.com/creatives-assets/prod/feupload/user,REJECT
+IP-CIDR,47.110.187.87/32,REJECT,no-resolve
 OR,((DOMAIN,pgdt.gtimg.cn), (AND,((USER-AGENT,live4iphoneRel*), (IP-CIDR,0.0.0.0/0,no-resolve)))),REJECT-DROP

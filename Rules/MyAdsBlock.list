@@ -8,7 +8,7 @@
 DOMAIN, ads.zhinengxiyifang.cn, REJECT
 # 王者营地开屏广告
 DOMAIN, rdelivery.qq.com, REJECT
-# 哔哩哔哩去开屏s
+# 哔哩哔哩去开屏
 DOMAIN, httpdns.bilivideo.com, REJECT
 # 哔哩哔哩去缓存
 DOMAIN, upos-sz-staticcos.bilivideo.com, REJECT

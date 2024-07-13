@@ -1,0 +1,14 @@
+#!name=七猫小说
+#!desc=七猫小说App去广告
+#!author=wf021325
+#!category=⚙️ ▸ 广告拦截
+
+[Map Local]
+^https://api-cfg.wtzw.com/v\d/\w+/index?ad_unit_id= data-type=text data="{}" status-code=200
+
+[Script]
+^https://api-cfg.wtzw.com/v\d/\w+/index?ad_unit_id= url reject-dict
+七猫小说去广告 = type=http-response, pattern=^https?://(api-\w+|xiaoshuo).wtzw.com/api/v\d/, script-path=https://raw.githubusercontent.com/wf021325/qx/master/js/qimao.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% *.wtzw.com

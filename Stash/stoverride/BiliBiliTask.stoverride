@@ -14,14 +14,14 @@ http:
   script:
 # B站Cookie(APP)
     - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\?
-      name: "哔哩哔哩每日任务"
+      name: "哔哩哔哩日常信息获取(APP)"
       type: request
       require-body: false
       timeout: 60
 
 # B站Cookie(网页)
     - match: ^https?:\/\/m.bilibili.com/$
-      name: "哔哩哔哩每日任务"
+      name: "哔哩哔哩日常信息获取(网页)"
       type: request
       require-body: false
       timeout: 60
@@ -34,6 +34,12 @@ cron:
       timeout: 120
 
 script-providers:
+  "哔哩哔哩日常信息获取(APP)":
+    url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/BiliBiliDailyBonus.js
+    interval: 86400
+  "哔哩哔哩日常信息获取(网页)":
+    url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/BiliBiliDailyBonus.js
+    interval: 86400
   "哔哩哔哩每日任务":
     url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/BiliBiliDailyBonus.js
     interval: 86400

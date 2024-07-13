@@ -12,28 +12,3 @@ DOMAIN-SUFFIX, sub.store, PROXY
 # ScriptHub
 DOMAIN, scripthub.vercel.app, PROXY
 #===============订阅网站=================#
-# 飞鸟云
-DOMAIN-SUFFIX, feiniaoyun.info, PROXY
-DOMAIN-SUFFIX, 564364.xyz, PROXY
-# 一元机场
-DOMAIN-SUFFIX, smallstrawberry.com, PROXY
-# 闪电猫
-DOMAIN-SUFFIX, apiv2.pptiok2020.com, PROXY
-# 麻雀加速器
-DOMAIN-SUFFIX, v.spwvpn.com, PROXY
-# 吾爱妞-云加速
-DOMAIN-SUFFIX, lovefsr.xyz, PROXY
-# 公益机场115Cloud
-# >前端官网
-DOMAIN-SUFFIX, 115it.cc, PROXY
-# >后端订阅
-DOMAIN-SUFFIX, sub.115.gay, PROXY
-# V2frew机场
-DOMAIN-SUFFIX, v1.v2ai.top, PROXY
-# Lemonの机场
-DOMAIN, sub.xxzz.link, PROXY
-# 奈云（后端）
-#DOMAIN, sub.v2ny.one, PROXY
-#DOMAIN, sub1.v2ny.pw, PROXY
-DOMAIN, naiyun0315.xn--8stx8olrwkucjq3b.com, PROXY
-DOMAIN-KEYWORD, v2ny, PROXY
