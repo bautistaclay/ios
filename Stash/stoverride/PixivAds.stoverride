@@ -1,0 +1,24 @@
+name: Pixiv
+desc: Pixiv去广告
+author: ddgksf2013
+icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/Pixiv.png
+category: ⚙️ ▸ 应用增强
+
+http:
+
+  mitm:
+    - "oauth.secure.pixiv.net"
+
+  script:
+# > 去除Pixiv应用下方广告框
+    - match: ^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token)
+      name: "PixivAds"
+      type: response
+      require-body: true
+      max-size: -1
+      timeout: 60
+
+script-providers:
+  "PixivAds":
+    url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/PixivAds.js
+    interval: 86400

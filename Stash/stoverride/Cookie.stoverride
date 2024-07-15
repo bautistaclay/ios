@@ -1,0 +1,38 @@
+name: 日常任务
+desc: 日常任务信息获取，此模块无需关闭
+author: bautistaclay
+icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/Set/icon01.png
+category: ⚙️ ▸ 日常任务
+
+http:
+
+  mitm:
+    - "app.bilibili.com"
+    - "m.bilibili.com"
+    - "testflight.apple.com"
+
+  script:
+# > 🥳脚本功能: 获取哔哩哔哩日常任务脚本需要的各项参数
+    - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\?
+      name: "B站Cookie(APP)"
+      type: request
+      require-body: false
+
+    - match: ^https?:\/\/m\.bilibili\.com/$
+      name: "B站Cookie(APP)"
+      type: request
+      require-body: false
+
+# > 🥳脚本功能: 获取自动加入TestFlight需要的各项参数
+    - match: ^https:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/ru\/([^\/]+)(?!\/accept)$
+      name: "自动获取TestFlight的Appid"
+      type: request
+      timeout: 60
+
+script-providers:
+  "B站Cookie(APP)":
+    url: https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js
+    interval: 86400
+  "自动获取TestFlight的Appid":
+    url: https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/TF_appIds.js
+    interval: 86400

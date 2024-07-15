@@ -2,7 +2,7 @@
 #!desc=修复花火阅读字体下载和书籍过滤
 #!author=suiyuran
 #!icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/FireworksReader.png
-#!category=⚙️ ▸ 功能增强
+#!category=⚙️ ▸ 应用增强
 
 [Rewrite]
 ^https:\/\/gentleflow\.coding\.net https://raw.githubusercontent.com/bautistaclay/ios/master/other/gentleflow.coding.net 302
