@@ -1,0 +1,15 @@
+#!name= Pixiv
+#!desc= Pixiv去广告
+#!author = ddgksf2013
+#!category=⚙️ ▸ 应用增强
+
+[Rule]
+AND,((USER-AGENT,pixiv*), (NOT,((DOMAIN-SUFFIX,pximg.net))), (NOT,((DOMAIN-KEYWORD,pixiv)))),REJECT-TINYGIF
+
+[Script]
+# > 去除Pixiv应用下方广告框
+PixivAds = type=http-response, pattern=^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token), script-path=https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/PixivAds.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND%  oauth.secure.pixiv.net
+

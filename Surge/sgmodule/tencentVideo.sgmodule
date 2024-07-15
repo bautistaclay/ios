@@ -1,7 +1,7 @@
-#!name= 腾讯视频修正及去开屏
-#!desc= Surge腾讯视频修正及去开屏重装app
+#!name= 腾讯视频
+#!desc= 腾讯视频直连修正，以及去除开屏广告，需重装App
 #!author = bautistaclay
-#!category= ⚙️ ▸ 分流规则
+#!category= ⚙️ ▸ 应用增强
 
 [Rule]
 DOMAIN,vv.video.qq.com,DIRECT
