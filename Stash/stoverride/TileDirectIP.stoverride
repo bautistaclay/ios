@@ -1,0 +1,14 @@
+name: 国外IP
+desc: 查询国外的IP
+author: 酷安 @迷路的浅殇
+icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/Home.png
+category: ⚙️ ▸ 磁贴面板
+
+tiles:
+  - name: GNIP
+    icon: 'mappin.and.ellipse'
+    backgroundColor: '#f50505'
+
+script-providers:
+  GNIP:
+    url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/StashTileDirectIP.js
