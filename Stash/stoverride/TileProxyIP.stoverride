@@ -3,11 +3,13 @@ desc: 查询国外的IP
 author: 酷安 @ 迷路的浅殇
 icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/Global.png
 category: ⚙️ ▸ 磁贴面板
+# 原作者发布地址https://raw.githubusercontent.com/LYJ01X/stash/main/stoverride/gwip.stoverride
 
 tiles:
-  - name: GWIP
+  - name: "国外IP"
     icon: 'mappin.and.ellipse'
     backgroundColor: '#f50505'
+
 script-providers:
-  GWIP:
+  "国外IP":
     url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/StashTileProxyIP.js

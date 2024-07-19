@@ -4,8 +4,30 @@
 #!category=⚙️ ▸ 广告拦截
 
 [Rule]
-DOMAIN,gslbali.ximalaya.com,REJECT
-DOMAIN,gslbtx.ximalaya.com,REJECT
+# > Google广告
+DOMAIN, googleads.g.doubleclick-cn.net, REJECT
+DOMAIN, pagead2.googleadservices-cn.com, REJECT
+DOMAIN, googleads.g.doubleclick.net, REJECT
+
+# > U净去广告
+DOMAIN, ads.zhinengxiyifang.cn, REJECT
+
+# > 王者营地开屏广告
+DOMAIN, rdelivery.qq.com, REJECT
+
+# > 哔哩哔哩去开屏
+DOMAIN, httpdns.bilivideo.com, REJECT
+
+# > 哔哩哔哩去缓存
+DOMAIN, upos-sz-staticcos.bilivideo.com, REJECT
+
+# > 腾讯视频
+DOMAIN-SUFFIX,tetrack.qq.com,REJECT
+DOMAIN-SUFFIX,tpns.tencent.com,REJECT
+DOMAIN-SUFFIX,api.poll.video.qq.com,REJECT
+DOMAIN-SUFFIX,static-res.qq.com,REJECT
+DOMAIN-SUFFIX,stat.tpns.tencent.com,REJECT
+DOMAIN,h.trace.qq.com,REJECT
 
 [URL Rewrite]
 # > 七猫小说  
