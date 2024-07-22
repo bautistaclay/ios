@@ -81,5 +81,12 @@ DOMAIN,h.trace.qq.com,REJECT
 # 多个悬浮窗 感谢热心网友分享
 ^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket data-type=text data=" " status-code=200
 
+# > CSDN开屏广告
+^https:\/\/app-gw\.csdn\.net\/silkroad-api\/api\/v2\/assemble\/list\/pub\/channel\/app_open_screen_ad\?adPositionId - reject
+
+[Map Local]
+# > 伪装影视App开屏通杀
+^http:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,3}(:\d+)?\/.*?\/v\d\/(version|notice\?|top_notice\?|advert\?position=[^2]+) data-type=text data=" " status-code=200
+
 [MITM]
-hostname = %APPEND% open.e.kuaishou.cn, api-access.pangolin-sdk-toutiao-b.com, api-access.pangolin-sdk-toutiao.com, api-access.pangolin-sdk-toutiao1.com, dsp-x.jd.com, api-cfg.wtzw.com, p1-lm.adukwai.com, tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, gd.10086.cn, res.app.coc.10086.cn, clientaccess.10086.cn
+hostname = %APPEND% open.e.kuaishou.cn, api-access.pangolin-sdk-toutiao-b.com, api-access.pangolin-sdk-toutiao.com, api-access.pangolin-sdk-toutiao1.com, dsp-x.jd.com, api-cfg.wtzw.com, p1-lm.adukwai.com, tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, gd.10086.cn, res.app.coc.10086.cn, clientaccess.10086.cn, csdn.net

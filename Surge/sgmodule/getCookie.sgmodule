@@ -72,16 +72,10 @@ QQ阅读信息获取 = type=http-request, pattern=^https:\/\/eventv3\.reader\.qq
 # > 🥳脚本功能: 获取QQ会员成长值签到需要的各项参数
 QQ会员信息获取 = type=http-request,pattern=https:\/\/proxy.vac.qq.com\/cgi-bin\/srfentry.fcgi,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js
 
-# > 🥳脚本功能: 获取夸克网盘签到需要的各项参数
-夸克网盘信息获取 = type=http-response, pattern=^https:\/\/coral2\.quark\.cn\/task\/trigger, script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, requires-body=true, max-size=-1, timeout=60
-夸克网盘信息获取 = type=http-response, pattern=^https:\/\/drive-pc\.quark\.cn\/1\/clouddrive\/file\/sort, script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, requires-body=true, max-size=-1, timeout=60
-夸克网盘信息获取 = type=http-request, pattern=^https:\/\/coral2\.quark\.cn\/quark\/(carbon|welfare)\/(v1|v2)\/signIn, script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, requires-body=true, max-size=-1, timeout=60
-夸克网盘信息获取 = type=http-request, pattern=^https:\/\/coral2\.quark\.cn\/quark\/welfare\/v2\/sleep\/trigger, script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, requires-body=true, max-size=-1, timeout=60
-
 # > 🥳脚本功能: 腾讯视频获取签到信息
 腾讯视频信息获取 = type=http-request, pattern=https://vip.video.qq.com/rpc/trpc.new_task_system.task_system.TaskSystem/ReadTaskList?, script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/tenvideo.js, timeout=60
 腾讯视频信息获取 = type=http-request, pattern=https://pbaccess.video.qq.com/trpc.videosearch.hot_rank.HotRankServantHttp/HotRankHttp, script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/tenvideo.js, timeout=60
 腾讯视频信息获取 = type=http-request, pattern=https://pbaccess.video.qq.com/trpc.video_account_login.web_login_trpc.WebLoginTrpc/NewRefresh, script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/tenvideo.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% *.bilibili.com, app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, zxcstxt.com, auth.alipan.com, auth.aliyundrive.com , i.meituan.com, api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com, qmwebapi.qmai.cn, webapi.qmai.cn, mxsa.mxbc.net, xmc.ximalaya.com, ngabbs.com, h5.if.qidian.com, *.y.qq.com, wapi.kuwo.cn, eventv3.reader.qq.com, proxy.vac.qq.com, coral2.quark.cn, drive-pc.quark.cn, vip.video.qq.com, pbaccess.video.qq.com
+hostname = %APPEND% *.bilibili.com, app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, zxcstxt.com, auth.alipan.com, auth.aliyundrive.com , i.meituan.com, api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com, qmwebapi.qmai.cn, webapi.qmai.cn, mxsa.mxbc.net, xmc.ximalaya.com, ngabbs.com, h5.if.qidian.com, *.y.qq.com, wapi.kuwo.cn, eventv3.reader.qq.com, proxy.vac.qq.com, vip.video.qq.com, pbaccess.video.qq.com
