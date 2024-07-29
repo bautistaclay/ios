@@ -40,14 +40,9 @@ AcFun信息获取 = type=http-request, pattern=^https?:\/\/api-ipv6\.app\.acfun\
 # > 🥳脚本功能: 获取慢慢买任务需要的各项参数
 慢慢买信息获取 = type=http-request, pattern=^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx), script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js, requires-body=true, max-size=-1, timeout=60
 
-# > 🥳脚本功能: 获取沪上阿姨需要的各项参数
-沪上阿姨信息获取 = type=http-request, pattern=^https:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering|catering2-apiserver)\/crm\/points-info, script-path=https://gist.githubusercontent.com/Sliverkiss/e427dc3164d0c008f8d282f180d7fc00/raw/hsay.js, timeout=60
-
-# > 🥳脚本功能: 获取霸王茶姬需要的各项参数
-霸王茶姬信息获取 = type=http-request, pattern=^https:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering|catering2-apiserver)\/crm\/points-info, script-path=https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js, timeout=60
-
-# > 🥳脚本功能: 获取蜜雪冰城需要的各项参数
-蜜雪冰城信息获取 = type=http-response, pattern=^https:\/\/mxsa\.mxbc\.net\/api\/v1\/customer\/info, script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, requires-body=true, max-size=-1, timeout=60
+# > 🥳脚本功能: 获取多个奶茶小程序需要的各项参数
+奶茶小程序信息获取 = type=http-response, pattern=^https:\/\/(webapi|webapi2)\.qmai\.cn\/web\/seller\/(oauth\/flash-sale-login|account\/login-minp), script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, requires-body=true, timeout=60
+奶茶小程序信息获取 = type=http-request, pattern=^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering\/integral|cmk-center)\/sign\/(signIn|takePartInSign), script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, requires-body=true, timeout=60
 
 # > 🥳脚本功能: 获取喜马拉雅任务需要的各项参数
 喜马拉雅信息获取 = type=http-request,pattern=^https?:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/xmly.js,requires-body=0
@@ -78,4 +73,4 @@ QQ会员信息获取 = type=http-request,pattern=https:\/\/proxy.vac.qq.com\/cgi
 腾讯视频信息获取 = type=http-request, pattern=https://pbaccess.video.qq.com/trpc.video_account_login.web_login_trpc.WebLoginTrpc/NewRefresh, script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/tenvideo.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% *.bilibili.com, app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, zxcstxt.com, auth.alipan.com, auth.aliyundrive.com , i.meituan.com, api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com, qmwebapi.qmai.cn, webapi.qmai.cn, mxsa.mxbc.net, xmc.ximalaya.com, ngabbs.com, h5.if.qidian.com, *.y.qq.com, wapi.kuwo.cn, eventv3.reader.qq.com, proxy.vac.qq.com, vip.video.qq.com, pbaccess.video.qq.com
+hostname = %APPEND% *.bilibili.com, app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, zxcstxt.com, auth.alipan.com, auth.aliyundrive.com , i.meituan.com, api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com, qmwebapi.qmai.cn, webapi.qmai.cn, xmc.ximalaya.com, ngabbs.com, h5.if.qidian.com, *.y.qq.com, wapi.kuwo.cn, eventv3.reader.qq.com, proxy.vac.qq.com, vip.video.qq.com, pbaccess.video.qq.com

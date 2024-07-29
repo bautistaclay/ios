@@ -32,13 +32,13 @@ DOMAIN,h.trace.qq.com,REJECT
 [URL Rewrite]
 # > 七猫小说
 # 由于检测主机名，移除所有主机名
-^https?://open.e.kuaishou.cn/rest/e/v3/open/univ - reject
-^https?://api-access.pangolin-sdk-toutiao-b.com/api/ad/union/sdk/get_ads - reject
-^https?://api-access.(pangolin-sdk-toutiao|pangolin-sdk-toutiao1).com/api/ad - reject
-^https?://dsp-x.jd.com/adx/sdk - reject
-^https?://api-cfg.wtzw.com/v1/(adv|reward|operation) - reject
-^https?://p1-lm.adukwai.com/bs2/adUnionVideo - reject
-^https?://lf-cdn-tos.bytescm.com/obj/static/ad - reject
+#^https?://open.e.kuaishou.cn/rest/e/v3/open/univ - reject
+#^https?://api-access.pangolin-sdk-toutiao-b.com/api/ad/union/sdk/get_ads - reject
+#^https?://api-access.(pangolin-sdk-toutiao|pangolin-sdk-toutiao1).com/api/ad - reject
+#^https?://dsp-x.jd.com/adx/sdk - reject
+#^https?://api-cfg.wtzw.com/v1/(adv|reward|operation) - reject
+#^https?://p1-lm.adukwai.com/bs2/adUnionVideo - reject
+#^https?://lf-cdn-tos.bytescm.com/obj/static/ad - reject
 
  # > 腾讯视频广告屏蔽
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
