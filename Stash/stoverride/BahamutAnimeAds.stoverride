@@ -1,0 +1,23 @@
+name: 巴哈姆特动画疯
+desc: 屏蔽动画疯播放广告 (由于强制验证观看广告时间，故以黑屏25秒的方式屏蔽)
+author: NobyDa
+icon: https://raw.githubusercontent.com/NobyDa/mini/master/Color/bahamutGame.png
+category: ⚙️ ▸ 应用增强
+homepage: https://github.com/NobyDa/Script/tree/master
+
+http:
+
+  mitm:
+    - "api.gamer.com.tw"
+
+  script:
+    - match: ^https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v\d/(token|m3u8).php\?
+      name: "屏蔽动画疯广告"
+      type: response
+      require-body: true
+      timeout: 40
+
+script-providers:
+  "屏蔽动画疯广告":
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutAnimeAds.js
+    interval: 86400
