@@ -1,0 +1,23 @@
+name: TestFlight账户管理
+desc: 自动存储/合并多个TestFlight账户列表, 并可分享/导出TestFlight APP.
+author:NobyDa
+icon: https://raw.githubusercontent.com/NobyDa/mini/master/Color/testflight.png
+category: ⚙️ ▸ 功能增强
+homepage: https://github.com/NobyDa/Script/tree/master
+
+http:
+
+  mitm:
+    - "testflight.apple.com"
+
+  script:
+    - match: ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/
+      name: "TestFlight账户管理"
+      type: request
+      require-body: true
+      timeout: 120
+
+script-providers:
+  "TestFlight账户管理":
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
+    interval: 86400

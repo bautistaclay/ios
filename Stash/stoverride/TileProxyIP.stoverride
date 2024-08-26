@@ -8,7 +8,7 @@ category: ⚙️ ▸ 磁贴面板
 tiles:
   - name: "国外IP"
     icon: 'mappin.and.ellipse'
-    backgroundColor: '#f50505'
+    backgroundColor: '#0000ff'
 
 script-providers:
   "国外IP":

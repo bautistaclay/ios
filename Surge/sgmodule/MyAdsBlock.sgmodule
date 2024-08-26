@@ -9,25 +9,29 @@ DOMAIN, googleads.g.doubleclick-cn.net, REJECT
 DOMAIN, pagead2.googleadservices-cn.com, REJECT
 DOMAIN, googleads.g.doubleclick.net, REJECT
 
+### 以下规则已简化，改为mitm重写匹配
 # > U净去广告
-DOMAIN, ads.zhinengxiyifang.cn, REJECT
+#DOMAIN, ads.zhinengxiyifang.cn, REJECT
 
 # > 王者营地开屏广告
-DOMAIN, rdelivery.qq.com, REJECT
+#DOMAIN, rdelivery.qq.com, REJECT
 
 # > 哔哩哔哩去开屏
-DOMAIN, httpdns.bilivideo.com, REJECT
+#DOMAIN, httpdns.bilivideo.com, REJECT
 
 # > 哔哩哔哩去缓存
-DOMAIN, upos-sz-staticcos.bilivideo.com, REJECT
+#DOMAIN, upos-sz-staticcos.bilivideo.com, REJECT
 
 # > 腾讯视频
-DOMAIN-SUFFIX,tetrack.qq.com,REJECT
-DOMAIN-SUFFIX,tpns.tencent.com,REJECT
-DOMAIN-SUFFIX,api.poll.video.qq.com,REJECT
-DOMAIN-SUFFIX,static-res.qq.com,REJECT
-DOMAIN-SUFFIX,stat.tpns.tencent.com,REJECT
-DOMAIN,h.trace.qq.com,REJECT
+#DOMAIN-SUFFIX,tetrack.qq.com,REJECT
+#DOMAIN-SUFFIX,tpns.tencent.com,REJECT
+#DOMAIN-SUFFIX,api.poll.video.qq.com,REJECT
+#DOMAIN-SUFFIX,static-res.qq.com,REJECT
+#DOMAIN-SUFFIX,stat.tpns.tencent.com,REJECT
+#DOMAIN,h.trace.qq.com,REJECT
+
+[MITM]
+hostname = %APPEND% tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, gd.10086.cn, res.app.coc.10086.cn, clientaccess.10086.cn, csdn.net, kfc.com.cn, app.10099.com.cn
 
 [URL Rewrite]
 # > 七猫小说
@@ -40,7 +44,7 @@ DOMAIN,h.trace.qq.com,REJECT
 #^https?://p1-lm.adukwai.com/bs2/adUnionVideo - reject
 #^https?://lf-cdn-tos.bytescm.com/obj/static/ad - reject
 
- # > 腾讯视频广告屏蔽
+# > 腾讯视频广告屏蔽
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
 ^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 - reject
 ^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg - reject
@@ -76,6 +80,13 @@ DOMAIN,h.trace.qq.com,REJECT
 # > 王者营地开屏
 ^https:\/\/rdelivery\.qq\.com\/v3\/config\/pull data-type=text data=" " status-code=200
 
+# > KFC
+^https?:\/\/res.kfc.com.cn\/advertisement\/ data-type=text data=" " status-code=200
+https://dynamicad.kfc.com.cn/api/app5/homepage/ai/popup data-type=text data=" " status-code=200
+
+# > 中国广电(卸载重装)  主机名 app.10099.com.cn
+^https?:\/\/app\.10099\.com\.cn\/contact-web\/api\/version\/getFlashScreenPage data-type=text data=" " status-code=200
+
 # > 中国银行
 ^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg data-type=tiny-gif status-code=200
 
@@ -89,6 +100,3 @@ DOMAIN,h.trace.qq.com,REJECT
 
 # > 伪装影视App开屏通杀
 ^http:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,3}(:\d+)?\/.*?\/v\d\/(version|notice\?|top_notice\?|advert\?position=[^2]+) data-type=text data=" " status-code=200
-
-[MITM]
-hostname = %APPEND% tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, gd.10086.cn, res.app.coc.10086.cn, clientaccess.10086.cn, csdn.net
