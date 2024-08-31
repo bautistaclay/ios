@@ -1,0 +1,10 @@
+#!name=万源阅读会员
+#!desc=万源阅读解锁，非一次性。破解方式为苹果内购恢复购买。苹果商店换区失败禁用此插件即可。
+#!author=Yu9191
+#!icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/WanYuanRead.png
+
+[Script]
+万源阅读Pro = type=http-response, pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt, script-path=https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/WanYuanRead.js, requires-body=true, timeout=60
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
