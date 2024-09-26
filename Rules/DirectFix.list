@@ -10,3 +10,6 @@ DOMAIN, novel.snssdk.com, DIRECT
 # 番茄小说网
 DOMAIN, fanqianxs.com, DIRECT
 #==================影视==================#
+# > Emby
+# AlphaTV直连
+#DOMAIN, alphatvapp.top, DIRECT

@@ -4,14 +4,14 @@
 #!category= ⚙️ ▸ 日常任务
 #!description=电信脚本仅能获取地址，需手动复制到小组件配置项内。广电获取cookie会频繁请求，电信获取cookie会导致小组件请求mitm无法联网显示，获取完成后必须关闭本模块。电信(https://e.dlife.cn/index.do)
 #!arguments-desc=[参数说明]\n\n⓵ 每个设置项代表一个脚本,默认不注释，即脚本启用。\n若要重命名脚本，在其对应的脚本设置项中填入此脚本启用时你想要使用的脚本名称即可。\n\n⓶ 注意中国广电面板配置需与中国广电面板同时开启以便面板正常显示。\ncron项为中国广电面板的自动执行任务，在cron指定的任务时间段自动播报信息。\n注意，电信获取信息需访问https://e.dlife.cn/index.do网页。\n\n⓷ 若要关闭脚本，只需在对应脚本设置项中填入#将对应脚本段注释即可。\n\n⓸ 若要关闭mitm，在配置项“主机名”中填入#将主机名全部注释即可。
-#!arguments=主机名:hostname,中国广电:中国广电自动获取信息,中国电信:中国电信获取登录地址,中国联通:中国联通自动获取信息,中国广电播报任务:中国广电信息播报,中国广电面板配置:ChinaBroadnet.Panel,中国广电面板:中国广电Surge面板,cron:0 0 12 * * *
+#!arguments=主机名:hostname,中国广电(微信小程序):中国广电自动获取信息,中国广电(App):中国广电自动获取信息,中国电信:中国电信获取登录地址,中国联通:中国联通自动获取信息,中国广电播报任务:中国广电信息播报,中国广电面板配置:ChinaBroadnet.Panel,中国广电面板:中国广电Surge面板,cron:0 0 12 * * *
 
 [MITM]
-{{{主机名}}} = %APPEND% wx.10099.com.cn, app.10099.com.cn, e.dlife.cn
+{{{主机名}}} = %APPEND% wx.10099.com.cn, app.10099.com.cn, e.dlife.cn, m.client.10010.com
 
 [Script]
-{{{中国广电}}}(微信小程序)= type=http-request,pattern=https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js,script-update-interval=0
-{{{中国广电}}}(App) = type=http-request,pattern=https://app.10099.com.cn/contact-web/api/busi/qryUserInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js,script-update-interval=0
+{{{中国广电(微信小程序)}}}= type=http-request,pattern=https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js,script-update-interval=0
+{{{中国广电(App)}}} = type=http-request,pattern=https://app.10099.com.cn/contact-web/api/busi/qryUserInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js,script-update-interval=0
 
 {{{中国电信}}} = type=http-request,pattern=^https:\/\/e\.dlife\.cn\/user\/loginMiddle,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/dompling/Script/master/10000/index.js,script-update-interval=0
 
