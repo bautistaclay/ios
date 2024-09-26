@@ -9,6 +9,20 @@ DOMAIN, googleads.g.doubleclick-cn.net, REJECT
 DOMAIN, pagead2.googleadservices-cn.com, REJECT
 DOMAIN, googleads.g.doubleclick.net, REJECT
 
+# > 哔哩哔哩去开屏
+DOMAIN, httpdns.bilivideo.com, REJECT
+
+# > 哔哩哔哩去缓存
+DOMAIN, upos-sz-staticcos.bilivideo.com, REJECT
+
+# > 腾讯视频
+DOMAIN-SUFFIX,tetrack.qq.com,REJECT
+DOMAIN-SUFFIX,tpns.tencent.com,REJECT
+DOMAIN-SUFFIX,api.poll.video.qq.com,REJECT
+DOMAIN-SUFFIX,static-res.qq.com,REJECT
+DOMAIN-SUFFIX,stat.tpns.tencent.com,REJECT
+DOMAIN,h.trace.qq.com,REJECT
+
 ### 以下规则已简化，改为mitm重写匹配
 # > U净去广告
 #DOMAIN, ads.zhinengxiyifang.cn, REJECT
@@ -16,22 +30,9 @@ DOMAIN, googleads.g.doubleclick.net, REJECT
 # > 王者营地开屏广告
 #DOMAIN, rdelivery.qq.com, REJECT
 
-# > 哔哩哔哩去开屏
-#DOMAIN, httpdns.bilivideo.com, REJECT
-
-# > 哔哩哔哩去缓存
-#DOMAIN, upos-sz-staticcos.bilivideo.com, REJECT
-
-# > 腾讯视频
-#DOMAIN-SUFFIX,tetrack.qq.com,REJECT
-#DOMAIN-SUFFIX,tpns.tencent.com,REJECT
-#DOMAIN-SUFFIX,api.poll.video.qq.com,REJECT
-#DOMAIN-SUFFIX,static-res.qq.com,REJECT
-#DOMAIN-SUFFIX,stat.tpns.tencent.com,REJECT
-#DOMAIN,h.trace.qq.com,REJECT
 
 [MITM]
-hostname = %APPEND% tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, gd.10086.cn, res.app.coc.10086.cn, clientaccess.10086.cn, csdn.net, kfc.com.cn, app.10099.com.cn
+hostname = %APPEND% tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, gd.10086.cn, res.app.coc.10086.cn, clientaccess.10086.cn, csdn.net, kfc.com.cn, app.10099.com.cn, apps.teamair.cn
 
 [URL Rewrite]
 # > 七猫小说
@@ -100,3 +101,6 @@ https://dynamicad.kfc.com.cn/api/app5/homepage/ai/popup data-type=text data=" " 
 
 # > 伪装影视App开屏通杀
 ^http:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,3}(:\d+)?\/.*?\/v\d\/(version|notice\?|top_notice\?|advert\?position=[^2]+) data-type=text data=" " status-code=200
+
+[Script]
+奇点阅读去广告 = type=http-response,pattern=^https?:\/\/apps\.teamair\.cn\/app\/version,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/qidian.js
