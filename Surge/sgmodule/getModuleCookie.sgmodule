@@ -5,15 +5,10 @@
 #!description=电信脚本仅能获取地址，需手动复制到小组件配置项内。广电获取cookie会频繁请求，电信获取cookie会导致小组件请求mitm无法联网显示，获取完成后必须关闭本模块。电信(https://e.dlife.cn/index.do)
 
 [MITM]
-hostname = wx.10099.com.cn, app.10099.com.cn, e.dlife.cn
+hostname = %APPEND% wx.10099.com.cn, app.10099.com.cn, e.dlife.cn
 
 [Script]
 中国广电自动获取信息(微信小程序)= type=http-request,pattern=https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js,script-update-interval=0
-中国广电自动获取信息((App) = type=http-request,pattern=https://app.10099.com.cn/contact-web/api/busi/qryUserInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js,script-update-interval=0
-#ChinaBroadnet = type=cron,cronexp=0 0 6 * * *,script-path=https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.js,wake-system=1,script-update-interval=0
-#ChinaBroadnet.Panel = type=generic,script-path=https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.panel.js
+中国广电自动获取信息(App) = type=http-request,pattern=https://app.10099.com.cn/contact-web/api/busi/qryUserInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/wuhuhuuuu/study/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js,script-update-interval=0
 
 中国电信获取登录地址 = type=http-request,pattern=^https:\/\/e\.dlife\.cn\/user\/loginMiddle,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/dompling/Script/master/10000/index.js,script-update-interval=0
-
-#[Panel]
-#ChinaBroadnet = script-name=ChinaBroadnet.Panel,update-interval=3600

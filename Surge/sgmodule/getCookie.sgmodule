@@ -57,16 +57,6 @@ NGA玩家社区信息获取 = type=http-request,pattern=^https?:\/\/ngabbs.com\/
 起点读书信息获取 = type=http-request, pattern=https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/finishWatch, script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.cookie.js, requires-body=true, max-size=-1, timeout=60
 起点任务信息获取 = type=http-response, pattern=https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/mainPage, script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.taskId.js, requires-body=true, max-size=-1, timeout=60
 
-# > 🥳脚本功能: 获取QQ音乐积分任务需要的各项参数
-QQ音乐信息获取（App） = type=http-request, pattern=https://c6.y.qq.com/shop/fcgi-bin/fcg_get_order?, script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/qqMusic.js, timeout=60
-QQ音乐信息获取（网页） = type=http-request, pattern=https://u6.y.qq.com/cgi-bin/musics.fcg?, script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/qqMusic.js, timeout=60
-
-# > 🥳脚本功能: 获取酷我音乐刷时长需要的各项参数
-酷我音乐信息获取 = type=http-request, pattern=^https:\/\/wapi\.kuwo\.cn\/openapi\/v1\/user\/freemium\/h5\/switches\?, script-path=https://raw.githubusercontent.com/General74110/Quantumult-X/master/Task/Kuwomusic.js, requires-body=true, timeout=60
-
-# > 🥳脚本功能: 获取QQ阅读积分任务需要的各项参数
-QQ阅读信息获取 = type=http-request, pattern=^https:\/\/eventv3\.reader\.qq\.com\/activity\/new\_welfare\/sign, script-path=https://raw.githubusercontent.com/General74110/Quantumult-X/master/Task/QQreader.js, timeout=60
-
 # > 🥳脚本功能: 获取QQ会员成长值签到需要的各项参数
 QQ会员信息获取 = type=http-request,pattern=https:\/\/proxy.vac.qq.com\/cgi-bin\/srfentry.fcgi,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js
 
@@ -78,4 +68,4 @@ QQ会员信息获取 = type=http-request,pattern=https:\/\/proxy.vac.qq.com\/cgi
 
 
 [MITM]
-hostname = %APPEND% *.bilibili.com, app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, zxcstxt.com, auth.alipan.com, auth.aliyundrive.com , i.meituan.com, api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com, game.dominos.com.cn, qmwebapi.qmai.cn, webapi.qmai.cn, xmc.ximalaya.com, ngabbs.com, h5.if.qidian.com, *.y.qq.com, wapi.kuwo.cn, eventv3.reader.qq.com, proxy.vac.qq.com, vip.video.qq.com, pbaccess.video.qq.com
+hostname = %APPEND% *.bilibili.com, app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, zxcstxt.com, auth.alipan.com, auth.aliyundrive.com , i.meituan.com, api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com, game.dominos.com.cn, qmwebapi.qmai.cn, webapi.qmai.cn, xmc.ximalaya.com, ngabbs.com, h5.if.qidian.com, proxy.vac.qq.com, vip.video.qq.com, pbaccess.video.qq.com
