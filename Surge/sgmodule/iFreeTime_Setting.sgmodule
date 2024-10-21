@@ -3,11 +3,10 @@
 #!author=Mattraks
 #!icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/iFreeTime04.png
 #!category=⚙️ ▸ 应用增强
-#!arguments-desc=[参数说明]\n\n⓵ 爱阅书香跳广告脚本需要将规则api-access.pangolin-sdk-toutiao.com走直连模式，脚本才能正常启用。\n\n⓶ 拦截模式模式使用Surge内置策略REJECT进行拦截，也可使用自己其它解释策略组。\n\n⓷ 若要关闭脚本，只需在脚本设置项中填入#将对应脚本段注释即可。\n若要关闭mitm，在配置项“主机名”中填入#将主机名全部注释即可。
-#!arguments=放行模式:DIRECT,拦截模式:REJECT,爱阅书香:爱阅书香会员激励,主机名:hostname
-
+#!arguments-desc=[参数说明]\n\n⓵ 脚本运行需将api-access.pangolin-sdk-toutiao.com规则改为直连模式。\n\n⓶ 若要重命名脚本，可在其脚本设置项中填入此脚本启用时你想要使用的脚本名称即可。\n\n⓷ 若要关闭脚本，只需在对应脚本设置项中填入#将对应脚本段注释即可。\n若要关闭mitm，在配置项“主机名”中填入#将主机名全部注释即可。\n\n⓸ 其余规则默认使用Surge内置REJECT策略，可自行修改。
+#!arguments=直连模式:DIRECT,拦截模式:REJECT,爱阅书香:爱阅书香会员激励,主机名:hostname
 [Rule]
-DOMAIN,api-access.pangolin-sdk-toutiao.com,{{{放行模式}}}
+DOMAIN,api-access.pangolin-sdk-toutiao.com,{{{直连模式}}}
 DOMAIN,open.e.kuaishou.com,{{{拦截模式}}}
 DOMAIN,video-dsp.pddpic.com,{{{拦截模式}}}
 DOMAIN,log-api.pangolin-sdk-toutiao.com,{{{拦截模式}}}
