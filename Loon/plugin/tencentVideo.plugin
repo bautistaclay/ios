@@ -1,8 +1,9 @@
 #!name= 腾讯视频
 #!desc= 腾讯视频直连修正，以及去除开屏广告，需重装App
-#!author = bautistaclay
+#!author=bautistaclay[https://github.com/bautistaclay]
+#!openUrl=https://github.com/bautistaclay
 #!icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/TencentVideo.png
-#!category= ⚙️ ▸ 应用增强
+#!tag= ⚙️ ▸ 应用增强
 
 [Rule]
 DOMAIN,vv.video.qq.com,DIRECT

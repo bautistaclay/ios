@@ -1,8 +1,9 @@
 #!name=日常任务
 #!desc=日常任务信息获取，此模块无需关闭
-#!author=bautistaclay
+#!author=bautistaclay[https://github.com/bautistaclay]
+#!openUrl=https://github.com/bautistaclay
 #!icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/Set/icon01.png
-#!category=⚙️ ▸ 日常任务
+#!tag=⚙️ ▸ 日常任务
 
 [Script]
 # > 🥳脚本功能: 获取哔哩哔哩日常任务脚本需要的各项参数

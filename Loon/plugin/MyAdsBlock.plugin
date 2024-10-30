@@ -1,8 +1,9 @@
 #!name=MyAdsBlock
 #!desc=自用去广告模块
-#!author=bautistaclay
+#!author=bautistaclay[https://github.com/bautistaclay]
+#!openUrl=https://github.com/bautistaclay
 #!icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/Set/icon01.png
-#!category=⚙️ ▸ 广告拦截
+#!tag=⚙️ ▸ 广告拦截
 
 [Rule]
 DOMAIN,gslbali.ximalaya.com,REJECT
