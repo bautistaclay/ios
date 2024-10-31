@@ -1,9 +1,10 @@
 #!name=爱阅书香
 #!desc=爱阅书香会员激励
 #!icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/iFreeTime04.png
-#!author=bautistaclay[https://github.com/bautistaclay]
-#!openUrl=https://github.com/bautistaclay
+#!author=原作者:Mattraks[https://github.com/Mattraks],适配:bautistaclay[https://github.com/bautistaclay]
+#!homepage=https://github.com/bautistaclay
 #!tag=⚙️ ▸ 应用增强
+
 
 [General]
 skip-proxy = api-access.pangolin-sdk-toutiao.com
