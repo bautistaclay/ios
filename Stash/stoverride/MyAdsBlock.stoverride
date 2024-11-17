@@ -6,6 +6,7 @@ category: ⚙️ ▸ 广告拦截
 
 
 rules:
+  - IP-CIDR,95.161.76.100/31,REJECT,no-resolve
   - DOMAIN,gslbali.ximalaya.com,REJECT
   - DOMAIN,gslbtx.ximalaya.com,REJECT
 

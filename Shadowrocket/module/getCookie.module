@@ -1,0 +1,71 @@
+#!name=每日任务
+#!desc=获取脚本信息，获取成功即可关闭模块，避免产生不必要的mitm。
+#!author=bautistaclay
+#!category= ⚙️ ▸ 日常任务
+
+
+[Script]
+# > 🥳脚本功能: 百度贴吧每日自动签到获取Cookie
+百度贴吧信息获取 = type=http-request, pattern=^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login, script-path=https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js, timeout=60
+百度贴吧信息获取 = type=http-request, pattern=^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig, script-path=https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js, timeout=60
+百度贴吧信息获取 = type=http-request, pattern=^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo, script-path=https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js, timeout=60
+
+#  > 🥳脚本功能: 哔哩哔哩大会员特权领取
+哔哩哔哩日常任务信息获取 = type=http-request,pattern=https:\/\/api.bilibili.com\/x\/vip\/privilege\/receive,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/privilegeReceive.js
+
+# > 🥳脚本功能: 获取哔哩哔哩漫画签到需要的各项参数
+哔哩哔哩漫画信息获取 = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
+
+# > 🥳脚本功能: 获取快看漫画签到需要的各项参数
+快看漫画信息获取 = type=http-request,pattern=^https:\/\/api\.kkmh\.com\/v\d\/passport\/user,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
+
+# > 🥳脚本功能: 获取AcFun任务需要的各项参数
+AcFun信息获取 = type=http-request, pattern=^https?:\/\/api-ipv6\.app\.acfun\.cn\/rest\/app\/user\/(signIn|hasSignedIn|getSignInInfos), script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/acfun.cookie.js, timeout=60
+
+# > 🥳脚本功能: 获取知轩藏书任务需要的各项参数
+知轩藏书信息获取 = type=http-request, pattern=^https:\/\/zxcstxt\.com\/user\/, script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/zhixuan.js, timeout=60
+
+# > 🥳脚本功能: 获取阿里云盘任务需要的各项参数
+阿里云盘信息获取 = type=http-request, pattern=^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token, script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, requires-body=true, max-size=-1, timeout=60
+
+# > 🥳脚本功能: 获取美团签到领红包需要的各项参数
+美团外卖信息获取 = type=http-request, pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js, requires-body=true, max-size=-1, timeout=60
+
+# > 🥳脚本功能: 获取哈啰单车任务需要的各项参数
+哈啰单车信息获取 = type=http-request, pattern=^https:\/\/api\.hellobike\.com\/api\?user\.taurus\.pointInfo, script-path=https://gist.githubusercontent.com/Sliverkiss/4e0081f7b18a2cea9dbdf13545e60885/raw/d53857028ced29aed98affb5d4a602b2a8bf94cf/hldc.js, requires-body=true, max-size=-1, timeout=60
+
+# > 🥳脚本功能: 获取什么值得买任务需要的各项参数
+什么值得买信息获取 = type=http-request, pattern=^https?:\/\/user-api\.smzdm\.com\/checkin$, script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, timeout=60
+
+# > 🥳脚本功能: 获取慢慢买任务需要的各项参数
+慢慢买信息获取 = type=http-request, pattern=^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx), script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js, requires-body=true, max-size=-1, timeout=60
+
+# > 🥳脚本功能:  获取达乐美披萨需要的各项参数
+达乐美披萨信息获取 = type=http-request, pattern=^https:\/\/game\.dominos\.com\.cn\/.+\/game\/gameDone, script-path=https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js, requires-body=true, max-size=-1, timeout=60
+
+# > 🥳脚本功能: 获取多个奶茶小程序需要的各项参数
+奶茶小程序信息获取 = type=http-response, pattern=^https:\/\/(webapi|webapi2)\.qmai\.cn\/web\/seller\/(oauth\/flash-sale-login|account\/login-minp), script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, requires-body=true, timeout=60
+奶茶小程序信息获取 = type=http-request, pattern=^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering\/integral|cmk-center)\/sign\/(signIn|takePartInSign), script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js, requires-body=true, timeout=60
+
+# > 🥳脚本功能: 获取喜马拉雅任务需要的各项参数
+喜马拉雅信息获取 = type=http-request,pattern=^https?:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/xmly.js,requires-body=0
+
+# > 🥳脚本功能: 获取NGA任务需要的各项参数
+NGA玩家社区信息获取 = type=http-request,pattern=^https?:\/\/ngabbs.com\/nuke.php$,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/nga.js,requires-body=1
+
+# > 🥳脚本功能: 自动观看 起点读书 视频广告
+起点读书信息获取 = type=http-request, pattern=https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/finishWatch, script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.cookie.js, requires-body=true, max-size=-1, timeout=60
+起点任务信息获取 = type=http-response, pattern=https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/mainPage, script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.taskId.js, requires-body=true, max-size=-1, timeout=60
+
+# > 🥳脚本功能: 获取QQ会员成长值签到需要的各项参数
+QQ会员信息获取 = type=http-request,pattern=https:\/\/proxy.vac.qq.com\/cgi-bin\/srfentry.fcgi,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js
+
+# > 🥳脚本功能: 腾讯视频获取签到信息
+腾讯视频信息获取 = type=http-request, pattern=https://vip.video.qq.com/rpc/trpc.new_task_system.task_system.TaskSystem/ReadTaskList?, script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/tenvideo.js, timeout=60
+腾讯视频信息获取 = type=http-request, pattern=https://pbaccess.video.qq.com/trpc.videosearch.hot_rank.HotRankServantHttp/HotRankHttp, script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/tenvideo.js, timeout=60
+腾讯视频信息获取 = type=http-request, pattern=https://pbaccess.video.qq.com/trpc.video_account_login.web_login_trpc.WebLoginTrpc/NewRefresh, script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/tenvideo.js, requires-body=true, max-size=-1, timeout=60
+
+
+
+[MITM]
+hostname = %APPEND% *.bilibili.com, app.bilibili.com, c.tieba.baidu.com, api.kkmh.com, api-ipv6.app.acfun.cn, *.acfun.cn, *.app.acfun.cn, zxcstxt.com, auth.alipan.com, auth.aliyundrive.com , i.meituan.com, api.hellobike.com, user-api.smzdm.com, apph5.manmanbuy.com, game.dominos.com.cn, qmwebapi.qmai.cn, webapi.qmai.cn, xmc.ximalaya.com, ngabbs.com, h5.if.qidian.com, proxy.vac.qq.com, vip.video.qq.com, pbaccess.video.qq.com

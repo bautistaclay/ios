@@ -5,7 +5,7 @@
 
 [Rule]
 # > 电报转圈
-IP-CIDR,95.161.76.100/31,REJECT,pre-matching,no-resolve
+IP-CIDR,95.161.76.100/31,REJECT-NO-DROP,no-resolve
 
 # > Google广告
 DOMAIN, googleads.g.doubleclick-cn.net, REJECT
@@ -106,4 +106,4 @@ https://dynamicad.kfc.com.cn/api/app5/homepage/ai/popup data-type=text data=" " 
 ^http:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,3}(:\d+)?\/.*?\/v\d\/(version|notice\?|top_notice\?|advert\?position=[^2]+) data-type=text data=" " status-code=200
 
 [Script]
-奇点阅读去广告 = type=http-response,pattern=^https?:\/\/apps\.teamair\.cn\/app\/version,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/qidian.js
+奇点阅读去广告 = type=http-response,pattern=^https?:\/\/apps\.teamair\.cn\/app\/version,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/QiDian.js

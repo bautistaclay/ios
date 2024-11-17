@@ -6,22 +6,13 @@
 #!tag=⚙️ ▸ 广告拦截
 
 [Rule]
+# > 电报转圈
+IP-CIDR,95.161.76.100/31,REJECT-NO-DROP,no-resolve
+
 DOMAIN,gslbali.ximalaya.com,REJECT
 DOMAIN,gslbtx.ximalaya.com,REJECT
 
 [Rewrite]
-# > 七猫小说  
-^https?://open.e.kuaishou.cn/rest/e/v3/open/univ - reject
-^https?://api-access.pangolin-sdk-toutiao-b.com/api/ad/union/sdk/get_ads - reject
-^https?://api-access.(pangolin-sdk-toutiao|pangolin-sdk-toutiao1).com/api/ad - reject
-^https?://dsp-x.jd.com/adx/sdk - reject
-^https?://api-cfg.wtzw.com/v1/(adv|reward|operation) - reject
-^https?://p1-lm.adukwai.com/bs2/adUnionVideo - reject
-^https?://lf-cdn-tos.bytescm.com/obj/static/ad - reject
-^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
-^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 - reject
-^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg - reject
-
 # > 网易邮箱
 ^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do - reject
 ^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) - reject
@@ -59,4 +50,4 @@ DOMAIN,gslbtx.ximalaya.com,REJECT
 ^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket - reject-200
 
 [MITM]
-hostname = open.e.kuaishou.cn, api-access.pangolin-sdk-toutiao-b.com, api-access.pangolin-sdk-toutiao.com, api-access.pangolin-sdk-toutiao1.com, dsp-x.jd.com, api-cfg.wtzw.com, p1-lm.adukwai.com, tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, gd.10086.cn, res.app.coc.10086.cn, clientaccess.10086.cn
+hostname = appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, gd.10086.cn, res.app.coc.10086.cn, clientaccess.10086.cn

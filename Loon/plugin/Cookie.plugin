@@ -11,8 +11,5 @@ http-request ^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\? script-p
 
 http-request ^https?:\/\/m\.bilibili\.com/$ script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js, tag=B站Cookie(网页), img-url=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/BiliBiliBule.png
 
-# > 🥳脚本功能: 获取自动加入TestFlight需要的各项参数
-http-request ^https:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/ru\/([^\/]+)(?!\/accept)$ script-path=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/TF_appIds.js, timeout=60, tag=自动获取TestFlight的Appid, img-url=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/TestFlight.png
-
 [MITM]
-hostname = app.bilibili.com, m.bilibili.com, testflight.apple.com
+hostname = app.bilibili.com, m.bilibili.com
