@@ -1,12 +1,14 @@
 #!name=MyAdsBlock
-#!desc=自用去广告模块
+#!desc=自用拦截请求模块
 #!author=bautistaclay
 #!category=⚙️ ▸ 广告拦截
 
 [Rule]
-# > 电报转圈
+#=== 电报转圈===#
 IP-CIDR,95.161.76.100/31,REJECT,pre-matching,no-resolve
 
+
+#===广告拦截===#
 # > Google广告
 DOMAIN, googleads.g.doubleclick-cn.net, REJECT
 DOMAIN, pagead2.googleadservices-cn.com, REJECT
@@ -19,14 +21,16 @@ DOMAIN, httpdns.bilivideo.com, REJECT
 DOMAIN, upos-sz-staticcos.bilivideo.com, REJECT
 
 # > 腾讯视频
-DOMAIN-SUFFIX,tetrack.qq.com,REJECT
-DOMAIN-SUFFIX,tpns.tencent.com,REJECT
-DOMAIN-SUFFIX,api.poll.video.qq.com,REJECT
-DOMAIN-SUFFIX,static-res.qq.com,REJECT
-DOMAIN-SUFFIX,stat.tpns.tencent.com,REJECT
-DOMAIN,h.trace.qq.com,REJECT
+#DOMAIN-SUFFIX,tetrack.qq.com,REJECT
+#DOMAIN-SUFFIX,tpns.tencent.com,REJECT
+#DOMAIN-SUFFIX,api.poll.video.qq.com,REJECT
+#DOMAIN-SUFFIX,static-res.qq.com,REJECT
+#DOMAIN-SUFFIX,stat.tpns.tencent.com,REJECT
+#DOMAIN,h.trace.qq.com,REJECT
 
-### 以下规则已简化，改为mitm重写匹配
+
+#=== 以下规则已简化，改为mitm重写匹配===#
+
 # > U净去广告
 #DOMAIN, ads.zhinengxiyifang.cn, REJECT
 
@@ -37,42 +41,21 @@ DOMAIN,h.trace.qq.com,REJECT
 [MITM]
 hostname = %APPEND% tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, gd.10086.cn, res.app.coc.10086.cn, clientaccess.10086.cn, csdn.net, kfc.com.cn, app.10099.com.cn, apps.teamair.cn
 
-[URL Rewrite]
-# > 七猫小说
-# 由于检测主机名，移除所有主机名
-#^https?://open.e.kuaishou.cn/rest/e/v3/open/univ - reject
-#^https?://api-access.pangolin-sdk-toutiao-b.com/api/ad/union/sdk/get_ads - reject
-#^https?://api-access.(pangolin-sdk-toutiao|pangolin-sdk-toutiao1).com/api/ad - reject
-#^https?://dsp-x.jd.com/adx/sdk - reject
-#^https?://api-cfg.wtzw.com/v1/(adv|reward|operation) - reject
-#^https?://p1-lm.adukwai.com/bs2/adUnionVideo - reject
-#^https?://lf-cdn-tos.bytescm.com/obj/static/ad - reject
 
+[URL Rewrite]
 # > 腾讯视频广告屏蔽
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
 ^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 - reject
 ^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg - reject
 
-# > 网易邮箱
-^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do - reject
-^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) - reject
-
 # > 淘淘阅读开屏
 ^https?:\/\/bid\.adview\.cn\/agent\/getAd - reject
-
-# > 中国移动
-^https?:\/\/gd\.10086\.cn\/gmccfile\/file\/image\/preloading703\/.*.jpg - reject
-^https?:\/\/app\.10086\.cn\/biz-orange\/DN\/(findSale|homeSale)\/getsaleAdver - reject
 
 # > 哔哩哔哩去缓存
 # 需卸载重装，这是用很久清理缓存后的占用
 (?=resource\?resourceUrl|upos\-sz\-staticcos) - reject
 (?=.*(hdslb\.com.*(\.zip|\.mp4)))^((?!(hdslb\.com\/bfs\/app-static\/)).)*$ - reject
 
-# > CSDN去开屏
-^https?:\/\/app-gw\.csdn\.net\/silkroad-api\/api\/v\d\/assemble\/list\/pub\/channel\/app_open_screen_ad - reject
-^https?:\/\/app-gw\.csdn\.net\/abtesting\/v2\/getList? - reject
-^https?:\/\/gw\.csdn\.net\/cms-app\/v\d+\/home_page\/open_advertisement - reject
 
 [Map Local]
 # > U净去广告
@@ -84,26 +67,5 @@ hostname = %APPEND% tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.1
 # > 王者营地开屏
 ^https:\/\/rdelivery\.qq\.com\/v3\/config\/pull data-type=text data=" " status-code=200
 
-# > KFC
-^https?:\/\/res.kfc.com.cn\/advertisement\/ data-type=text data=" " status-code=200
-https://dynamicad.kfc.com.cn/api/app5/homepage/ai/popup data-type=text data=" " status-code=200
-
-# > 中国广电(卸载重装)  主机名 app.10099.com.cn
-^https?:\/\/app\.10099\.com\.cn\/contact-web\/api\/version\/getFlashScreenPage data-type=text data=" " status-code=200
-
-# > 中国银行
-^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg data-type=tiny-gif status-code=200
-
-# > 中国移动
-^https?+:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit data-type=text data=" " status-code=200
-^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList data-type=text data=" " status-code=200
-^https?+:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query data-type=text data=" " status-code=200
-^https?:\/\/res\.app\.coc\.10086\.cn\/group\d\/M00\/[0-9]{2}\/[A-Z0-9]{2}\/.+.jpg data-type=text data=" " status-code=200
-# 多个悬浮窗 感谢热心网友分享
-^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket data-type=text data=" " status-code=200
-
-# > 伪装影视App开屏通杀
-^http:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,3}(:\d+)?\/.*?\/v\d\/(version|notice\?|top_notice\?|advert\?position=[^2]+) data-type=text data=" " status-code=200
-
 [Script]
-奇点阅读去广告 = type=http-response,pattern=^https?:\/\/apps\.teamair\.cn\/app\/version,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/qidian.js
+奇点阅读去广告 = type=http-response,pattern=^https?:\/\/apps\.teamair\.cn\/app\/version,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/QiDian.js

@@ -10,6 +10,8 @@ DOMAIN, novel.snssdk.com, DIRECT
 # 番茄小说网
 DOMAIN, fanqianxs.com, DIRECT
 #==================影视==================#
-# > Emby
+# > Emby直连服
 # AlphaTV直连
 #DOMAIN, alphatvapp.top, DIRECT
+# Temby直连
+DOMAIN-KEYWORD, temby, DIRECT

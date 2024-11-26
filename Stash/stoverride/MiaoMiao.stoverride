@@ -1,0 +1,23 @@
+name: 让我喵喵
+desc: 让我喵喵终身会员解锁
+author: Yu9191
+icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/MiaoMiao.png
+category: ⚙️ ▸ 应用解锁
+
+http:
+
+  mitm:
+    - "www.pdreamer.com"
+
+  script:
+    - match: https://www.pdreamer.com/aymyProd/api/getUserInfo
+      name: "让我喵喵终身会员"
+      type: response
+      require-body: true
+      max-size: -1
+      timeout: 60
+
+script-providers:
+  "让我喵喵终身会员":
+    url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/MiaoMiao.js
+    interval: 86400
