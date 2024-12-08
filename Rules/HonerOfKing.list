@@ -1,0 +1,13 @@
+#!name= 王者荣耀国际服
+#!desc=王者荣耀国际服分流
+#!author = bautistaclay
+#!category= ⚙️ ▸ Rule
+
+DOMAIN-SUFFIX,sgameglobal.com,PROXY
+DOMAIN-SUFFIX,honorofkings.com,PROXY
+DOMAIN-SUFFIX,iegcom.com,PROXY
+DOMAIN-SUFFIX,intlgame.com,PROXY
+DOMAIN-SUFFIX,appsflyersdk.com,PROXY
+DOMAIN-SUFFIX,crashsight.wetest.net,PROXY
+DOMAIN-SUFFIX,hok-dr.intlgame.com,PROXY
+DOMAIN-SUFFIX,cdn.wetest.net,PROXY

@@ -11,7 +11,5 @@ DOMAIN, novel.snssdk.com, DIRECT
 DOMAIN, fanqianxs.com, DIRECT
 #==================影视==================#
 # > Emby直连服
-# AlphaTV直连
-#DOMAIN, alphatvapp.top, DIRECT
 # Temby直连
 DOMAIN-KEYWORD, temby, DIRECT
