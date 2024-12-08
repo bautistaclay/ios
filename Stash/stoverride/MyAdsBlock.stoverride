@@ -1,25 +1,25 @@
 name: MyAdsBlock
-desc: 自用去广告模块
+desc: 自用拦截请求覆写
 author: bautistaclay
 icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/Set/icon01.png
 category: ⚙️ ▸ 广告拦截
 
 
 rules:
+#=== 电报转圈===#
   - IP-CIDR,95.161.76.100/31,REJECT,no-resolve
-  - DOMAIN,gslbali.ximalaya.com,REJECT
-  - DOMAIN,gslbtx.ximalaya.com,REJECT
+# > Google广告
+  - DOMAIN,googleads.g.doubleclick-cn.net,REJECT
+  - DOMAIN,pagead2.googleadservices-cn.com,REJECT
+  - DOMAIN,googleads.g.doubleclick.net,REJECT
+# > 哔哩哔哩去开屏
+  - DOMAIN,httpdns.bilivideo.com,REJECT
+# > 哔哩哔哩去缓存
+  - DOMAIN,upos-sz-staticcos.bilivideo.com,REJECT
 
 http:
 
   mitm:
-    - "open.e.kuaishou.cn"
-    - "api-access.pangolin-sdk-toutiao-b.com"
-    - "api-access.pangolin-sdk-toutiao.com"
-    - "api-access.pangolin-sdk-toutiao1.com"
-    - "dsp-x.jd.com"
-    - "api-cfg.wtzw.com"
-    - "p1-lm.adukwai.com"
     - "tc.qq.com"
     - "wa.gtimg.com"
     - "appconf.mail.163.com"
@@ -33,42 +33,22 @@ http:
     - "gd.10086.cn"
     - "res.app.coc.10086.cn"
     - "clientaccess.10086.cn"
+    - "csdn.net"
+    - "kfc.com.cn"
+    - "app.10099.com.cn"
+    - "apps.teamair.cn"
 
   url-rewrite:
-# > 七猫小说  
-    - >-
-      ^https?://open.e.kuaishou.cn/rest/e/v3/open/univ - reject
-    - >-
-      ^https?://api-access.pangolin-sdk-toutiao-b.com/api/ad/union/sdk/get_ads - reject
-    - >-
-      ^https?://api-access.(pangolin-sdk-toutiao|pangolin-sdk-toutiao1).com/api/ad - reject
-    - >-
-      ^https?://dsp-x.jd.com/adx/sdk - reject
-    - >-
-      ^https?://api-cfg.wtzw.com/v1/(adv|reward|operation) - reject
-    - >-
-      ^https?://p1-lm.adukwai.com/bs2/adUnionVideo - reject
-    - >-
-      ^https?://lf-cdn-tos.bytescm.com/obj/static/ad - reject
+# > 腾讯视频广告屏蔽
     - >-
       ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
     - >-
       ^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 - reject
     - >-
       ^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg - reject
-# > 网易邮箱
-    - >-
-      ^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do - reject
-    - >-
-      ^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) - reject
 # > 淘淘阅读开屏
     - >-
       ^https?:\/\/bid\.adview\.cn\/agent\/getAd - reject
-# > 中国移动
-    - >-
-      ^https?:\/\/gd\.10086\.cn\/gmccfile\/file\/image\/preloading703\/.*.jpg - reject
-    - >-
-      ^https?:\/\/app\.10086\.cn\/biz-orange\/DN\/(findSale|homeSale)\/getsaleAdver - reject
 # 需卸载重装，这是用很久清理缓存后的占用
     - >-
       (?=resource\?resourceUrl|upos\-sz\-staticcos) - reject
@@ -83,18 +63,17 @@ http:
 # > 王者营地开屏
     - >-
       ^https:\/\/rdelivery\.qq\.com\/v3\/config\/pull - reject-200
-# > 中国银行
-    - >-
-      ^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg - reject-200
-# > 中国移动
-    - >-
-      ^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject-200
-    - >-
-      ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject-200
-    - >-
-      ^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query - reject-200
-    - >-
-      ^https?:\/\/res\.app\.coc\.10086\.cn\/group\d\/M00\/[0-9]{2}\/[A-Z0-9]{2}\/.+.jpg - reject-200
-# 多个悬浮窗 感谢热心网友分享
-    - >-
-      ^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket - reject-200
+
+  script:
+    - match: ^https?:\/\/apps\.teamair\.cn\/app\/version
+      name: "奇点阅读去广告"
+      type: response
+      require-body: true
+      max-size: 0
+
+script-providers:
+  "奇点阅读去广告":
+    url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/QiDian.js
+Error: fetch failed
+
+    interval: 86400
