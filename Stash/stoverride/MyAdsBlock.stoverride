@@ -39,17 +39,10 @@ http:
     - "apps.teamair.cn"
 
   url-rewrite:
-# > 腾讯视频广告屏蔽
-    - >-
-      ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
-    - >-
-      ^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 - reject
-    - >-
-      ^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg - reject
 # > 淘淘阅读开屏
     - >-
       ^https?:\/\/bid\.adview\.cn\/agent\/getAd - reject
-# 需卸载重装，这是用很久清理缓存后的占用
+# > 哔哩哔哩清理缓存
     - >-
       (?=resource\?resourceUrl|upos\-sz\-staticcos) - reject
     - >-
@@ -63,17 +56,3 @@ http:
 # > 王者营地开屏
     - >-
       ^https:\/\/rdelivery\.qq\.com\/v3\/config\/pull - reject-200
-
-  script:
-    - match: ^https?:\/\/apps\.teamair\.cn\/app\/version
-      name: "奇点阅读去广告"
-      type: response
-      require-body: true
-      max-size: 0
-
-script-providers:
-  "奇点阅读去广告":
-    url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/QiDian.js
-Error: fetch failed
-
-    interval: 86400

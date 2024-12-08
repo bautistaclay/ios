@@ -38,10 +38,6 @@ DOMAIN, upos-sz-staticcos.bilivideo.com, REJECT
 #DOMAIN, rdelivery.qq.com, REJECT
 
 
-[MITM]
-hostname = %APPEND% tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, gd.10086.cn, res.app.coc.10086.cn, clientaccess.10086.cn, csdn.net, kfc.com.cn, app.10099.com.cn, apps.teamair.cn
-
-
 [URL Rewrite]
 # > 腾讯视频广告屏蔽
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
@@ -67,5 +63,5 @@ hostname = %APPEND% tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.1
 # > 王者营地开屏
 ^https:\/\/rdelivery\.qq\.com\/v3\/config\/pull data-type=text data=" " status-code=200
 
-[Script]
-奇点阅读去广告 = type=http-response,pattern=^https?:\/\/apps\.teamair\.cn\/app\/version,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/QiDian.js
+[MITM]
+hostname = %APPEND% tc.qq.com, wa.gtimg.com, appconf.mail.163.com, client.mail.163.com, ads.zhinengxiyifang.cn, api-new.app.acfun.cn, rdelivery.qq.com, bid.adview.cn, mbs.boc.cn, *.app.10086.cn, gd.10086.cn, res.app.coc.10086.cn, clientaccess.10086.cn, csdn.net, kfc.com.cn, app.10099.com.cn, apps.teamair.cn
