@@ -47,4 +47,4 @@ DOMAIN-KEYWORD, pilipili, Emby
 # 二次元Emby服
 DOMAIN-SUFFIX, nijigem.by, Emby
 # AlphaTV
-DOMAIN, alphatvapp.top, Emby
+DOMAIN-SUFFIX, alphatvapp.top, Emby
