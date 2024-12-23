@@ -3,24 +3,24 @@
 #!author = bautistaclay
 #!category= ⚙️ ▸ Rule
 
-DOMAIN-SUFFIX, static.sangtacvietcdn.xyz, DIRECT
+DOMAI, static.sangtacvietcdn.xyz, DIRECT
 DOMAIN-SUFFIX, mycomic.com, DIRECT
-DOMAIN-SUFFIX, www.baicaimh.org, DIRECT
+DOMAIN, www.baicaimh.org, DIRECT
 DOMAIN-SUFFIX, sangtacviet.com, DIRECT
-DOMAIN-SUFFIX, www.bigee.cc, DIRECT
-DOMAIN-SUFFIX, www.bqvvxg8.cc, DIRECT
+DOMAIN, www.bigee.cc, DIRECT
+DOMAIN, www.bqvvxg8.cc, DIRECT
 DOMAIN-SUFFIX, baozicdn.com, DIRECT
-DOMAIN-SUFFIX, cn.czmanga.com, DIRECT
-DOMAIN-SUFFIX, www.baozimh.com, DIRECT
+DOMAIN, cn.czmanga.com, DIRECT
+DOMAIN, www.baozimh.com, DIRECT
 DOMAIN-SUFFIX, m.94yd.com, DIRECT
-DOMAIN-SUFFIX, www.fengchemh.com, DIRECT
+DOMAIN, www.fengchemh.com, DIRECT
 DOMAIN-SUFFIX, m.mhkami.com, DIRECT
-DOMAIN-SUFFIX, mhbao.colacomic.com, DIRECT
-DOMAIN-SUFFIX, www.cdjby.com, DIRECT
-DOMAIN-SUFFIX, wap.biqugewx.info, DIRECT
-DOMAIN-SUFFIX, www.yydsmh.com, DIRECT
-DOMAIN-SUFFIX, www.77shuku.la, DIRECT
-DOMAIN-SUFFIX, www.fd80s.com, DIRECT
+DOMAIN, mhbao.colacomic.com, DIRECT
+DOMAIN, www.cdjby.com, DIRECT
+DOMAIN, wap.biqugewx.info, DIRECT
+DOMAIN, www.yydsmh.com, DIRECT
+DOMAIN, www.77shuku.la, DIRECT
+DOMAIN, www.fd80s.com, DIRECT
 DOMAIN-SUFFIX, 2kzw.info, DIRECT
 DOMAIN-SUFFIX, 1ab0.com, DIRECT
 DOMAIN-SUFFIX, luoxia123.com, DIRECT

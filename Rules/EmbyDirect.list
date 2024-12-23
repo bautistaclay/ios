@@ -18,6 +18,8 @@ DOMAIN, media.nijigem.by, Emby
 DOMAIN-SUFFIX, tdck.fun, Emby
 # 琴鸟
 DOMAIN-SUFFIX, lyrebirdemby.com, Emby
+# Nya Meida
+DOMAIN-SUFFIX, emby.bangumi.ca, Emby
 # 极光
 DOMAIN-SUFFIX, auroramedia.vip, Emby
 # 桃子
@@ -25,11 +27,11 @@ DOMAIN-SUFFIX, embymv.link, Emby
 IP-CIDR, 193.123.232.141/32, Emby, no-resolve
 # 鹅服
 DOMAIN-SUFFIX, wmxz.567996.xyz, Emby
-# pilipili
+# PiliPili
 DOMAIN, pilipili.misakaf.org, Emby
 DOMAIN, pilipili.hitagi.me, Emby
 DOMAIN, pilipili.club, Emby
-# Saturday
+# SaturDay
 DOMAIN-SUFFIX, saturday.video, Emby
 # 蘑菇
 DOMAIN, bx.mooguu.top, Emby
@@ -42,8 +44,11 @@ DOMAIN, awa.811861.xyz,  Emby
 DOMAIN, vip.nanflix.net, Emby
 # 劳大科密直升机餐厅
 DOMAIN, emby-micax-ca-v2.mius.uk, Emby
-# > 未知
+# Ask Universal
 DOMAIN-SUFFIX, emby.711.lol, Emby
+# Prejudice
+DOMAIN-SUFFIX, jellyfin.1l1.icu, Emby
+# > 未知
 IP-CIDR, 141.11.218.151/32, Emby, no-resolve
 DOMAIN-SUFFIX, 7777777.buzz, Emby
 IP-CIDR, 154.29.145.151/32, Emby, no-resolve

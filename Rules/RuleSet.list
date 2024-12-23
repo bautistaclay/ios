@@ -40,7 +40,11 @@ DOMAIN-SUFFIX, mifun.org, Emby
 DOMAIN-SUFFIX, laimi.me, Emby
 #==================Emby==================#
 # > 通用Emby服
-DOMAIN-KEYWORD, emby, Emby
+#DOMAIN-KEYWORD, emby, Emby
 # > Emby服 PiliPili
 # 建议美国节点
-DOMAIN-KEYWORD, pilipili, Emby
+#DOMAIN-KEYWORD, pilipili, Emby
+# 终点站
+DOMAIN-SUFFIX, emby.wtf, Emby
+# 探花TV
+DOMAIN-SUFFIX, tanhuatv.site, Emby

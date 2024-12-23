@@ -33,3 +33,8 @@ DOMAIN, misty.cx, Emby
 DOMAIN, gd.9521732.xyz, Emby
 DOMAIN, 789.123456.al, Emby
 DOMAIN-SUFFIX, film.hovervan.org, Emby
+# > 通用Emby服
+DOMAIN-KEYWORD, emby, Emby
+# > Emby服 PiliPili
+# 建议美国节点
+DOMAIN-KEYWORD, pilipili, Emby
