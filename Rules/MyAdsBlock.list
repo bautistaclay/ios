@@ -1,7 +1,7 @@
-#!name= 去广告
+#!name=去广告
 #!desc=自用去广告
-#!author = bautistaclay
-#!category= ⚙️ ▸ AppBlockAds
+#!author=bautistaclay
+#!category=⚙️▸AppBlockAds
 
 # > 自用去广告
 
@@ -9,6 +9,7 @@
 DOMAIN, googleads.g.doubleclick-cn.net, REJECT
 DOMAIN, pagead2.googleadservices-cn.com, REJECT
 DOMAIN, googleads.g.doubleclick.net, REJECT
+DOMAIN-KEYWORD, googleads, REJECT
 
 # U净去广告
 DOMAIN, ads.zhinengxiyifang.cn, REJECT
@@ -23,9 +24,14 @@ DOMAIN, httpdns.bilivideo.com, REJECT
 DOMAIN, upos-sz-staticcos.bilivideo.com, REJECT
 
 # 腾讯视频
-DOMAIN-SUFFIX,tetrack.qq.com,REJECT
-DOMAIN-SUFFIX,tpns.tencent.com,REJECT
-DOMAIN-SUFFIX,api.poll.video.qq.com,REJECT
-DOMAIN-SUFFIX,static-res.qq.com,REJECT
-DOMAIN-SUFFIX,stat.tpns.tencent.com,REJECT
-DOMAIN,h.trace.qq.com,REJECT
+DOMAIN-SUFFIX, tetrack.qq.com, REJECT
+DOMAIN-SUFFIX, tpns.tencent.com, REJECT
+DOMAIN-SUFFIX, api.poll.video.qq.com, REJECT
+DOMAIN-SUFFIX, static-res.qq.com, REJECT
+DOMAIN-SUFFIX, stat.tpns.tencent.com, REJECT
+DOMAIN, h.trace.qq.com, REJECT
+
+# MangaBox
+DOMAIN-KEYWORD, tradplusad.com, REJECT
+DOMAIN-KEYWORD, -toutiao, REJECT
+DOMAIN-KEYWORD, tianmu.mobi, REJECT

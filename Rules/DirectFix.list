@@ -13,3 +13,6 @@ DOMAIN, fanqianxs.com, DIRECT
 # > Emby直连服
 # Temby直连
 DOMAIN-KEYWORD, temby, DIRECT
+#==================工具==================#
+# 蒲公英
+DOMAIN-SUFFIX, pgyer.com, DIRECT

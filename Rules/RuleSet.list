@@ -44,7 +44,3 @@ DOMAIN-KEYWORD, emby, Emby
 # > Emby服 PiliPili
 # 建议美国节点
 DOMAIN-KEYWORD, pilipili, Emby
-# 二次元Emby服
-DOMAIN-SUFFIX, nijigem.by, Emby
-# AlphaTV
-DOMAIN-SUFFIX, alphatvapp.top, Emby

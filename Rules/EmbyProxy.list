@@ -1,0 +1,35 @@
+#!name= Emby代理规则集
+#!desc=Emby公益服代理规则集
+#!author = bautistaclay
+#!category= ⚙️ ▸ Rule
+
+# > 规则集
+# 纸片人
+DOMAIN-SUFFIX, embyplus.org, Emby
+# 星云
+DOMAIN-SUFFIX, nebula-media.org, Emby
+# HKA Emby
+DOMAIN, hka-emby.aliz.work, Emby
+# 卡戎
+DOMAIN, play.charontv.com, Emby
+# AlphaTV
+DOMAIN, oversea.alphatvapp.top, Emby
+# pilipili
+DOMAIN, emby.pilipiliultra.top, Emby
+# 劳大科密直升机餐厅
+DOMAIN, emby-micax-ca-v2.mius.uk, Emby
+# 天南小筑
+DOMAIN, nanflix.net, Emby
+# > 未知
+DOMAIN-SUFFIX, emby.crond.dev, Emby
+DOMAIN, emby.kim, Emby
+DOMAIN-SUFFIX, 809688.xyz, Emby
+DOMAIN-SUFFIX, mius.uk, Emby
+DOMAIN-SUFFIX, 811861.xyz, Emby
+DOMAIN, xk.123456.buzz,  Emby
+DOMAIN, sg.886318.xyz, Emby
+DOMAIN, emby.apopcloud.com, Emby
+DOMAIN, misty.cx, Emby
+DOMAIN, gd.9521732.xyz, Emby
+DOMAIN, 789.123456.al, Emby
+DOMAIN-SUFFIX, film.hovervan.org, Emby

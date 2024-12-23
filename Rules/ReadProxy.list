@@ -277,20 +277,6 @@ DOMAIN-SUFFIX, huale.tv, PROXY
 DOMAIN-SUFFIX, 35553.cc, PROXY
 # 樱花视频
 DOMAIN-SUFFIX, yhzy.cc, PROXY
-# ✈妹塔宇宙meitaav视频
-DOMAIN-SUFFIX, meitaav.com, PROXY
-DOMAIN-SUFFIX, meita.cc, PROXY
-# 91porn视频
-DOMAIN-SUFFIX, 91porn.com, PROXY
-# 麻豆视频
-DOMAIN-SUFFIX, me, PROXY
-# 溅射淫行视频
-DOMAIN-SUFFIX, xd01.me, PROXY
-# 正妹AV视频
-DOMAIN-SUFFIX, goodav17.com, PROXY
-# 哟糖社
-DOMAIN-SUFFIX, nicesss.com , PROXY
-DOMAIN-SUFFIX, nicezzz.com , PROXY
 #================订阅源==================#
 # 阿巴基猫Yealico漫画规则站
 DOMAIN, wc3818290.home.blog, PROXY
@@ -301,4 +287,4 @@ DOMAIN, jializyzapi.com, PROXY
 # 源仓库
 DOMAIN-SUFFIX, yckceo.com, PROXY
 # 蒲公英
-DOMAIN-SUFFIX, pgyer.com, PROXY
+#DOMAIN-SUFFIX, pgyer.com, PROXY
