@@ -3,7 +3,7 @@
 #!author = bautistaclay
 #!category= ⚙️ ▸ Rule
 
-DOMAI, static.sangtacvietcdn.xyz, DIRECT
+DOMAIN, static.sangtacvietcdn.xyz, DIRECT
 DOMAIN-SUFFIX, mycomic.com, DIRECT
 DOMAIN, www.baicaimh.org, DIRECT
 DOMAIN-SUFFIX, sangtacviet.com, DIRECT
