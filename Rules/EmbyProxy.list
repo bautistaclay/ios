@@ -23,8 +23,6 @@ DOMAIN, nanflix.net, Emby
 # 鹅服
 DOMAIN, wmxz.567996.xyz, Emby
 DOMAIN, emby.pppp.us.kg, Emby
-IP-CIDR, 38.150.0.75/10010, Emby, no-resolve
-IP-CIDR, 50.114.55.29/10010, Emby, no-resolve
 # > 未知
 DOMAIN-SUFFIX, emby.crond.dev, Emby
 DOMAIN, emby.kim, Emby
