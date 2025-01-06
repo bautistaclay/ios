@@ -3,28 +3,28 @@
 #!author = bautistaclay
 #!category= ⚙️ ▸ Rule
 
-DOMAIN, static.sangtacvietcdn.xyz, DIRECT
-DOMAIN-SUFFIX, mycomic.com, DIRECT
-DOMAIN, www.baicaimh.org, DIRECT
-DOMAIN-SUFFIX, sangtacviet.com, DIRECT
-DOMAIN, www.bigee.cc, DIRECT
-DOMAIN, www.bqvvxg8.cc, DIRECT
-DOMAIN-SUFFIX, baozicdn.com, DIRECT
-DOMAIN, cn.czmanga.com, DIRECT
-DOMAIN, www.baozimh.com, DIRECT
-DOMAIN-SUFFIX, m.94yd.com, DIRECT
-DOMAIN, www.fengchemh.com, DIRECT
-DOMAIN-SUFFIX, m.mhkami.com, DIRECT
-DOMAIN, mhbao.colacomic.com, DIRECT
-DOMAIN, www.cdjby.com, DIRECT
-DOMAIN, wap.biqugewx.info, DIRECT
-DOMAIN, www.yydsmh.com, DIRECT
-DOMAIN, www.77shuku.la, DIRECT
-DOMAIN, www.fd80s.com, DIRECT
-DOMAIN-SUFFIX, 2kzw.info, DIRECT
-DOMAIN-SUFFIX, 1ab0.com, DIRECT
-DOMAIN-SUFFIX, luoxia123.com, DIRECT
-DOMAIN-SUFFIX, novel.snssdk.com, DIRECT
-DOMAIN-SUFFIX, fq.travacocro.com, DIRECT
-DOMAIN-SUFFIX, 52mht.com, DIRECT
-DOMAIN-SUFFIX, 56kog.com, DIRECT
+DOMAIN, static.sangtacvietcdn.xyz
+DOMAIN-SUFFIX, mycomic.com
+DOMAIN, www.baicaimh.org
+DOMAIN-SUFFIX, sangtacviet.com
+DOMAIN, www.bigee.cc
+DOMAIN, www.bqvvxg8.cc
+DOMAIN-SUFFIX, baozicdn.com
+DOMAIN, cn.czmanga.com
+DOMAIN, www.baozimh.com
+DOMAIN-SUFFIX, m.94yd.com
+DOMAIN, www.fengchemh.com
+DOMAIN-SUFFIX, m.mhkami.com
+DOMAIN, mhbao.colacomic.com
+DOMAIN, www.cdjby.com
+DOMAIN, wap.biqugewx.info
+DOMAIN, www.yydsmh.com
+DOMAIN, www.77shuku.la
+DOMAIN, www.fd80s.com
+DOMAIN-SUFFIX, 2kzw.info
+DOMAIN-SUFFIX, 1ab0.com
+DOMAIN-SUFFIX, luoxia123.com
+DOMAIN-SUFFIX, novel.snssdk.com
+DOMAIN-SUFFIX, fq.travacocro.com
+DOMAIN-SUFFIX, 52mht.com
+DOMAIN-SUFFIX, 56kog.com

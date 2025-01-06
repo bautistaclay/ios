@@ -6,45 +6,35 @@
 # > 规则集，建议和Emby同策略组，使用方法见描述说明
 #==================小说==================#
 # 番茄官方api
-#DOMAIN, novel.snssdk.com, DIRECT
+#DOMAIN, novel.snssdk.com
 # 番茄小说网
-#DOMAIN, fanqianxs.com, DIRECT
+#DOMAIN, fanqianxs.com
 #==================影视==================#
 # > 动漫App 喵物次元
-#DOMAIN-SUFFIX, catw.cc, Emby
-#DOMAIN-SUFFIX, catw.app, Emby
-#DOMAIN-SUFFIX, catwcy.com, Emby
-#DOMAIN-SUFFIX, catwdm.com, Emby
-DOMAIN-SUFFIX, mwcy.net, Emby
-DOMAIN-KEYWORD, catw, Emby
+#DOMAIN-SUFFIX, catw.cc
+#DOMAIN-SUFFIX, catw.app
+#DOMAIN-SUFFIX, catwcy.com
+#DOMAIN-SUFFIX, catwdm.com
+DOMAIN-SUFFIX, mwcy.net
+DOMAIN-KEYWORD, catw
 # > 动漫App Omofun
-DOMAIN-SUFFIX, omoapis.org, Emby
-DOMAIN-SUFFIX, omojson.vip, Emby
+DOMAIN-SUFFIX, omoapis.org
+DOMAIN-SUFFIX, omojson.vip
 # > 动漫App CliCli
-DOMAIN-SUFFIX, clicli.cc, Emby
-DOMAIN-SUFFIX, clicli.deno.dev, Emby
+DOMAIN-SUFFIX, clicli.cc
+DOMAIN-SUFFIX, clicli.deno.dev
 # > 动漫App 嘶哩嘶哩
-#DOMAIN-SUFFIX, silisili.cc, Emby
+#DOMAIN-SUFFIX, silisili.cc
 # 移动网络屏蔽
-#DOMAIN-SUFFIX, silisili.tv, Emby
+#DOMAIN-SUFFIX, silisili.tv
 # 移动网络屏蔽
-#DOMAIN-SUFFIX, silisilifun.com, Emby
-#DOMAIN-SUFFIX, silisili.link, Emby
-DOMAIN-SUFFIX, sssfun.cc, Emby
-DOMAIN-KEYWORD, silisili, Emby
+#DOMAIN-SUFFIX, silisilifun.com
+#DOMAIN-SUFFIX, silisili.link
+DOMAIN-SUFFIX, sssfun.cc
+DOMAIN-KEYWORD, silisili
 # > 动漫App 次元城
-DOMAIN-SUFFIX, app.95189371.cn, Emby
+DOMAIN-SUFFIX, app.95189371.cn
 # > 动漫App MiFun
-DOMAIN-SUFFIX, mifun.org, Emby
+DOMAIN-SUFFIX, mifun.org
 # 网页
-DOMAIN-SUFFIX, laimi.me, Emby
-#==================Emby==================#
-# > 通用Emby服
-#DOMAIN-KEYWORD, emby, Emby
-# > Emby服 PiliPili
-# 建议美国节点
-#DOMAIN-KEYWORD, pilipili, Emby
-# 终点站
-DOMAIN-SUFFIX, emby.wtf, Emby
-# 探花TV
-DOMAIN-SUFFIX, tanhuatv.site, Emby
+DOMAIN-SUFFIX, laimi.me

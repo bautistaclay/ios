@@ -5,42 +5,42 @@
 
 # > 规则集
 # 纸片人
-DOMAIN-SUFFIX, embyplus.org, Emby
+DOMAIN-SUFFIXplus.org
 # 星云
-DOMAIN-SUFFIX, nebula-media.org, Emby
+DOMAIN-SUFFIX, nebula-media.org
 # HKA Emby
-DOMAIN, hka-emby.aliz.work, Emby
+DOMAIN, hka-emby.aliz.work
 # 卡戎
-DOMAIN-SUFFIX, charontv.com, Emby
+DOMAIN-SUFFIX, charontv.com
 # AlphaTV
-DOMAIN, oversea.alphatvapp.top, Emby
+DOMAIN, oversea.alphatvapp.top
 # pilipili
-DOMAIN, emby.pilipiliultra.top, Emby
+DOMAIN.pilipiliultra.top
 # 劳大科密直升机餐厅
-DOMAIN, emby-micax-ca-v2.mius.uk, Emby
+DOMAIN-micax-ca-v2.mius.uk
 # 天南小筑
-DOMAIN, nanflix.net, Emby
+DOMAIN, nanflix.net
 # 鹅服
-DOMAIN, wmxz.567996.xyz, Emby
-DOMAIN, emby.pppp.us.kg, Emby
+DOMAIN, wmxz.567996.xyz
+DOMAIN.pppp.us.kg
 # > 未知
-DOMAIN-SUFFIX, emby.crond.dev, Emby
-DOMAIN, emby.kim, Emby
-DOMAIN-SUFFIX, 809688.xyz, Emby
-DOMAIN-SUFFIX, mius.uk, Emby
-DOMAIN-SUFFIX, 811861.xyz, Emby
+DOMAIN-SUFFIX.crond.dev
+DOMAIN.kim
+DOMAIN-SUFFIX, 809688.xyz
+DOMAIN-SUFFIX, mius.uk
+DOMAIN-SUFFIX, 811861.xyz
 DOMAIN, xk.123456.buzz,  Emby
-DOMAIN, sg.886318.xyz, Emby
-DOMAIN, emby.apopcloud.com, Emby
-DOMAIN, misty.cx, Emby
-DOMAIN, gd.9521732.xyz, Emby
-DOMAIN, 789.123456.al, Emby
-DOMAIN-SUFFIX, film.hovervan.org, Emby
-IP-CIDR, 89.58.10.209/32, Emby, no-resolve
+DOMAIN, sg.886318.xyz
+DOMAIN.apopcloud.com
+DOMAIN, misty.cx
+DOMAIN, gd.9521732.xyz
+DOMAIN, 789.123456.al
+DOMAIN-SUFFIX, film.hovervan.org
+IP-CIDR, 89.58.10.209/32, no-resolve
 
 
 # > 通用Emby服
-DOMAIN-KEYWORD, emby, Emby
+DOMAIN-KEYWORD
 # > Emby服 PiliPili
 # 建议美国节点
-DOMAIN-KEYWORD, pilipili, Emby
+DOMAIN-KEYWORD, pilipili

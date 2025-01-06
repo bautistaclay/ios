@@ -5,76 +5,76 @@
 
 # > 规则集
 # 收束世界线
-DOMAIN-SUFFIX, worldline.space, Emby
+DOMAIN-SUFFIX, worldline.space
 # Temby
-DOMAIN-SUFFIX, 285286.xyz, Emby
+DOMAIN-SUFFIX, 285286.xyz
 # 终点站
-DOMAIN-SUFFIX, emby.wtf, Emby
+DOMAIN-SUFFIX.wtf
 # 二次元Emby
-DOMAIN, media.nijigem.by, Emby
+DOMAIN, media.nijigem.by
 # 起点站
-DOMAIN-SUFFIX, tdck.fun, Emby
+DOMAIN-SUFFIX, tdck.fun
 # 琴鸟
-DOMAIN-SUFFIX, lyrebirdemby.com, Emby
+DOMAIN-SUFFIX, lyrebirdemby.com
 # Nya Meida
-DOMAIN-SUFFIX, emby.bangumi.ca, Emby
+DOMAIN-SUFFIX.bangumi.ca
 # 极光
-DOMAIN-SUFFIX, auroramedia.vip, Emby
+DOMAIN-SUFFIX, auroramedia.vip
 # 桃子
-DOMAIN-SUFFIX, embymv.link, Emby
-IP-CIDR, 193.123.232.141/32, Emby, no-resolve
+DOMAIN-SUFFIXmv.link
+IP-CIDR, 193.123.232.141/32, no-resolve
 # 鹅服
-DOMAIN, cavps.eu.org, Emby
+DOMAIN, cavps.eu.org
 # PiliPili
-DOMAIN, pilipili.misakaf.org, Emby
-DOMAIN, pilipili.hitagi.me, Emby
-DOMAIN, pilipili.club, Emby
+DOMAIN, pilipili.misakaf.org
+DOMAIN, pilipili.hitagi.me
+DOMAIN, pilipili.club
 # SaturDay
-DOMAIN-SUFFIX, saturday.video, Emby
+DOMAIN-SUFFIX, saturday.video
 # 蘑菇
-DOMAIN, bx.mooguu.top, Emby
-DOMAIN, mm.mooguu.xyz, Emby
-DOMAIN-SUFFIX, mooguu.xyz, Emby
+DOMAIN, bx.mooguu.top
+DOMAIN, mm.mooguu.xyz
+DOMAIN-SUFFIX, mooguu.xyz
 # AWA
-DOMAIN, emby.awatv.de, Emby
+DOMAIN.awatv.de
 DOMAIN, awa.811861.xyz,  Emby
 # 劳大科密直升机餐厅
-DOMAIN, emby-micax-ca-v2.mius.uk, Emby
+DOMAIN-micax-ca-v2.mius.uk
 # Ask Universal
-DOMAIN-SUFFIX, emby.711.lol, Emby
+DOMAIN-SUFFIX.711.lol
 # Prejudice
-DOMAIN-SUFFIX, jellyfin.1l1.icu, Emby
+DOMAIN-SUFFIX, jellyfin.1l1.icu
 # Pol0Emby
-DOMAIN-SUFFIX, poloemby.xyz, Emby
+DOMAIN-SUFFIX, poloemby.xyz
 # > 未知
-IP-CIDR, 141.11.218.151/32, Emby, no-resolve
-DOMAIN-SUFFIX, 7777777.buzz, Emby
-IP-CIDR, 154.29.145.151/32, Emby, no-resolve
-IP-CIDR, 154.29.154.124/32, Emby, no-resolve
-DOMAIN-SUFFIX, emby.moe, Emby
-IP-CIDR, 154.40.33.88/32, Emby, no-resolve 
-IP-CIDR, 149.88.69.36/32, Emby, no-resolve
-DOMAIN, cinema.makima.online, Emby
-DOMAIN-SUFFIX, mius.uk, Emby
-DOMAIN, emby.itsmyduty.top, Emby
-IP-CIDR, 104.243.41.35/32, Emby, no-resolve
-DOMAIN, yd1.carryz.net, Emby
-DOMAIN, emby.my, Emby
-DOMAIN, 1024.name, Emby
-DOMAIN, eggtartemby.itsmyduty.top, Emby
-DOMAIN, yhemby.top, Emby
-DOMAIN, tv.811861.xyz, Emby
-IP-CIDR, 168.119.137.205/32, Emby, no-resolve
-DOMAIN, v0.micu.hk, Emby
-IP-CIDR, 146.56.36.1/32, Emby, no-resolve
+IP-CIDR, 141.11.218.151/32, no-resolve
+DOMAIN-SUFFIX, 7777777.buzz
+IP-CIDR, 154.29.145.151/32, no-resolve
+IP-CIDR, 154.29.154.124/32, no-resolve
+DOMAIN-SUFFIX.moe
+IP-CIDR, 154.40.33.88/32, no-resolve 
+IP-CIDR, 149.88.69.36/32, no-resolve
+DOMAIN, cinema.makima.online
+DOMAIN-SUFFIX, mius.uk
+DOMAIN.itsmyduty.top
+IP-CIDR, 104.243.41.35/32, no-resolve
+DOMAIN, yd1.carryz.net
+DOMAIN.my
+DOMAIN, 1024.name
+DOMAIN, eggtartemby.itsmyduty.top
+DOMAIN, yhemby.top
+DOMAIN, tv.811861.xyz
+IP-CIDR, 168.119.137.205/32, no-resolve
+DOMAIN, v0.micu.hk
+IP-CIDR, 146.56.36.1/32, no-resolve
 DOMAIN-SUFFIX, tv.micu.hk,  Emby
 DOMAIN, music.wish.ml,  Emby
-DOMAIN, emby.1024.name, Emby
-IP-CIDR, 94.16.104.116/32, Emby, no-resolve
-IP-CIDR, 38.58.181.218/32, Emby, no-resolve
-DOMAIN-SUFFIX, sfcj.org, Emby
-DOMAIN-SUFFIX, xmsl.org, Emby
-DOMAIN, cc.coemn.com, Emby
-DOMAIN, 7777777.buzz, Emby
-DOMAIN-SUFFIX, 581658.best, Emby
-DOMAIN, emby.9191001.xyz, Emby
+DOMAIN.1024.name
+IP-CIDR, 94.16.104.116/32, no-resolve
+IP-CIDR, 38.58.181.218/32, no-resolve
+DOMAIN-SUFFIX, sfcj.org
+DOMAIN-SUFFIX, xmsl.org
+DOMAIN, cc.coemn.com
+DOMAIN, 7777777.buzz
+DOMAIN-SUFFIX, 581658.best
+DOMAIN.9191001.xyz

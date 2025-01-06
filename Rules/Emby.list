@@ -1,0 +1,102 @@
+#!name= Emby代理规则集
+#!desc=Emby公益服代理规则集
+#!author = bautistaclay
+#!category= ⚙️ ▸ Rule
+
+# 公益服
+# >=====Temby=====<
+DOMAIN-KEYWORD, temby
+# >=====PiliPili=====<
+# 主路线
+DOMAIN-SUFFIX, pilipili.club
+# 漫画服
+DOMAIN, manga.pilipiliultra.com
+# >=====AlphaTV=====<
+# 主路线
+DOMAIN, oversea.alphatvapp.top
+# 主路线IP
+IP-CIDR, 107.181.238.190/32
+# 其它路线
+DOMAIN-SUFFIX, alphatvapp.top
+# >=====劳大科密直升餐厅=====<
+# 主路线US-V1
+DOMAIN, emby-mica-us-v1.mius.uk
+# 主路线Ca-V2
+DOMAIN, emby-micax-ca-v2.mius.uk
+# HK分流1
+DOMAIN, emby-mica-hk-v4.mius.uk
+# HK YXVM分流2
+DOMAIN, emby-mica-yxvm-v4.mius.uk
+# HK分流3
+DOMAIN, emby-mica-hk3-v4.mius.uk
+# 防止遗漏规则
+DOMAIN-SUFFIX, mius.uk
+# >=====NyaMedia=====<
+DOMAIN, emby.bangumi.ca
+# >=====终点站=====<
+# 高可用入口
+DOMIAN-SUFFIX, emby.wtf
+# 备用入口
+DOMAIN-SUFFIX, term.wtf
+# >=====二次元=====<
+DOMAIN, media.nijigem.by
+# >=====纸片人=====<
+DOMAIN, embyplus.org
+# >=====鹅服=====<
+# CF路线
+DOMAIN, cavps.eu.org
+# SG路线
+IP-CIDR, 50.114.55.29/32
+# 首尔路线
+DOMIAN, wmxz.567996.xyz
+# 日本路线
+DOMAIN, emby.pppp.us.kg
+# 香港路线
+IP-CIDR, 141.11.175.105/32
+# 4837路线
+IP-CIDR, 154.29.145.151/32
+# HK02路线
+DOMAIN, emby-e-hk.pppp.us.kg
+# 日本软银路线
+DOMAIN, emby-e-jp.pppp.us.kg
+# test
+IP-CIDR, 77.111.110.43/32
+# test02
+IP-CIDR, 137.220.37.248/32
+# 防止遗漏规则
+DOMAIN-SUFFIX, us.kg
+# >=====月饼=====<
+DOMAIN-SUFFIX, emby.my
+# >=====ASK Universal=====<
+DOMAIN, emby.711.lol
+# >=====SaturDay.Lite=====<
+DOMAIN, lite.saturday.video
+# >=====AuroraMedia=====<
+DOMAIN, abc.auroramedia.vip
+# >=====Lyrebird=====<
+DOMAIN-SUFFIX, lyrebirdemby,com
+# >=====收束世界线=====<
+DOMAIN, tv.worldline.space
+# >=====起点站=====<
+# 主路线
+IP-CIDR, 192.99.35.111/32
+# >=====NanflixUSA=====<
+DOMAIN, us.nanflix.net
+# >=====桃子=====<
+DOMIAN, embymv.link
+# >=====HKA Emby=====<
+# 源站点
+DOMAIN, hka-emby3.aliz.work
+# 镜像站
+DOMAIN, hka-emby1.aliz.work
+DOMAIN, hka-emby2.aliz.work
+# 防止遗漏规则
+DOMAIN-SUFFIX, aliz.work
+# >=====探花TV=====<
+DOMAIN, tanhuatv.site
+
+
+# > 兜底emby
+DOMAIN-KEYWORD, emby
+
+
