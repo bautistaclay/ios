@@ -4,78 +4,121 @@
 #!category= ⚙️ ▸ Rule
 
 # > 规则集
-# 收束世界线
-DOMAIN-SUFFIX, worldline.space
-# Temby
-DOMAIN-SUFFIX, 285286.xyz
-# 终点站
+# >=====Temby=====<
+DOMAIN-KEYWORD, temby
+# >=====终点站=====<
+# 高可用入口
 DOMAIN-SUFFIX, emby.wtf
+# 备用入口
 DOMAIN-SUFFIX, term.wtf
-# 二次元Emby
-DOMAIN, media.nijigem.by
-# 起点站
-DOMAIN-SUFFIX, tdck.fun
-# 琴鸟
-DOMAIN-SUFFIX, lyrebirdemby.com
-# Nya Meida
-DOMAIN-SUFFIX, emby.bangumi.ca
-# 极光
-DOMAIN-SUFFIX, auroramedia.vip
-# 桃子
-DOMAIN-SUFFIX, embymv.link
-IP-CIDR, 193.123.232.141/32, no-resolve
-# 鹅服
-DOMAIN, cavps.eu.org
-# PiliPili
-DOMAIN, pilipili.misakaf.org
+# >=====PiliPili=====<
+# 主路线
+DOMAIN-SUFFIX, pilipili.club
+# 路线
 DOMAIN, pilipili.hitagi.me
-DOMAIN, pilipili.club
-# SaturDay
-DOMAIN-SUFFIX, saturday.video
-# 蘑菇
-DOMAIN, bx.mooguu.top
-DOMAIN, mm.mooguu.xyz
-DOMAIN-SUFFIX, mooguu.xyz
-# AWA
-DOMAIN, emby.awatv.de
-DOMAIN, awa.811861.xyz,  Emby
-# 劳大科密直升机餐厅
-DOMAIN, emby-micax-ca-v2.mius.uk
-# Ask Universal
-DOMAIN-SUFFIX, emby.711.lol
-# Prejudice
-DOMAIN-SUFFIX, jellyfin.1l1.icu
-# Pol0Emby
-DOMAIN-SUFFIX, poloemby.xyz
-# > 未知
-IP-CIDR, 141.11.218.151/32, no-resolve
-DOMAIN-SUFFIX, 7777777.buzz
-IP-CIDR, 154.29.145.151/32, no-resolve
-IP-CIDR, 154.29.154.124/32, no-resolve
-DOMAIN-SUFFIX, emby.moe
-IP-CIDR, 154.40.33.88/32, no-resolve 
-IP-CIDR, 149.88.69.36/32, no-resolve
-DOMAIN, cinema.makima.online
-DOMAIN-SUFFIX, mius.uk
-DOMAIN, emby.itsmyduty.top
-IP-CIDR, 104.243.41.35/32, no-resolve
-DOMAIN, yd1.carryz.net
-DOMAIN, emby.my
+# 漫画服
+DOMAIN, manga.pilipiliultra.com
+# >=====鹅服=====<
+# CF路线
+DOMAIN, cavps.eu.org
+# SG路线
+IP-CIDR, 50.114.55.29/32
+# 首尔路线
+DOMAIN, wmxz.567996.xyz
+# 日本路线
+DOMAIN, emby.pppp.us.kg
+# 香港路线
+IP-CIDR, 141.11.175.105/32
+# 4837路线
+IP-CIDR, 154.29.145.151/32
+# HK02路线
+DOMAIN, emby-e-hk.pppp.us.kg
+# 日本软银路线
+DOMAIN, emby-e-jp.pppp.us.kg
+# test
+IP-CIDR, 77.111.110.43/32
+# test02
+IP-CIDR, 137.220.37.248/32
+# >=====Lyrebird=====<
+DOMAIN-SUFFIX, lyrebirdemby,com
+# >=====收束世界线=====<
+DOMAIN, tv.worldline.space
+# >=====NanflixUSA=====<
+DOMAIN, us.nanflix.net
+# >=====ASK Universal=====<
+DOMAIN, emby.711.lol
+# >=====桃子=====<
+DOMAIN, embymv.link
+# >=====SaturDay.Lite=====<
+DOMAIN, lite.saturday.video
+# >=====西瓜、呆瓜=====<
 DOMAIN, 1024.name
-DOMAIN, eggtartemby.itsmyduty.top
-DOMAIN, yhemby.top
-DOMAIN, tv.811861.xyz
-IP-CIDR, 168.119.137.205/32, no-resolve
-DOMAIN, v0.micu.hk
-IP-CIDR, 146.56.36.1/32, no-resolve
-DOMAIN-SUFFIX, tv.micu.hk,  Emby
-DOMAIN, music.wish.ml,  Emby
-DOMAIN, emby.1024.name
-IP-CIDR, 94.16.104.116/32, no-resolve
-IP-CIDR, 38.58.181.218/32, no-resolve
-DOMAIN-SUFFIX, sfcj.org
-DOMAIN-SUFFIX, xmsl.org
+DOMAIN, pare.1024.name
+# >=====佬私服=====<
+IP-CIDR, 222.186.169.25/32
+# >=====CC公益=====<
 DOMAIN, cc.coemn.com
-DOMAIN, 7777777.buzz
-DOMAIN-SUFFIX, 581658.best
-DOMAIN, emby.9191001.xyz
+DOMAIN, cc.embycc.link
+# >=====见手青=====<
+DOMAIN, jsq.mooguu.xyz
+# >=====垃圾影音=====<
+DOMAIN, cf.xmsl.org
+# >=====蘑菇=====<
+DOMAIN, ss.yeahfast.com
+DOMAIN, mm.yeahfast.com
+# 防止遗漏规则
+DOMAIN-SUFFIX, yeahfast.com
+# >=====AuroraMedia=====<
+DOMAIN, abc.auroramedia.vip
+# >=====飞跃彩虹=====<
+DOMAIN, cdn.7777777.buzz
+DOMAIN, 581658.best
+DOMAIN-SUFFIX, 7777777.buzz
+# >=====二次元=====<
+DOMAIN, media.nijigem.by
+# >=====nyamedia=====<
+DOMAIN, emby.bangumi.ca
+# >=====des's Emby=====<
+IP-CIDR, 146.56.36.1/32
+IP-CIDR, 193.123.67.207/32
+IP-CIDR, 191.96.242.90/32
+IP-CIDR, 154.18.161.103/32
+IP-CIDR, 185.126.80.94/32
+# >=====AlphaTV海外服=====<
+# 临时线路1(三网联通4837)
+IP-CIDR, 154.40.33.88/32
+# 临时线路2
+IP-CIDR, 148.135.94.8/32
+# 临时线路3(电信优化)
+IP-CIDR, 103.197.185.84/32
+# cdn线路
+DOMAIN, alphatvo256981.alphatvapp.top
+# 甲骨文首尔1(月10T流量)
+DOMAIN, ok.alphatvapp.top
+# 甲骨文首尔2(月10T流量)
+DOMAIN, ok2.alphatvapp.top
+# >=====起点站=====<
+# 加拿大直连路线（主路线）
+IP-CIDR, 192.99.35.111/32
+# 小黄云CF路线
+DOMAIN, tdck.fun
+# 软银路线
+DOMAIN, emby-pdz-jp.pppp.us.kg
+# 新加坡西【推荐移动联通】
+DOMAIN, emby-pdz-sg.pppp.us.kg
+# 香港路线
+DOMAIN, emby-pdz-hk.pppp.us.kg
+# 圣何塞路线
+DOMAIN, emby-pdz-us-sj.pppp.us.kg
+# >=====非跃家族=====<
+# V4路线
+DOMAIN, z.sfcj.org
+DOMAIN, jg.sfcj.org
+DOMAIN, ju.sfcj.org
+# V4/V6兼容
+DOMAIN, cf.sfcj.org
+
+# 防止遗漏规则
+DOMAIN-SUFFIX, us.kg
+
+

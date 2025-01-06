@@ -12,7 +12,7 @@ DOMAIN, fanqianxs.com
 #==================影视==================#
 # > Emby直连服
 # Temby直连
-DOMAIN-KEYWORD, temby
+#DOMAIN-KEYWORD, temby
 #==================工具==================#
 # 蒲公英
 DOMAIN-SUFFIX, pgyer.com
