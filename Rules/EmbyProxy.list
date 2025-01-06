@@ -5,7 +5,7 @@
 
 # > 规则集
 # 纸片人
-DOMAIN-SUFFIXplus.org
+DOMAIN-SUFFIX, embyplus.org
 # 星云
 DOMAIN-SUFFIX, nebula-media.org
 # HKA Emby
@@ -15,23 +15,23 @@ DOMAIN-SUFFIX, charontv.com
 # AlphaTV
 DOMAIN, oversea.alphatvapp.top
 # pilipili
-DOMAIN.pilipiliultra.top
+DOMAIN, emby.pilipiliultra.top
 # 劳大科密直升机餐厅
-DOMAIN-micax-ca-v2.mius.uk
+DOMAIN, emby-micax-ca-v2.mius.uk
 # 天南小筑
 DOMAIN, nanflix.net
 # 鹅服
 DOMAIN, wmxz.567996.xyz
-DOMAIN.pppp.us.kg
+DOMAIN, emby.pppp.us.kg
 # > 未知
-DOMAIN-SUFFIX.crond.dev
+DOMAIN-SUFFIX, emby.crond.dev
 DOMAIN.kim
 DOMAIN-SUFFIX, 809688.xyz
 DOMAIN-SUFFIX, mius.uk
 DOMAIN-SUFFIX, 811861.xyz
 DOMAIN, xk.123456.buzz,  Emby
 DOMAIN, sg.886318.xyz
-DOMAIN.apopcloud.com
+DOMAIN, emby.apopcloud.com
 DOMAIN, misty.cx
 DOMAIN, gd.9521732.xyz
 DOMAIN, 789.123456.al
@@ -40,7 +40,7 @@ IP-CIDR, 89.58.10.209/32, no-resolve
 
 
 # > 通用Emby服
-DOMAIN-KEYWORD
+DOMAIN-KEYWORD, emby
 # > Emby服 PiliPili
 # 建议美国节点
 DOMAIN-KEYWORD, pilipili

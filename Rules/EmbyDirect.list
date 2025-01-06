@@ -9,7 +9,8 @@ DOMAIN-SUFFIX, worldline.space
 # Temby
 DOMAIN-SUFFIX, 285286.xyz
 # 终点站
-DOMAIN-SUFFIX.wtf
+DOMAIN-SUFFIX, emby.wtf
+DOMAIN-SUFFIX, term.wtf
 # 二次元Emby
 DOMAIN, media.nijigem.by
 # 起点站
@@ -17,11 +18,11 @@ DOMAIN-SUFFIX, tdck.fun
 # 琴鸟
 DOMAIN-SUFFIX, lyrebirdemby.com
 # Nya Meida
-DOMAIN-SUFFIX.bangumi.ca
+DOMAIN-SUFFIX, emby.bangumi.ca
 # 极光
 DOMAIN-SUFFIX, auroramedia.vip
 # 桃子
-DOMAIN-SUFFIXmv.link
+DOMAIN-SUFFIX, embymv.link
 IP-CIDR, 193.123.232.141/32, no-resolve
 # 鹅服
 DOMAIN, cavps.eu.org
@@ -36,12 +37,12 @@ DOMAIN, bx.mooguu.top
 DOMAIN, mm.mooguu.xyz
 DOMAIN-SUFFIX, mooguu.xyz
 # AWA
-DOMAIN.awatv.de
+DOMAIN, emby.awatv.de
 DOMAIN, awa.811861.xyz,  Emby
 # 劳大科密直升机餐厅
-DOMAIN-micax-ca-v2.mius.uk
+DOMAIN, emby-micax-ca-v2.mius.uk
 # Ask Universal
-DOMAIN-SUFFIX.711.lol
+DOMAIN-SUFFIX, emby.711.lol
 # Prejudice
 DOMAIN-SUFFIX, jellyfin.1l1.icu
 # Pol0Emby
@@ -51,15 +52,15 @@ IP-CIDR, 141.11.218.151/32, no-resolve
 DOMAIN-SUFFIX, 7777777.buzz
 IP-CIDR, 154.29.145.151/32, no-resolve
 IP-CIDR, 154.29.154.124/32, no-resolve
-DOMAIN-SUFFIX.moe
+DOMAIN-SUFFIX, emby.moe
 IP-CIDR, 154.40.33.88/32, no-resolve 
 IP-CIDR, 149.88.69.36/32, no-resolve
 DOMAIN, cinema.makima.online
 DOMAIN-SUFFIX, mius.uk
-DOMAIN.itsmyduty.top
+DOMAIN, emby.itsmyduty.top
 IP-CIDR, 104.243.41.35/32, no-resolve
 DOMAIN, yd1.carryz.net
-DOMAIN.my
+DOMAIN, emby.my
 DOMAIN, 1024.name
 DOMAIN, eggtartemby.itsmyduty.top
 DOMAIN, yhemby.top
@@ -69,7 +70,7 @@ DOMAIN, v0.micu.hk
 IP-CIDR, 146.56.36.1/32, no-resolve
 DOMAIN-SUFFIX, tv.micu.hk,  Emby
 DOMAIN, music.wish.ml,  Emby
-DOMAIN.1024.name
+DOMAIN, emby.1024.name
 IP-CIDR, 94.16.104.116/32, no-resolve
 IP-CIDR, 38.58.181.218/32, no-resolve
 DOMAIN-SUFFIX, sfcj.org
@@ -77,4 +78,4 @@ DOMAIN-SUFFIX, xmsl.org
 DOMAIN, cc.coemn.com
 DOMAIN, 7777777.buzz
 DOMAIN-SUFFIX, 581658.best
-DOMAIN.9191001.xyz
+DOMAIN, emby.9191001.xyz

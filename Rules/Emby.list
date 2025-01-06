@@ -35,7 +35,7 @@ DOMAIN-SUFFIX, mius.uk
 DOMAIN, emby.bangumi.ca
 # >=====终点站=====<
 # 高可用入口
-DOMIAN-SUFFIX, emby.wtf
+DOMAIN-SUFFIX, emby.wtf
 # 备用入口
 DOMAIN-SUFFIX, term.wtf
 # >=====二次元=====<
@@ -48,7 +48,7 @@ DOMAIN, cavps.eu.org
 # SG路线
 IP-CIDR, 50.114.55.29/32
 # 首尔路线
-DOMIAN, wmxz.567996.xyz
+DOMAIN, wmxz.567996.xyz
 # 日本路线
 DOMAIN, emby.pppp.us.kg
 # 香港路线
@@ -83,7 +83,7 @@ IP-CIDR, 192.99.35.111/32
 # >=====NanflixUSA=====<
 DOMAIN, us.nanflix.net
 # >=====桃子=====<
-DOMIAN, embymv.link
+DOMAIN, embymv.link
 # >=====HKA Emby=====<
 # 源站点
 DOMAIN, hka-emby3.aliz.work
