@@ -1,0 +1,13 @@
+#!name= 王者荣耀国际服
+#!desc=王者荣耀国际服分流
+#!author = bautistaclay
+#!category= ⚙️ ▸ Rule
+
+DOMAIN-SUFFIX, sgameglobal.com
+DOMAIN-SUFFIX, honorofkings.com
+DOMAIN-SUFFIX, iegcom.com
+DOMAIN-SUFFIX, intlgame.com
+DOMAIN-SUFFIX, appsflyersdk.com
+DOMAIN-SUFFIX, crashsight.wetest.net
+DOMAIN-SUFFIX, hok-dr.intlgame.com
+DOMAIN-SUFFIX, cdn.wetest.net

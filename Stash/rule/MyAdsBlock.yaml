@@ -1,0 +1,37 @@
+#!name=去广告
+#!desc=自用去广告
+#!author=bautistaclay
+#!category=⚙️▸AppBlockAds
+
+# > 自用去广告
+
+# Google广告
+DOMAIN, googleads.g.doubleclick-cn.net
+DOMAIN, pagead2.googleadservices-cn.com
+DOMAIN, googleads.g.doubleclick.net
+DOMAIN-KEYWORD, googleads
+
+# U净去广告
+DOMAIN, ads.zhinengxiyifang.cn
+
+# 王者营地开屏广告
+DOMAIN, rdelivery.qq.com
+
+# 哔哩哔哩去开屏
+DOMAIN, httpdns.bilivideo.com
+
+# 哔哩哔哩去缓存
+DOMAIN, upos-sz-staticcos.bilivideo.com
+
+# 腾讯视频
+DOMAIN-SUFFIX, tetrack.qq.com
+DOMAIN-SUFFIX, tpns.tencent.com
+DOMAIN-SUFFIX, api.poll.video.qq.com
+DOMAIN-SUFFIX, static-res.qq.com
+DOMAIN-SUFFIX, stat.tpns.tencent.com
+DOMAIN, h.trace.qq.com
+
+# MangaBox
+DOMAIN-KEYWORD, tradplusad.com
+DOMAIN-KEYWORD, -toutiao
+DOMAIN-KEYWORD, tianmu.mobi

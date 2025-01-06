@@ -1,0 +1,14 @@
+#!name= 订阅分流
+#!desc=代理节点
+#!author = bautistaclay
+#!category= ⚙️ ▸ Rule
+
+# > 代理分流
+#===============服务管理=================#
+# BoxJs
+DOMAIN-SUFFIX, boxjs.com
+# SubStore
+DOMAIN-SUFFIX, sub.store
+# ScriptHub
+DOMAIN, scripthub.vercel.app
+#===============订阅网站=================#
