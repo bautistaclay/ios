@@ -3,44 +3,56 @@
 #!author = bautistaclay
 #!category= ⚙️ ▸ Rule
 
+payload:
 # > 规则集
-# 纸片人
-DOMAIN-SUFFIX, embyplus.org
-# 星云
-DOMAIN-SUFFIX, nebula-media.org
-# HKA Emby
-DOMAIN, hka-emby.aliz.work
-# 卡戎
-DOMAIN-SUFFIX, charontv.com
-# AlphaTV
-DOMAIN, oversea.alphatvapp.top
-# pilipili
-DOMAIN, emby.pilipiliultra.top
-# 劳大科密直升机餐厅
-DOMAIN, emby-micax-ca-v2.mius.uk
-# 天南小筑
-DOMAIN, nanflix.net
-# 鹅服
-DOMAIN, wmxz.567996.xyz
-DOMAIN, emby.pppp.us.kg
-# > 未知
-DOMAIN-SUFFIX, emby.crond.dev
-DOMAIN, emby.kim
-DOMAIN-SUFFIX, 809688.xyz
-DOMAIN-SUFFIX, mius.uk
-DOMAIN-SUFFIX, 811861.xyz
-DOMAIN, xk.123456.buzz,  Emby
-DOMAIN, sg.886318.xyz
-DOMAIN, emby.apopcloud.com
-DOMAIN, misty.cx
-DOMAIN, gd.9521732.xyz
-DOMAIN, 789.123456.al
-DOMAIN-SUFFIX, film.hovervan.org
-IP-CIDR, 89.58.10.209/32, no-resolve
-
-
-# > 通用Emby服
-DOMAIN-KEYWORD, emby
-# > Emby服 PiliPili
-# 建议美国节点
-DOMAIN-KEYWORD, pilipili
+# >=====纸片人=====<
+  - DOMAIN-SUFFIX, embyplus.org
+# >=====星云=====<
+  - DOMAIN, emby.nebula-media.org
+# >=====HKA Emby=====<
+# 源站点
+  - DOMAIN, hka-emby3.aliz.work
+# 镜像站
+  - DOMAIN, hka-emby1.aliz.work
+  - DOMAIN, hka-emby2.aliz.work
+# 防止遗漏规则
+  - DOMAIN-SUFFIX, aliz.work
+# >=====卡戎=====<
+  - DOMAIN, play.charontv.com
+  - DOMAIN-SUFFIX, charontv.com
+# >=====飞跃银河=====<
+  - DOMAIN, yhemby.top
+# >=====Misty=====<
+  - DOMAIN, misty.cx
+# >=====Levild luminia=====<
+  - DOMAIN, eggtartemby.itsmyduty.top
+  - DOMAIN, slimemby.itsmyduty.top
+# >=====Houyinx=====<
+  - DOMAIN, emby.crond.dev
+  - DOMAIN, embyc.crond.dev
+# >=====劳大科密直升餐厅=====<
+# 主路线US-V1
+  - DOMAIN, emby-mica-us-v1.mius.uk
+# 主路线Ca-V2
+  - DOMAIN, emby-micax-ca-v2.mius.uk
+# HK分流1
+  - DOMAIN, emby-mica-hk-v4.mius.uk
+# HK YXVM分流2
+  - DOMAIN, emby-mica-yxvm-v4.mius.uk
+# HK分流3
+  - DOMAIN, emby-mica-hk3-v4.mius.uk
+# 防止遗漏规则
+  - DOMAIN-SUFFIX, mius.uk
+# >=====魔仙堡=====<
+  - DOMAIN, emby.kim
+# >=====AlphaTV海外服=====<
+# 主路线
+  - DOMAIN, oversea.alphatvapp.top
+# 主路线IP
+  - IP-CIDR, 107.181.238.190/32
+# >=====放映厅=====<
+  - DOMAIN, emby.9191001.xyz
+# >=====非跃家族=====<
+# V6路线
+  - DOMAIN, jg6.sfcj.org
+  - DOMAIN, v6.sfcj.org

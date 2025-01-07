@@ -117,6 +117,8 @@ DOMAIN, jg.sfcj.org
 DOMAIN, ju.sfcj.org
 # V4/V6兼容
 DOMAIN, cf.sfcj.org
+# >=====纸片人=====<
+DOMAIN, emby.0v0.day
 
 # 防止遗漏规则
 DOMAIN-SUFFIX, us.kg

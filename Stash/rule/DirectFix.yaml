@@ -3,16 +3,17 @@
 #!author = bautistaclay
 #!category= ⚙️ ▸ Rule
 
+payload:
 # > 用于直连修正
 #==================小说==================#
 # 番茄官方api
-DOMAIN, novel.snssdk.com
+  - DOMAIN, novel.snssdk.com
 # 番茄小说网
-DOMAIN, fanqianxs.com
+  - DOMAIN, fanqianxs.com
 #==================影视==================#
 # > Emby直连服
 # Temby直连
-DOMAIN-KEYWORD, temby
+#DOMAIN-KEYWORD, temby
 #==================工具==================#
 # 蒲公英
-DOMAIN-SUFFIX, pgyer.com
+  - DOMAIN-SUFFIX, pgyer.com

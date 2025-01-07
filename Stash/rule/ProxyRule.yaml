@@ -3,12 +3,13 @@
 #!author = bautistaclay
 #!category= ⚙️ ▸ Rule
 
+payload:
 # > 代理分流
 #===============服务管理=================#
 # BoxJs
-DOMAIN-SUFFIX, boxjs.com
+  - DOMAIN-SUFFIX, boxjs.com
 # SubStore
-DOMAIN-SUFFIX, sub.store
+  - DOMAIN-SUFFIX, sub.store
 # ScriptHub
-DOMAIN, scripthub.vercel.app
+  - DOMAIN, scripthub.vercel.app
 #===============订阅网站=================#

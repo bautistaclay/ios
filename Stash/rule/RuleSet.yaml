@@ -3,6 +3,7 @@
 #!author = bautistaclay
 #!category= ⚙️ ▸ Rule
 
+payload:
 # > 规则集，建议和Emby同策略组，使用方法见描述说明
 #==================小说==================#
 # 番茄官方api
@@ -15,14 +16,14 @@
 #DOMAIN-SUFFIX, catw.app
 #DOMAIN-SUFFIX, catwcy.com
 #DOMAIN-SUFFIX, catwdm.com
-DOMAIN-SUFFIX, mwcy.net
-DOMAIN-KEYWORD, catw
+  - DOMAIN-SUFFIX, mwcy.net
+  - DOMAIN-KEYWORD, catw
 # > 动漫App Omofun
-DOMAIN-SUFFIX, omoapis.org
-DOMAIN-SUFFIX, omojson.vip
+  - DOMAIN-SUFFIX, omoapis.org
+  - DOMAIN-SUFFIX, omojson.vip
 # > 动漫App CliCli
-DOMAIN-SUFFIX, clicli.cc
-DOMAIN-SUFFIX, clicli.deno.dev
+  - DOMAIN-SUFFIX, clicli.cc
+  - DOMAIN-SUFFIX, clicli.deno.dev
 # > 动漫App 嘶哩嘶哩
 #DOMAIN-SUFFIX, silisili.cc
 # 移动网络屏蔽
@@ -30,11 +31,11 @@ DOMAIN-SUFFIX, clicli.deno.dev
 # 移动网络屏蔽
 #DOMAIN-SUFFIX, silisilifun.com
 #DOMAIN-SUFFIX, silisili.link
-DOMAIN-SUFFIX, sssfun.cc
-DOMAIN-KEYWORD, silisili
+  - DOMAIN-SUFFIX, sssfun.cc
+  - DOMAIN-KEYWORD, silisili
 # > 动漫App 次元城
-DOMAIN-SUFFIX, app.95189371.cn
+  - DOMAIN-SUFFIX, app.95189371.cn
 # > 动漫App MiFun
-DOMAIN-SUFFIX, mifun.org
+  - DOMAIN-SUFFIX, mifun.org
 # 网页
-DOMAIN-SUFFIX, laimi.me
+  - DOMAIN-SUFFIX, laimi.me
