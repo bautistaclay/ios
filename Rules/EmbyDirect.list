@@ -39,6 +39,21 @@ DOMAIN, emby-e-jp.pppp.us.kg
 IP-CIDR, 77.111.110.43/32
 # test02
 IP-CIDR, 137.220.37.248/32
+# >=====起点站=====<
+# 加拿大直连路线（主路线）
+IP-CIDR, 192.99.35.111/32
+# 小黄云CF路线
+DOMAIN, tdck.fun
+# 软银路线
+DOMAIN, emby-pdz-jp.pppp.us.kg
+# 新加坡西【推荐移动联通】
+DOMAIN, emby-pdz-sg.pppp.us.kg
+# 香港路线
+DOMAIN, emby-pdz-hk.pppp.us.kg
+# 圣何塞路线
+DOMAIN, emby-pdz-us-sj.pppp.us.kg
+# 防止遗漏规则
+DOMAIN-SUFFIX, us.kg
 # >=====Lyrebird=====<
 DOMAIN-SUFFIX, lyrebirdemby,com
 # >=====收束世界线=====<
@@ -68,12 +83,22 @@ DOMAIN, ss.yeahfast.com
 DOMAIN, mm.yeahfast.com
 # 防止遗漏规则
 DOMAIN-SUFFIX, yeahfast.com
+# 蘑菇公费服
+DOMAIN-SUFFIX, wf.vban.xyz
 # >=====AuroraMedia=====<
 DOMAIN, abc.auroramedia.vip
 # >=====飞跃彩虹=====<
 DOMAIN, cdn.7777777.buzz
 DOMAIN, 581658.best
 DOMAIN-SUFFIX, 7777777.buzz
+# >=====月饼=====<
+# 主路线
+DOMAIN, emby.my
+# cdn路线
+DOMAIN, cdn.emby.my
+# cdn路线2
+DOMAIN, ccdn.emby.my
+DOMAIN-SUFFIX, emby.my
 # >=====二次元=====<
 DOMAIN, media.nijigem.by
 # >=====nyamedia=====<
@@ -97,19 +122,6 @@ DOMAIN, alphatvo256981.alphatvapp.top
 DOMAIN, ok.alphatvapp.top
 # 甲骨文首尔2(月10T流量)
 DOMAIN, ok2.alphatvapp.top
-# >=====起点站=====<
-# 加拿大直连路线（主路线）
-IP-CIDR, 192.99.35.111/32
-# 小黄云CF路线
-DOMAIN, tdck.fun
-# 软银路线
-DOMAIN, emby-pdz-jp.pppp.us.kg
-# 新加坡西【推荐移动联通】
-DOMAIN, emby-pdz-sg.pppp.us.kg
-# 香港路线
-DOMAIN, emby-pdz-hk.pppp.us.kg
-# 圣何塞路线
-DOMAIN, emby-pdz-us-sj.pppp.us.kg
 # >=====非跃家族=====<
 # V4路线
 DOMAIN, z.sfcj.org
@@ -119,8 +131,5 @@ DOMAIN, ju.sfcj.org
 DOMAIN, cf.sfcj.org
 # >=====纸片人=====<
 DOMAIN, emby.0v0.day
-
-# 防止遗漏规则
-DOMAIN-SUFFIX, us.kg
 
 

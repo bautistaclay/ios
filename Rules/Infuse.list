@@ -53,6 +53,13 @@ DOMAIN, emby-pdz-hk.pppp.us.kg
 DOMAIN, emby-pdz-us-sj.pppp.us.kg
 # >=====纸片人=====<
 DOMAIN, emby.0v0.day
-
+# >=====月饼=====<
+# 主路线
+DOMAIN, emby.my
+# cdn路线
+DOMAIN, cdn.emby.my
+# cdn路线2
+DOMAIN, ccdn.emby.my
+DOMAIN-SUFFIX, emby.my
 
 

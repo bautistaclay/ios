@@ -35,8 +35,6 @@ DOMAIN-SUFFIX, term.wtf
 DOMAIN, media.nijigem.by
 # >=====纸片人=====<
 DOMAIN, embyplus.org
-# >=====月饼=====<
-DOMAIN-SUFFIX, emby.my
 # >=====ASK Universal=====<
 DOMAIN, emby.711.lol
 # >=====SaturDay.Lite=====<
@@ -55,9 +53,5 @@ DOMAIN, hka-emby2.aliz.work
 DOMAIN-SUFFIX, aliz.work
 # >=====探花TV=====<
 DOMAIN, tanhuatv.site
-
-
-# > 通用emby
-DOMAIN-KEYWORD, emby
 
 
