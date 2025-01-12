@@ -60,8 +60,6 @@ DOMAIN-SUFFIX, lyrebirdemby,com
 DOMAIN, tv.worldline.space
 # >=====NanflixUSA=====<
 DOMAIN, us.nanflix.net
-# >=====ASK Universal=====<
-DOMAIN, emby.711.lol
 # >=====桃子=====<
 DOMAIN, embymv.link
 # >=====SaturDay.Lite=====<
@@ -131,5 +129,6 @@ DOMAIN, ju.sfcj.org
 DOMAIN, cf.sfcj.org
 # >=====纸片人=====<
 DOMAIN, emby.0v0.day
-
+# >=====音海拾贝音乐服=====<
+DOMAIN, music.makifx.com
 

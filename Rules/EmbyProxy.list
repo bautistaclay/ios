@@ -8,6 +8,10 @@
 DOMAIN-SUFFIX, embyplus.org
 # >=====星云=====<
 DOMAIN, emby.nebula-media.org
+# 播放流量路线
+DOMAIN, cdn1.nebula-media.org
+# 防遗漏规则
+DOMAIN-SUFFIX, nebula-media.org
 # >=====HKA Emby=====<
 # 源站点
 DOMAIN, hka-emby3.aliz.work
@@ -19,6 +23,8 @@ DOMAIN-SUFFIX, aliz.work
 # >=====卡戎=====<
 DOMAIN, play.charontv.com
 DOMAIN-SUFFIX, charontv.com
+# >=====ASK Universal=====<
+DOMAIN, emby.711.lol
 # >=====飞跃银河=====<
 DOMAIN, yhemby.top
 # >=====Misty=====<
