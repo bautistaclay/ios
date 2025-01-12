@@ -2,7 +2,7 @@
 #!desc=Talkatone 代理规则，使 Talkatone APP 不再对不同代理节点过于敏感。
 #!author=LOWERTOP
 #!category= ⚙️ ▸ 应用增强
-#!arguments-desc=[参数说明]\n\n⓵ 若使用提示未知策略组请修改配置项或者添加策略组。\n\n⓶ “策略组”配置项内填写你所使用的代理策略组。\n\n⓷ 配置项不填写默认为Talkatone策略组。
+#!arguments-desc=[参数说明]\n\n⓵ 若使用提示未知策略组，\n请修改配置项或者添加策略组。\n\n⓶ 在对应策略组配置项内，\n填写你所使用的策略组或内置策略。\n\n⓷ 若配置项不填写，则默认为Talkatone策略组以及DIRECT内置策略。
 #!arguments=代理策略组:Talkatone,直连策略组:DIRECT
 
 [Rule]

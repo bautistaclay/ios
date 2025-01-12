@@ -33,15 +33,9 @@ payload:
   - IP-CIDR, 77.111.110.43/32
 # test02
   - IP-CIDR, 137.220.37.248/32
-# 防止遗漏规则
-  - DOMAIN-SUFFIX, us.kg
-# >=====Lyrebird=====<
-  - DOMAIN-SUFFIX, lyrebirdemby,com
-# >=====收束世界线=====<
-  - DOMAIN, tv.worldline.space
-# >=====NanflixUSA=====<
-  - DOMAIN, us.nanflix.net
 # >=====起点站=====<
+# 硬盘服CF路线
+   - DOMAIN, s.tdck.fun
 # 加拿大直连路线（主路线）
   - IP-CIDR, 192.99.35.111/32
 # 小黄云CF路线
@@ -54,6 +48,15 @@ payload:
   - DOMAIN, emby-pdz-hk.pppp.us.kg
 # 圣何塞路线
   - DOMAIN, emby-pdz-us-sj.pppp.us.kg
+# 防止遗漏规则
+  - DOMAIN-SUFFIX, tdck.fun
+  - DOMAIN-SUFFIX, us.kg
+# >=====Lyrebird=====<
+  - DOMAIN-SUFFIX, lyrebirdemby,com
+# >=====收束世界线=====<
+  - DOMAIN, tv.worldline.space
+# >=====NanflixUSA=====<
+  - DOMAIN, us.nanflix.net
 # >=====纸片人=====<
   - DOMAIN, emby.0v0.day
 # >=====月饼=====<
@@ -64,6 +67,5 @@ payload:
 # cdn路线2
   - DOMAIN, ccdn.emby.my
   - DOMAIN-SUFFIX, emby.my
-
 
 

@@ -36,6 +36,9 @@ payload:
   - DOMAIN, media.nijigem.by
 # >=====纸片人=====<
   - DOMAIN, embyplus.org
+# >=====起点站=====<
+# 硬盘服IP路线
+  - IP-CIDR, 135.181.134.46/32
 # >=====ASK Universal=====<
   - DOMAIN, emby.711.lol
 # >=====SaturDay.Lite=====<
@@ -54,6 +57,5 @@ payload:
   - DOMAIN-SUFFIX, aliz.work
 # >=====探花TV=====<
   - DOMAIN, tanhuatv.site
-
 
 

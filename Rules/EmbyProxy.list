@@ -20,6 +20,9 @@ DOMAIN, hka-emby1.aliz.work
 DOMAIN, hka-emby2.aliz.work
 # 防止遗漏规则
 DOMAIN-SUFFIX, aliz.work
+# >=====起点站=====<
+# 硬盘服IP路线
+IP-CIDR, 135.181.134.46/32
 # >=====卡戎=====<
 DOMAIN, play.charontv.com
 DOMAIN-SUFFIX, charontv.com
