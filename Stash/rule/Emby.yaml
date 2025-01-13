@@ -3,8 +3,8 @@
 #!author = bautistaclay
 #!category= ⚙️ ▸ Rule
 
+# > 公益服
 payload:
-# 公益服
 # >=====AlphaTV=====<
 # 主路线
   - DOMAIN, oversea.alphatvapp.top
@@ -47,6 +47,12 @@ payload:
   - DOMAIN, abc.auroramedia.vip
 # >=====桃子=====<
   - DOMAIN, embymv.link
+# >=====星云=====<
+  - DOMAIN, emby.nebula-media.org
+# 播放流量路线
+  - DOMAIN, cdn1.nebula-media.org
+# 防遗漏规则
+  - DOMAIN-SUFFIX, nebula-media.org
 # >=====HKA Emby=====<
 # 源站点
   - DOMAIN, hka-emby3.aliz.work
@@ -57,5 +63,3 @@ payload:
   - DOMAIN-SUFFIX, aliz.work
 # >=====探花TV=====<
   - DOMAIN, tanhuatv.site
-
-

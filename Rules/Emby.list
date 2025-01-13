@@ -46,6 +46,12 @@ DOMAIN, lite.saturday.video
 DOMAIN, abc.auroramedia.vip
 # >=====桃子=====<
 DOMAIN, embymv.link
+# >=====星云=====<
+DOMAIN, emby.nebula-media.org
+# 播放流量路线
+DOMAIN, cdn1.nebula-media.org
+# 防遗漏规则
+DOMAIN-SUFFIX, nebula-media.org
 # >=====HKA Emby=====<
 # 源站点
 DOMAIN, hka-emby3.aliz.work
