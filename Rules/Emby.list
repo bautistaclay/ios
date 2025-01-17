@@ -4,28 +4,6 @@
 #!category= ⚙️ ▸ Rule
 
 # 公益服
-# >=====AlphaTV=====<
-# 主路线
-DOMAIN, oversea.alphatvapp.top
-# 主路线IP
-IP-CIDR, 107.181.238.190/32
-# 其它路线
-DOMAIN-SUFFIX, alphatvapp.top
-# >=====劳大科密直升餐厅=====<
-# 主路线US-V1
-DOMAIN, emby-mica-us-v1.mius.uk
-# 主路线Ca-V2
-DOMAIN, emby-micax-ca-v2.mius.uk
-# HK分流1
-DOMAIN, emby-mica-hk-v4.mius.uk
-# HK YXVM分流2
-DOMAIN, emby-mica-yxvm-v4.mius.uk
-# HK分流3
-DOMAIN, emby-mica-hk3-v4.mius.uk
-# 防止遗漏规则
-DOMAIN-SUFFIX, mius.uk
-# >=====NyaMedia=====<
-DOMAIN, emby.bangumi.ca
 # >=====终点站=====<
 # 高可用入口
 DOMAIN-SUFFIX, emby.wtf
@@ -40,27 +18,17 @@ DOMAIN, embyplus.org
 IP-CIDR, 135.181.134.46/32
 # >=====ASK Universal=====<
 DOMAIN, emby.711.lol
-# >=====SaturDay.Lite=====<
-DOMAIN, lite.saturday.video
-# >=====AuroraMedia=====<
-DOMAIN, abc.auroramedia.vip
-# >=====桃子=====<
-DOMAIN, embymv.link
 # >=====星云=====<
+# > 前端
 DOMAIN, emby.nebula-media.org
-# 播放流量路线
+# > 后端
 DOMAIN, cdn1.nebula-media.org
 # 防遗漏规则
 DOMAIN-SUFFIX, nebula-media.org
-# >=====HKA Emby=====<
-# 源站点
-DOMAIN, hka-emby3.aliz.work
-# 镜像站
-DOMAIN, hka-emby1.aliz.work
-DOMAIN, hka-emby2.aliz.work
-# 防止遗漏规则
-DOMAIN-SUFFIX, aliz.work
-# >=====探花TV=====<
-DOMAIN, tanhuatv.site
+# >=====July=====<
+# 前端路线
+DOMAIN, alist7.eu.org
+# >=====PrejuDice=====<
+DOMAIN, emby.moyuancn.vip
 
 

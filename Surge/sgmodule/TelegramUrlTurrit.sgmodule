@@ -1,0 +1,12 @@
+#!name=Turrit重定向
+#!desc=Telegram链接重定向至Turrit
+#!author=bautistaclay
+#!icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/Turrit.png
+#!category=⚙️ ▸ 应用增强
+
+
+[URL Rewrite]
+(https:\/\/)?t.me\/(.+) turrit://resolve?domain=$2 302
+
+[MITM]
+hostname = %APPEND% t.me

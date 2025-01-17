@@ -1,0 +1,13 @@
+#!name=Telegram重定向
+#!desc=Telegram链接重定向至第三方软件
+#!author=bautistaclay
+#!icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/Telegram.png
+#!category⚙️ ▸ 应用增强
+#!arguments-desc=[参数说明]\n\n⓵ 启用状态默认开启。\n\n⓶ 若要使用不冲突，请将使用的第三方启用状态缺省。\n其余启用状态均为#，即注释对应语句。\n\n⓷ 主机名默认开启，填入#即可关闭主机名。
+#!arguments=Turrit启用状态:,Swiftgram启用状态:,主机名:hostname
+
+[URL Rewrite]
+{{{Turrit启用状态}}}(https:\/\/)?t.me\/(.+) turrit://resolve?domain=$2 302
+{{{Swiftgram启用状态}}}(https:\/\/)?t.me\/(.+) sg://resolve?domain=$2 302
+[MITM]
+{{{主机名}}} = %APPEND% t.me

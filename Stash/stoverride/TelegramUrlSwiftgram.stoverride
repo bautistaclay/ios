@@ -1,0 +1,15 @@
+name=Swiftgram重定向
+desc=Telegram链接重定向至Swiftgram
+author=bautistaclay
+icon=https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/Swiftgram.png
+category=⚙️ ▸ 应用增强
+
+
+http:
+
+  mitm:
+    - "t.me"
+
+  url-rewrite:
+    - >-
+      (https:\/\/)?t.me\/(.+) sg://resolve?domain=$2 302
