@@ -14,6 +14,7 @@ DOMAIN-SUFFIX, term.wtf
 # >=====PiliPili=====<
 # 主路线
 DOMAIN-SUFFIX, pilipili.club
+DOMAIN, streamer.pilipiliultra.com
 # 路线
 DOMAIN, pilipili.hitagi.me
 # 漫画服
@@ -25,7 +26,7 @@ DOMAIN, tv.worldline.space
 # >=====NanflixUSA=====<
 DOMAIN, us.nanflix.net
 # >=====桃子=====<
-DOMAIN, embymv.link
+DOMAIN-SUFFIX, embymv.link
 # >=====SaturDay.Lite=====<
 DOMAIN, lite.saturday.video
 # >=====西瓜、呆瓜=====<
@@ -49,6 +50,11 @@ DOMAIN-SUFFIX, yeahfast.com
 DOMAIN-SUFFIX, wf.vban.xyz
 # >=====AuroraMedia=====<
 DOMAIN, abc.auroramedia.vip
+# >=====Levild Luminia=====<
+# 主路线
+DOMAIN, eggtartemby.itsmyduty.top
+# 香港路线
+DOMAIN, hkslimemby.itsmyduty.top
 # >=====飞跃彩虹=====<
 DOMAIN, cdn.7777777.buzz
 DOMAIN, 581658.best
@@ -149,4 +155,13 @@ DOMAIN, pdz-hk-hol.vfing.de
 IP-CIDR, 135.181.134.46/32
 # cdn
 DOMAIN, pdzcdn.vfing.de
+# 临时路线
+DOMAIN, qidian.ocdlive.com
+
+# >=====鹅音乐服=====<
+DOMAIN, emusica.91bp.us.kg
+# >=====音海拾贝=====<
+DOMAIN, music.makifx.com
+DOMAIN, lrc.makifx.com
+DOMAIN-SUFFIX, makifx.com
 

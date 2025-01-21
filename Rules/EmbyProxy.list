@@ -23,9 +23,16 @@ DOMAIN-SUFFIX, aliz.work
 # >=====起点站=====<
 # 硬盘服IP路线
 IP-CIDR, 135.181.134.46/32
+# 旧bot路线
+DOMAIN-SUFFIX, free.28.al
 # >=====卡戎=====<
 DOMAIN, play.charontv.com
 DOMAIN-SUFFIX, charontv.com
+# >=====Levild Luminia=====<
+# 香港洛杉矶100Mbps
+DOMAIN, slimemby.itsmyduty.top
+# 香港AWS
+DOMAIN, hkslimemby.itsmyduty.top
 # >=====ASK Universal=====<
 DOMAIN, emby.711.lol
 # >=====飞跃银河=====<
@@ -67,3 +74,6 @@ DOMAIN, v6.sfcj.org
 # >=====July=====<
 # 前端路线
 DOMAIN, alist7.eu.org
+# >=====Alpha=====<
+# 听书服
+IP-CIDR, 107.181.238.190/32

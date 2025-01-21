@@ -9,6 +9,9 @@
 DOMAIN-SUFFIX, emby.wtf
 # 备用入口
 DOMAIN-SUFFIX, term.wtf
+# >=====起点站=====<
+# 旧bot主路线
+DOMAIN, free.28.al
 # >=====二次元=====<
 DOMAIN, media.nijigem.by
 # >=====纸片人=====<
@@ -16,6 +19,21 @@ DOMAIN, embyplus.org
 # >=====起点站=====<
 # 硬盘服IP路线
 IP-CIDR, 135.181.134.46/32
+# >=====桃子=====<
+DOMAIN-SUFFIX, embymv.link
+# >=====劳大科密直升餐厅=====<
+# 主路线US-V1
+DOMAIN, emby-mica-us-v1.mius.uk
+# 主路线Ca-V2
+DOMAIN, emby-micax-ca-v2.mius.uk
+# HK分流1
+DOMAIN, emby-mica-hk-v4.mius.uk
+# HK YXVM分流2
+DOMAIN, emby-mica-yxvm-v4.mius.uk
+# HK分流3
+DOMAIN, emby-mica-hk3-v4.mius.uk
+# 防止遗漏规则
+DOMAIN-SUFFIX, mius.uk
 # >=====ASK Universal=====<
 DOMAIN, emby.711.lol
 # >=====星云=====<

@@ -11,26 +11,38 @@ DOMAIN-KEYWORD, temby
 DOMAIN-SUFFIX, pilipili.club
 # 漫画服
 DOMAIN, manga.pilipiliultra.com
+# 归纳
+DOMAIN-KEYWORD, pilipili
+# >=====CC公益=====<
+# 主面板
+DOMAIN, cc.coemn.com
+# CF面板
+DOMAIN, cc.embycc.link
 # >=====AlphaTV=====<
 # 主路线
 DOMAIN, oversea.alphatvapp.top
 # 主路线IP
 IP-CIDR, 107.181.238.190/32
-# 其它路线
+# 路线1（联通4837）
+IP-CIDR, 154.40.33.88/32
+# 路线2（联通4837）
+IP-CIDR, 154.29.159.230/32
+# 路线3
+IP-CIDR, 148.135.94.8/32
+# 路线4（电信优化）
+IP-CIDR, 103.197.185.84/32
+# cdn路线
+DOMAIN-SUFFIX, alphatvo256981.alphatvapp.top
+# 甲骨文首尔1（月10T流量）
+DOMAIN-SUFFIX, ok.alphatvapp.top
+# 甲骨文首尔2（月10T流量）
+DOMAIN-SUFFIX, ok2.alphatvapp.top
+# 国内中转1
+DOMAIN-SUFFIX, alphatvo256988.alphatvapp.top
+# 国内中转2
+DOMAIN-SUFFIX, alphatvo29687.alphatvapp.top
+# 防止遗漏路线
 DOMAIN-SUFFIX, alphatvapp.top
-# >=====劳大科密直升餐厅=====<
-# 主路线US-V1
-DOMAIN, emby-mica-us-v1.mius.uk
-# 主路线Ca-V2
-DOMAIN, emby-micax-ca-v2.mius.uk
-# HK分流1
-DOMAIN, emby-mica-hk-v4.mius.uk
-# HK YXVM分流2
-DOMAIN, emby-mica-yxvm-v4.mius.uk
-# HK分流3
-DOMAIN, emby-mica-hk3-v4.mius.uk
-# 防止遗漏规则
-DOMAIN-SUFFIX, mius.uk
 # >=====NyaMedia=====<
 DOMAIN, emby.bangumi.ca
 # >=====Lyrebird=====<
@@ -50,8 +62,6 @@ DOMAIN, emby.0v0.day
 DOMAIN, lite.saturday.video
 # >=====AuroraMedia=====<
 DOMAIN, abc.auroramedia.vip
-# >=====桃子=====<
-DOMAIN, embymv.link
 # >=====月饼=====<
 # 主路线
 DOMAIN, emby.my
@@ -71,6 +81,14 @@ DOMAIN-SUFFIX, aliz.work
 # >=====July=====<
 # 播放地址
 DOMAIN-SUFFIX, sharepoint.com
+# 香港
+DOMAIN, july-hk.vfing.de
+# 新加坡
+DOMAIN, july-sg.vfing.de
+# 美国圣何塞
+DOMAIN, july-us.vfing.de
+# 三网优化
+DOMAIN, july.vfing.de
 # >=====稳健服=====<
 DOMAIN, emby.wenjian.de
 # >=====鸽巢=====<
@@ -116,6 +134,8 @@ DOMAIN, pdz-hk-hol.vfing.de
 IP-CIDR, 135.181.134.46/32
 # cdn
 DOMAIN, pdzcdn.vfing.de
+# 临时路线
+DOMAIN, qidian.ocdlive.com
 # >=====鹅服=====<
 # CF路线
 DOMAIN, cavps.eu.org
@@ -139,6 +159,13 @@ IP-CIDR, 77.111.110.43/32
 IP-CIDR, 137.220.37.248/32
 # CDN
 DOMAIN, e-cdn.vfing.de
+
+# >=====鹅音乐服=====<
+DOMAIN, emusica.91bp.us.kg
+# >=====音海拾贝=====<
+DOMAIN, music.makifx.com
+DOMAIN, lrc.makifx.com
+DOMAIN-SUFFIX, makifx.com
 
 
 
