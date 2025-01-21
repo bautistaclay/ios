@@ -164,4 +164,9 @@
   - DOMAIN, music.makifx.com
   - DOMAIN, lrc.makifx.com
   - DOMAIN-SUFFIX, makifx.com
-
+# >=====未响=====<
+  - DOMAIN, music.mefun.org
+  - DOMAIN-SUFFIX, mefun.org
+# >=====Polo有声书=====<
+  - DOMAIN, audio.poloemby.xyz
+  - DOMAIN-SUFFIX, poloemby.xyz

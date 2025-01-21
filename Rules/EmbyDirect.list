@@ -1,7 +1,7 @@
 #!name= Emby直连规则集
 #!desc=Emby公益服直连（可能受地区影响，不适用需修正）
 #!author = bautistaclay
-#!category= ⚙️ ▸ Rule
+#!category=⚙️ ▸ Rule
 
 # > 规则集
 # >=====Temby=====<
@@ -164,4 +164,9 @@ DOMAIN, emusica.91bp.us.kg
 DOMAIN, music.makifx.com
 DOMAIN, lrc.makifx.com
 DOMAIN-SUFFIX, makifx.com
-
+# >=====未响=====<
+DOMAIN, music.mefun.org
+DOMAIN-SUFFIX, mefun.org
+# >=====Polo有声书=====<
+DOMAIN, audio.poloemby.xyz
+DOMAIN-SUFFIX, poloemby.xyz

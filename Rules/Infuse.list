@@ -20,7 +20,7 @@ DOMAIN, cc.coemn.com
 DOMAIN, cc.embycc.link
 # >=====AlphaTV=====<
 # 主路线
-DOMAIN, oversea.alphatvapp.top
+DOMAIN, overseaplus.alphatvapp.top
 # 主路线IP
 IP-CIDR, 107.181.238.190/32
 # 路线1（联通4837）

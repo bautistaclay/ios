@@ -62,7 +62,7 @@
   - DOMAIN, emby.kim
 # >=====AlphaTV海外服=====<
 # 主路线
-  - DOMAIN, oversea.alphatvapp.top
+  - DOMAIN, overseaplus.alphatvapp.top
 # 主路线IP
   - IP-CIDR, 107.181.238.190/32
 # >=====放映厅=====<
