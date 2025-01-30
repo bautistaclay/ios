@@ -3,6 +3,9 @@
 #!author = bautistaclay
 #!category= ⚙️ ▸ Rule
 
+# Reflix聚合
+DOMAIN-SUFFIX, reflix.top
+
 # 公益服
 # >=====终点站=====<
 # 高可用入口
@@ -19,8 +22,14 @@ DOMAIN, embyplus.org
 # >=====起点站=====<
 # 硬盘服IP路线
 IP-CIDR, 135.181.134.46/32
-# >=====桃子=====<
-DOMAIN-SUFFIX, embymv.link
+# >=====HKA Emby=====<
+# 源站点
+DOMAIN, hka-emby3.aliz.work
+# 镜像站
+DOMAIN, hka-emby1.aliz.work
+DOMAIN, hka-emby2.aliz.work
+# 防止遗漏规则
+DOMAIN-SUFFIX, aliz.work
 # >=====劳大科密直升餐厅=====<
 # 主路线US-V1
 DOMAIN, emby-mica-us-v1.mius.uk
@@ -43,6 +52,9 @@ DOMAIN, emby.nebula-media.org
 DOMAIN, cdn1.nebula-media.org
 # 防遗漏规则
 DOMAIN-SUFFIX, nebula-media.org
+# >=====AuroraMedia=====<
+# 面板
+DOMAIN-SUFFIX, auroramedia.me
 # >=====July=====<
 # 前端路线
 DOMAIN, alist7.eu.org

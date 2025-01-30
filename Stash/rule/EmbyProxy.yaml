@@ -3,6 +3,9 @@
 #!author = bautistaclay
 #!category= ⚙️ ▸ Rule
 
+# Reflix聚合
+  - DOMAIN-SUFFIX, reflix.top
+
 # > 规则集
 # >=====纸片人=====<
   - DOMAIN-SUFFIX, embyplus.org
@@ -12,6 +15,9 @@
   - DOMAIN, cdn1.nebula-media.org
 # 防遗漏规则
   - DOMAIN-SUFFIX, nebula-media.org
+# >=====AuroraMedia=====<
+# 面板
+  - DOMAIN-SUFFIX, auroramedia.me
 # >=====HKA Emby=====<
 # 源站点
   - DOMAIN, hka-emby3.aliz.work
@@ -38,7 +44,7 @@
 # >=====飞跃银河=====<
   - DOMAIN, yhemby.top
 # >=====Misty=====<
-  - DOMAIN, misty.cx
+  - DOMAIN-SUFFIX, misty.cx
 # >=====Levild luminia=====<
   - DOMAIN, eggtartemby.itsmyduty.top
   - DOMAIN, slimemby.itsmyduty.top
@@ -60,11 +66,6 @@
   - DOMAIN-SUFFIX, mius.uk
 # >=====魔仙堡=====<
   - DOMAIN, emby.kim
-# >=====AlphaTV海外服=====<
-# 主路线
-  - DOMAIN, overseaplus.alphatvapp.top
-# 主路线IP
-  - IP-CIDR, 107.181.238.190/32
 # >=====放映厅=====<
   - DOMAIN, emby.9191001.xyz
 # >=====非跃家族=====<

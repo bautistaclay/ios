@@ -1,7 +1,7 @@
 #!name= Emby直连规则集
 #!desc=Emby公益服直连（可能受地区影响，不适用需修正）
 #!author = bautistaclay
-#!category= ⚙️ ▸ Rule
+#!category=⚙️ ▸ Rule
 
 # > 规则集
 # >=====Temby=====<
@@ -11,6 +11,9 @@
   - DOMAIN-SUFFIX, emby.wtf
 # 备用入口
   - DOMAIN-SUFFIX, term.wtf
+# >=====墨云阁=====<
+# 主路线
+  - DOMAIN-SUFFIX, mobaiemby.site
 # >=====PiliPili=====<
 # 主路线
   - DOMAIN-SUFFIX, pilipili.club
@@ -78,6 +81,10 @@
   - IP-CIDR, 154.18.161.103/32
   - IP-CIDR, 185.126.80.94/32
 # >=====AlphaTV海外服=====<
+# 主路线
+  - DOMAIN, oversea.alphatvapp.top
+# 主路线IP
+  - IP-CIDR, 107.181.238.190/32
 # 临时线路1(三网联通4837)
   - IP-CIDR, 154.40.33.88/32
 # 临时线路2
