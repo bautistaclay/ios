@@ -7,11 +7,6 @@
 DOMAIN-SUFFIX, reflix.top
 
 # 公益服
-# >=====终点站=====<
-# 高可用入口
-DOMAIN-SUFFIX, emby.wtf
-# 备用入口
-DOMAIN-SUFFIX, term.wtf
 # >=====起点站=====<
 # 旧bot主路线
 DOMAIN, free.28.al
@@ -19,6 +14,8 @@ DOMAIN, free.28.al
 DOMAIN, media.nijigem.by
 # >=====纸片人=====<
 DOMAIN, embyplus.org
+# >=====Misty=====<
+DOMAIN, misty.cx
 # >=====起点站=====<
 # 硬盘服IP路线
 IP-CIDR, 135.181.134.46/32

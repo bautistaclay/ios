@@ -6,6 +6,11 @@
 # 公益服
 # >=====Temby=====<
 DOMAIN-KEYWORD, temby
+# >=====终点站=====<
+# 高可用入口
+DOMAIN-SUFFIX, emby.wtf
+# 备用入口
+DOMAIN-SUFFIX, term.wtf
 # >=====PiliPili=====<
 # 主路线
 DOMAIN, pilipili.club
@@ -27,8 +32,6 @@ DOMAIN, cc.embycc.link
 DOMAIN, 259772.xyz
 # >=====见手青=====<
 DOMAIN, jsq.mooguu.xyz
-# >=====Misty=====<
-DOMAIN, misty.cx
 # >=====桃子=====<
 DOMAIN-SUFFIX, embymv.link
 # >=====AuroraMedia=====<
@@ -185,6 +188,9 @@ DOMAIN, emusica.91bp.us.kg
 DOMAIN, music.makifx.com
 DOMAIN, lrc.makifx.com
 DOMAIN-SUFFIX, makifx.com
+# >=====未响音乐服=====<
+DOMAIN, music.mefun.org
+DOMAIN-SUFFIX, mefun.org
 
 
 

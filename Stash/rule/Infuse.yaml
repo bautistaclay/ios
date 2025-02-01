@@ -6,6 +6,11 @@
 # 公益服
 # >=====Temby=====<
   - DOMAIN-KEYWORD, temby
+# >=====终点站=====<
+# 高可用入口
+  - DOMAIN-SUFFIX, emby.wtf
+# 备用入口
+  - DOMAIN-SUFFIX, term.wtf
 # >=====PiliPili=====<
 # 主路线
   - DOMAIN, pilipili.club
@@ -27,8 +32,6 @@
   - DOMAIN, 259772.xyz
 # >=====见手青=====<
   - DOMAIN, jsq.mooguu.xyz
-# >=====Misty=====<
-  - DOMAIN, misty.cx
 # >=====桃子=====<
   - DOMAIN-SUFFIX, embymv.link
 # >=====AuroraMedia=====<
@@ -42,7 +45,7 @@
 # 主路线
   - DOMAIN, emby.my
 # 主线IP路线
-  -   - IP-CIDR, 100.42.230.169/32
+  - IP-CIDR, 100.42.230.169/32
 # cdn路线
   - DOMAIN, cdn.emby.my
 # cdn路线2
@@ -54,9 +57,9 @@
 # 主路线
   - DOMAIN, tv.worldline.space
 #  > 后端
-  -   - IP-CIDR, 202.61.247.129/32
-  -   - IP-CIDR, 195.128.102.208/32
-  -   - IP-CIDR, 168.119.137.205/32
+  - IP-CIDR, 202.61.247.129/32
+  - IP-CIDR, 195.128.102.208/32
+  - IP-CIDR, 168.119.137.205/32
 # >=====NanflixUSA=====<
   - DOMAIN, us.nanflix.net
 # >=====纸片人=====<
@@ -86,22 +89,22 @@
 # cdn路线
   - DOMAIN, cdn.123456.buzz
 # 华中路线
-  -   - IP-CIDR, 110.40.36.36/32
+  - IP-CIDR, 110.40.36.36/32
 # CF路线
   - DOMAIN, 123456.buzz
 # >=====AlphaTV=====<
 # 主路线
   - DOMAIN, overseaplus.alphatvapp.top
 # 主路线IP
-  -   - IP-CIDR, 107.181.238.190/32
+  - IP-CIDR, 107.181.238.190/32
 # 路线1（联通4837）
-  -   - IP-CIDR, 154.40.33.88/32
+  - IP-CIDR, 154.40.33.88/32
 # 路线2（联通4837）
-  -   - IP-CIDR, 154.29.159.230/32
+  - IP-CIDR, 154.29.159.230/32
 # 路线3
-  -   - IP-CIDR, 148.135.94.8/32
+  - IP-CIDR, 148.135.94.8/32
 # 路线4（电信优化）
-  -   - IP-CIDR, 103.197.185.84/32
+  - IP-CIDR, 103.197.185.84/32
 # cdn路线
   - DOMAIN-SUFFIX, alphatvo256981.alphatvapp.top
 # 甲骨文首尔1（月10T流量）
@@ -150,7 +153,7 @@
 # 香港4联通
   - DOMAIN, pdz-hk-hol.vfing.de
 # 硬盘服IP
-  -   - IP-CIDR, 135.181.134.46/32
+  - IP-CIDR, 135.181.134.46/32
 # cdn
   - DOMAIN, pdzcdn.vfing.de
 # 临时路线
@@ -159,23 +162,23 @@
 # CF路线
   - DOMAIN, cavps.eu.org
 # SG路线
-  -   - IP-CIDR, 50.114.55.29/32
+  - IP-CIDR, 50.114.55.29/32
 # 首尔路线
   - DOMAIN, wmxz.567996.xyz
 # 日本路线
   - DOMAIN, emby.pppp.us.kg
 # 香港路线
-  -   - IP-CIDR, 141.11.175.105/32
+  - IP-CIDR, 141.11.175.105/32
 # 4837路线
-  -   - IP-CIDR, 154.29.145.151/32
+  - IP-CIDR, 154.29.145.151/32
 # HK02路线
   - DOMAIN, emby-e-hk.pppp.us.kg
 # 日本软银路线
   - DOMAIN, emby-e-jp.pppp.us.kg
 # test
-  -   - IP-CIDR, 77.111.110.43/32
+  - IP-CIDR, 77.111.110.43/32
 # test02
-  -   - IP-CIDR, 137.220.37.248/32
+  - IP-CIDR, 137.220.37.248/32
 # CDN
   - DOMAIN, e-cdn.vfing.de
 
@@ -185,6 +188,9 @@
   - DOMAIN, music.makifx.com
   - DOMAIN, lrc.makifx.com
   - DOMAIN-SUFFIX, makifx.com
+# >=====未响音乐服=====<
+  - DOMAIN, music.mefun.org
+  - DOMAIN-SUFFIX, mefun.org
 
 
 
