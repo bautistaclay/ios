@@ -7,7 +7,7 @@
 #!arguments=Turrit启用状态:,Swiftgram启用状态:,主机名:hostname
 
 [URL Rewrite]
-{{{Turrit启用状态}}}(https:\/\/)?t.me\/(.+) turrit://resolve?domain=$2 302
-{{{Swiftgram启用状态}}}(https:\/\/)?t.me\/(.+) sg://resolve?domain=$2 302
+{{{Turrit启用状态}}}(https:\/\/)/?t\.me\/(.+) turrit://resolve?domain=$2 302
+{{{Swiftgram启用状态}}}(https:\/\/)/?t\.me\/(.+) sg://resolve?domain=$2 302
 [MITM]
 {{{主机名}}} = %APPEND% t.me

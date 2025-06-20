@@ -11,4 +11,4 @@ http:
 
   url-rewrite:
     - >-
-      (https:\/\/)?t.me\/(.+) sg://resolve?domain=$2 302
+      (https:\/\/)/?t\.me\/(.+) sg://resolve?domain=$2 302

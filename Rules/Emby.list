@@ -8,17 +8,24 @@ DOMAIN-SUFFIX, reflix.top
 
 # 公益服
 # >=====起点站=====<
-# 旧bot主路线
+# 公益路线
 DOMAIN, free.28.al
 # >=====二次元=====<
 DOMAIN, media.nijigem.by
 # >=====纸片人=====<
 DOMAIN, embyplus.org
+# >=====PrejuDice=====<
+DOMAIN, emby.1l1.icu
 # >=====Misty=====<
 DOMAIN, misty.cx
-# >=====起点站=====<
-# 硬盘服IP路线
-IP-CIDR, 135.181.134.46/32
+# >=====桃子=====<
+DOMAIN, embymv.link
+# >=====Younoyes=====<
+DOMAIN, emby.younoyes.com
+# >=====飞喵=====<
+DOMAIN, gy.meowfly.de
+# >=====影迹=====<
+DOMAIN, emby1.123456789.lol
 # >=====HKA Emby=====<
 # 源站点
 DOMAIN, hka-emby3.aliz.work
@@ -27,35 +34,30 @@ DOMAIN, hka-emby1.aliz.work
 DOMAIN, hka-emby2.aliz.work
 # 防止遗漏规则
 DOMAIN-SUFFIX, aliz.work
-# >=====劳大科密直升餐厅=====<
-# 主路线US-V1
-DOMAIN, emby-mica-us-v1.mius.uk
-# 主路线Ca-V2
-DOMAIN, emby-micax-ca-v2.mius.uk
-# HK分流1
-DOMAIN, emby-mica-hk-v4.mius.uk
-# HK YXVM分流2
-DOMAIN, emby-mica-yxvm-v4.mius.uk
-# HK分流3
-DOMAIN, emby-mica-hk3-v4.mius.uk
-# 防止遗漏规则
-DOMAIN-SUFFIX, mius.uk
+# >=====劳大重生服=====<
+# CDN路线
+DOMAIN, kessoku-bando.bilibili.uk
+# >=====PiliPili=====<
+# CF路线
+DOMAIN, emby.pilipiliultra.com
+DOMAIN-SUFFIX, pilipiliultra.com
+# >=====叔服=====<
+DOMAIN-SUFFIX, mcjoker.xyz
+# >=====105°=====<
+DOMAIN, ciallo.party
 # >=====ASK Universal=====<
 DOMAIN, emby.711.lol
+# >=====KiKu Emby=====<
+DOMAIN, emby.ucloudhost.top
 # >=====星云=====<
 # > 前端
 DOMAIN, emby.nebula-media.org
 # > 后端
 DOMAIN, cdn1.nebula-media.org
-# 防遗漏规则
+# 修正
 DOMAIN-SUFFIX, nebula-media.org
 # >=====AuroraMedia=====<
 # 面板
 DOMAIN-SUFFIX, auroramedia.me
-# >=====July=====<
-# 前端路线
-DOMAIN, alist7.eu.org
-# >=====PrejuDice=====<
-DOMAIN, emby.moyuancn.vip
 
 
