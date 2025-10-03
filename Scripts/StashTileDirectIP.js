@@ -1,12 +1,22 @@
-$httpClient.get('https://searchplugin.csdn.net/api/v1/ip/get?ip', function (error, response, data){
-	let jsonData = JSON.parse(data)
-	let sj =jsonData.data 
-	let address =sj.address
-	let ip =sj.ip
-	;
-	
-$done({
-    title: '本机国内IP地址',
-    content: `${address}\n${ip}`,
-  })
- })
+$httpClient.get('http://whois.pconline.com.cn/ipJson.jsp?json=true', function(error, response, data) {
+    // 处理GBK编码，转换为UTF-8
+    let jsonStr = data;
+    try {
+        let jsonData = JSON.parse(jsonStr);
+        let ip = jsonData.ip;
+        let addr = jsonData.addr;
+        let pro = jsonData.pro;
+        let city = jsonData.city;
+        
+        $done({
+            title: 'Domestic IP',
+            content: `${addr}\n${ip}`,
+            icon: 'network'
+        });
+    } catch (e) {
+        $done({
+            title: '查询错误',
+            content: '请稍后重试'
+        });
+    }
+});

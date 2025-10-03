@@ -4,7 +4,7 @@ $httpClient.get('http://ip-api.com/json?lang=zh-CN', function (error, response, 
 	let query =jsonData.query
 	;
 $done({
-    title: '本机国外IP地址',
+    title: 'Foreign IP',
     content: `${country}\n${query}`,
   })
  })

@@ -26,6 +26,8 @@ DOMAIN, emby.younoyes.com
 DOMAIN, gy.meowfly.de
 # >=====影迹=====<
 DOMAIN, emby1.123456789.lol
+# >=====Nya=====<
+DOMAIN, emby.bangumi.ca
 # >=====HKA Emby=====<
 # 源站点
 DOMAIN, hka-emby3.aliz.work
@@ -36,19 +38,23 @@ DOMAIN, hka-emby2.aliz.work
 DOMAIN-SUFFIX, aliz.work
 # >=====劳大重生服=====<
 # CDN路线
-DOMAIN, kessoku-bando.bilibili.uk
+DOMAIN, kessoku-bando.biliblili.uk
 # >=====PiliPili=====<
 # CF路线
 DOMAIN, emby.pilipiliultra.com
 DOMAIN-SUFFIX, pilipiliultra.com
 # >=====叔服=====<
 DOMAIN-SUFFIX, mcjoker.xyz
+# >=====游骑兵=====<
+DOMAIN, emby.heisi.org
 # >=====105°=====<
 DOMAIN, ciallo.party
 # >=====ASK Universal=====<
 DOMAIN, emby.711.lol
 # >=====KiKu Emby=====<
 DOMAIN, emby.ucloudhost.top
+# >=====Emos=====<
+DOMAIN, emos.lol
 # >=====星云=====<
 # > 前端
 DOMAIN, emby.nebula-media.org
@@ -59,5 +65,9 @@ DOMAIN-SUFFIX, nebula-media.org
 # >=====AuroraMedia=====<
 # 面板
 DOMAIN-SUFFIX, auroramedia.me
+# >=====Star2=====<
+DOMAIN-SUFFIX, staryuki.me
+# >=====探花TV=====<
+DOMAIN, tanhuatv.site
 
 

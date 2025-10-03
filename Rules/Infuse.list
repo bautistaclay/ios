@@ -31,15 +31,15 @@ DOMAIN-SUFFIX, mobaiemby.site
 DOMAIN, cc.coemn.com
 # CF面板
 DOMAIN, cc.embycc.link
-# >=====CoCo服=====<
-DOMAIN, 259772.xyz
+# >=====CoCo公益服=====<
+DOMAIN, cloud.259772.xyz
 # >=====见手青=====<
 DOMAIN, jsq.vban.xyz
 # >=====AuroraMedia=====<
 DOMAIN-SUFFIX, auroramedia.vip
 # >=====呆瓜=====<
 # 直连路线
-DOMAIN, rn.chilledmelon.com
+DOMAIN-SUFFIX, chilledmelon.com
 # >=====月饼=====<
 DOMAIN-SUFFIX, emby.my
 # >=====Lyrebird=====<
@@ -57,6 +57,8 @@ DOMAIN, lite.saturdayvideo.top
 DOMAIN, emby.bangumi.ca
 # >=====惊蛰=====<
 DOMAIN, emby.jingzhe.pro
+# >=====琉璃服=====<
+DOMAIN, emby.kongcheng666.dpdns.org
 # >=====BeeBi Emby=====<
 DOMAIN, beebi.org
 # >=====豆瓣=====<
@@ -72,8 +74,7 @@ DOMAIN, book.hsu.life
 DOMAIN, audio.hsu.life
 # >=====Younoyes=====<
 DOMAIN-SUFFIX, younoyes.com
-# >=====探花TV=====<
-DOMAIN, tanhuatv.site
+
 
 # >=====鹅音乐服=====<
 DOMAIN, emusica.dhyy.eu.org
