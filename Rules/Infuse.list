@@ -26,6 +26,8 @@ DOMAIN, kessoku-bando.biliblili.uk
 # >=====July=====<
 # 主路线
 IP-CIDR, 45.142.176.135/32
+# >=====桃子私服=====<
+DOMAIN, embymv.top
 # >=====墨云阁=====<
 # 白名单路线
 DOMAIN-SUFFIX, mobaiemby.site
@@ -64,8 +66,6 @@ DOMAIN, emby.jingzhe.pro
 DOMAIN, onatoshi.114514.quest
 # >=====ShrekPublic=====<
 DOMAIN, public.shrekmedia.org
-# >=====SNTP Meida Lite=====<
-DOMAIN, lite.cn2gias.uk
 # >=====KiKu=====<
 DOMAIN-SUFFIX, ucloudhost.top
 # >=====稳健服=====<
