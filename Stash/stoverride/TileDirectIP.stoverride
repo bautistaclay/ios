@@ -1,15 +1,15 @@
 name: 国内IP
-desc: 查询国内的IP
-author: 酷安 @迷路的浅殇
+desc: 查询本机国内的IP地址
+author: bautistaclay
 icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/Home.png
 category: ⚙️ ▸ 磁贴面板
 # 原作者发布地址https://raw.githubusercontent.com/LYJ01X/stash/main/stoverride/gnip.stoverride
 
 tiles:
-  - name: "国内IP"
+  - name: 'Domestic IP'
     icon: 'mappin.and.ellipse'
-    backgroundColor: '#f50505'
+    backgroundColor: '#F50505'
 
 script-providers:
-  "国内IP":
+  'Domestic IP':
     url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/StashTileDirectIP.js

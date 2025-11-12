@@ -16,9 +16,12 @@
   - DOMAIN-SUFFIX, term.wtf
 # >=====PiliPili=====<
 # 主路线
-  - DOMAIN, emby-direct.pilipiliultra.com
+  - DOMAIN, emby.pilipiliultra.com
 # 漫画服
   - DOMAIN, manga.pilipiliultra.com
+# >=====劳大重生服=====<
+# CDN路线
+  - DOMAIN, kessoku-bando.biliblili.uk
 # >=====July=====<
 # 主路线
   - IP-CIDR, 45.142.176.135/32
@@ -30,22 +33,22 @@
   - DOMAIN, cc.coemn.com
 # CF面板
   - DOMAIN, cc.embycc.link
-# >=====CoCo服=====<
-  - DOMAIN, 259772.xyz
+# >=====CoCo公益服=====<
+  - DOMAIN, cloud.259772.xyz
 # >=====见手青=====<
   - DOMAIN, jsq.vban.xyz
-# >=====AuroraMedia=====<
-  - DOMAIN-SUFFIX, auroramedia.vip
 # >=====呆瓜=====<
 # 直连路线
-  - DOMAIN, rn.chilledmelon.com
+  - DOMAIN-SUFFIX, chilledmelon.com
 # >=====月饼=====<
   - DOMAIN-SUFFIX, emby.my
 # >=====Lyrebird=====<
   - DOMAIN-SUFFIX, lyrebirdemby,com
 # >=====收束世界线=====<
 # 主路线
-  - DOMAIN, tv.worldline.space
+  - DOMAIN, tv.worldline.fun
+# >=====飞喵=====<
+  - DOMAIN, gy.meowfly.de
 # >=====NanflixUSA=====<
   - DOMAIN, us.nanflix.net
 # >=====纸片人=====<
@@ -56,10 +59,14 @@
   - DOMAIN, emby.bangumi.ca
 # >=====惊蛰=====<
   - DOMAIN, emby.jingzhe.pro
-# >=====BeeBi Emby=====<
-  - DOMAIN, beebi.org
 # >=====豆瓣=====<
   - DOMAIN, onatoshi.114514.quest
+# >=====ShrekPublic=====<
+  - DOMAIN, public.shrekmedia.org
+# >=====SNTP Meida Lite=====<
+  - DOMAIN, lite.cn2gias.uk
+# >=====KiKu=====<
+  - DOMAIN-SUFFIX, ucloudhost.top
 # >=====稳健服=====<
 # Emby
   - DOMAIN, emby.wenjian.de
@@ -70,18 +77,14 @@
 # 有声书
   - DOMAIN, audio.hsu.life
 # >=====Younoyes=====<
+# 直连路线
   - DOMAIN-SUFFIX, younoyes.com
-# >=====探花TV=====<
-  - DOMAIN, tanhuatv.site
+
 
 # >=====鹅音乐服=====<
   - DOMAIN, emusica.dhyy.eu.org
-# >=====音海拾贝=====<
-  - DOMAIN, music.makifx.com
-  - DOMAIN, lrc.makifx.com
-  - DOMAIN-SUFFIX, makifx.com
 # >=====未响音乐服=====<
   - DOMAIN, music.mefun.org
   - DOMAIN-SUFFIX, mefun.org
 # >=====iKun=====<
-  - DOMAIN, diaojinping.de
+  - DOMAIN, music.28.al

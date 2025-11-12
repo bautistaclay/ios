@@ -1,22 +1,31 @@
-$httpClient.get('http://whois.pconline.com.cn/ipJson.jsp?json=true', function(error, response, data) {
-    // 处理GBK编码，转换为UTF-8
-    let jsonStr = data;
+// 使用cip.cc接口 - 国内服务
+$httpClient.get('http://cip.cc', function(error, response, data) {
+    if (error) {
+        $done({
+            title: 'IP查询失败',
+            content: error
+        });
+        return;
+    }
+    
     try {
-        let jsonData = JSON.parse(jsonStr);
-        let ip = jsonData.ip;
-        let addr = jsonData.addr;
-        let pro = jsonData.pro;
-        let city = jsonData.city;
+        let lines = data.split('\n');
+        let ip = '', location = '', isp = '';
+        
+        for (let line of lines) {
+            if (line.includes('IP')) ip = line.split(':')[1]?.trim();
+            if (line.includes('地址')) location = line.split(':')[1]?.trim();
+            if (line.includes('运营商')) isp = line.split(':')[1]?.trim();
+        }
         
         $done({
             title: 'Domestic IP',
-            content: `${addr}\n${ip}`,
-            icon: 'network'
+            content: `IP ： ${ip}\n位置： ${location}\n运营商：${isp}`
         });
     } catch (e) {
         $done({
-            title: '查询错误',
-            content: '请稍后重试'
+            title: '解析失败',
+            content: e.message
         });
     }
 });

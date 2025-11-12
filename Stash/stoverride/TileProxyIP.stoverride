@@ -1,15 +1,15 @@
 name: 国外IP
-desc: 查询国外的IP
-author: 酷安 @ 迷路的浅殇
+desc: 查询本机国外的IP地址
+author: bautistaclay
 icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/Global.png
 category: ⚙️ ▸ 磁贴面板
 # 原作者发布地址https://raw.githubusercontent.com/LYJ01X/stash/main/stoverride/gwip.stoverride
 
 tiles:
-  - name: "国外IP"
-    icon: 'mappin.and.ellipse'
-    backgroundColor: '#0000ff'
+  - name: 'Foreign IP'
+    icon: 'network'
+    backgroundColor: '#5AC8FA'
 
 script-providers:
-  "国外IP":
+  'Foreign IP':
     url: https://raw.githubusercontent.com/bautistaclay/ios/master/Scripts/StashTileProxyIP.js

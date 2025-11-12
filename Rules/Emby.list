@@ -22,10 +22,6 @@ DOMAIN, misty.cx
 DOMAIN, embymv.link
 # >=====Younoyes=====<
 DOMAIN, emby.younoyes.com
-# >=====飞喵=====<
-DOMAIN, gy.meowfly.de
-# >=====影迹=====<
-DOMAIN, emby1.123456789.lol
 # >=====Nya=====<
 DOMAIN, emby.bangumi.ca
 # >=====HKA Emby=====<
@@ -36,13 +32,6 @@ DOMAIN, hka-emby1.aliz.work
 DOMAIN, hka-emby2.aliz.work
 # 防止遗漏规则
 DOMAIN-SUFFIX, aliz.work
-# >=====劳大重生服=====<
-# CDN路线
-DOMAIN, kessoku-bando.biliblili.uk
-# >=====PiliPili=====<
-# CF路线
-DOMAIN, emby.pilipiliultra.com
-DOMAIN-SUFFIX, pilipiliultra.com
 # >=====叔服=====<
 DOMAIN-SUFFIX, mcjoker.xyz
 # >=====游骑兵=====<
