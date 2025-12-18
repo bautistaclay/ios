@@ -5,6 +5,10 @@ icon: https://raw.githubusercontent.com/bautistaclay/ios/master/IconSet/App/Glob
 category: ⚙️ ▸ 磁贴面板
 # 原作者发布地址https://raw.githubusercontent.com/LYJ01X/stash/main/stoverride/gwip.stoverride
 
+
+rules:
+  - DOMAIN-SUFFIX, cdn.mobilefuse.com, Github
+
 tiles:
   - name: 'Foreign IP'
     icon: 'network'

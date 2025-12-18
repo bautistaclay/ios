@@ -24,7 +24,7 @@
   - DOMAIN, kessoku-bando.biliblili.uk
 # >=====July=====<
 # 主路线
-  - IP-CIDR, 45.142.176.135/32
+IP-CIDR, 45.142.176.135/32
 # >=====桃子私服=====<
   - DOMAIN, embymv.top
 # >=====墨云阁=====<
@@ -49,10 +49,19 @@
 # >=====收束世界线=====<
 # 主路线
   - DOMAIN, tv.worldline.fun
+# >=====起点公益=====<
+# 主路线
+  - DOMAIN, freewhite.startspoint.com
+# >=====OKEmby=====<
+# 主路线
+  - DOMAIN-SUFFIX, okemby.org
 # >=====飞喵=====<
   - DOMAIN, gy.meowfly.de
 # >=====NanflixUSA=====<
   - DOMAIN, us.nanflix.net
+# >=====HelloEmby=====<
+# 主路线
+  - DOMAIN, emby.istyboe.top
 # >=====纸片人=====<
   - DOMAIN, emby.0v0.day
 # >=====SaturDay.Lite=====<
