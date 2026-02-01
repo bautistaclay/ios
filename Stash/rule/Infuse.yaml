@@ -49,12 +49,19 @@ IP-CIDR, 45.142.176.135/32
 # >=====收束世界线=====<
 # 主路线
   - DOMAIN, tv.worldline.fun
-# >=====起点公益=====<
-# 主路线
-  - DOMAIN, freewhite.startspoint.com
 # >=====OKEmby=====<
 # 主路线
   - DOMAIN-SUFFIX, okemby.org
+# >=====起点公益=====<
+# 主路线
+  - DOMAIN, freewhite.startspoint.com
+  - DOMAIN,-SUFFIX, startednow.org
+  - DOMAIN-SUFFIX, 28.al
+# >=====Mirai=====<
+  - DOMAIN-SUFFIX, miraiemby.com
+# >=====We=====<
+  - DOMAIN-SUFFIX, wedg.top
+
 # >=====飞喵=====<
   - DOMAIN, gy.meowfly.de
 # >=====NanflixUSA=====<

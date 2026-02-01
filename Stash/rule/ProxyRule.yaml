@@ -12,5 +12,7 @@ payload:
   - DOMAIN-SUFFIX, sub.store
 # ScriptHub
   - DOMAIN, scripthub.vercel.app
+# SIdeStore
+  - DOMAIN, sidestore
 #===============订阅网站=================#
   - DOMAIN, falemon.com
