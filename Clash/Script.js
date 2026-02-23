@@ -422,11 +422,11 @@ const serviceConfigs = [
     ],
   },
   {
-    key: 'biliintl',
-    name: 'Bili',
+    key: 'bilibili',
+    name: 'BiliBili',
     icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_3.png',
     url: 'https://www.bilibili.tv/',
-    rules: ['GEOSITE,biliintl,Bili'],
+    rules: ['GEOSITE,bilibili,BiliBili'],
   },
   {
     key: 'bahamut',
