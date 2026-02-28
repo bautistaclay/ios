@@ -599,9 +599,9 @@ function main(config) {
   // === 新增：节点过滤功能 ===
   // 定义需要过滤的关键词
   const filterKeywords = [
-    '官网', 'portal', '超时', '重启', 'WIFI', 
+    '官网', '://', '超时', '重启', 'WIFI', 
     '订阅', '售后', 'www', '流量', '重置', 
-    '套餐', '到期', 'URLTest', 'Selector'
+    '套餐', '到期', '电报', '失联'
   ];
 
   // 创建过滤后的新节点数组，不修改原proxies
@@ -856,7 +856,7 @@ function main(config) {
       let groupProxies
       if (svc.reject) {
         groupProxies = ['Reject', 'Direct', 'Proxy']
-      } else if (svc.key === 'biliintl' || svc.key === 'bahamut') {
+      } else if (svc.key === 'bilibili' || svc.key === 'bahamut') {
         groupProxies = ['Direct', 'Proxy', "Group Select","Area Select", ...regionGroupNames]
       } else {
         groupProxies = [ "Group Select", "Area Select",  'Proxy','Direct',...regionGroupNames]
